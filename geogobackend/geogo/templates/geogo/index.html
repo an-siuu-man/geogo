@@ -20,13 +20,13 @@
 
 			{% if same_airport %}
 			<script>
-				alert("Origin and Destination are same!");
+				alert("Origin and Destination are same/empty!");
 			</script>
 			{% endif %}
 
 			{% if invalid_visa %}
 			<script>
-				alert("Please enter a valid visa!");
+				alert("Please enter a valid visa issuance country!");
 			</script>
 			{% endif %}
 
@@ -636,40 +636,7 @@
 					<option value="Zimbabwe">ZW</option>
 				</datalist>
 				<button type="submit">Submit</button>
-				<!-- <form action="{% url 'results' %}" method="post">
-                {% csrf_token %}
-                <label for="destination">Choose Destination</label>
-                <select id="destinationAirport" name="destinationAirport">
-                    <option value="default">Select Airport</option>
-                    <option value="MCI">Kansas City</option>
-                    <option value="LHR">London</option>
-                    <option value="ORD">Chicago</option>
-                </select>
-            <button type="submit">Submit</button> -->
-
-				<!--TopG Attempt to add a visa window -->
-				<!-- <form action="{% url 'results' %}" method="post">
-						{% csrf_token %}
-						<label for="visa">Visa of Origin</label>
-						<select id="getVisa" name="getVisa">
-							
-						</select>
-						<button type="submit">Submit</button> -->
-				<!--TopG Attempt to add a visa window -->
-
 		</div>
-		<!--TopG Attempt to add a visa window -->
-		<!-- <form action="{% url 'results' %}" method="post">
-                {% csrf_token %}
-                <label for="visa">Visa of Origin</label>
-                <select id="getVisa" name="getVisa">
-                    <option value="default">Select Visa</option>
-                    <option value="MCI">Kansas City</option>
-                    <option value="LHR">London</option>
-                    <option value="ORD">Chicago</option>
-                </select>
-            <button type="submit">Submit</button> -->
-		<!--TopG Attempt to add a visa window -->
 
 
 		<div id="map">
