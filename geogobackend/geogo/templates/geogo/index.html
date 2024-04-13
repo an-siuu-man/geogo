@@ -677,6 +677,12 @@
 					<option value="ZM">Zambia</option>
 					<option value="ZW">Zimbabwe</option>
 				</select>
+				<label for="departDate">Departure Date</label>		
+				<input type="date" id="getDepartDate" name="getDepartDate" min="2024-01-01" />
+
+				<label for="arrivalDate">Arrival Date</label>		
+				<input type="date" id="getArrivalDate" name="getArrivalDate" min="2024-01-01" />
+
 				<button type="submit">Submit</button>
 				<!-- <form action="{% url 'results' %}" method="post">
                 {% csrf_token %}
