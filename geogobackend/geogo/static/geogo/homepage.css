@@ -7,7 +7,7 @@ body {
 
 #worldMap {
 
-    height: 80vh;
+    height: fit-content;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
