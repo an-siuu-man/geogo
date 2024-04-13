@@ -33,23 +33,18 @@ Santo Domingo,<script async src="https://widget.budgetyourtrip.com/location-widg
 Quito,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3652462" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ecuador/quito" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Quito Travel Costs</a>
 Cairo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/360630" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/egypt/cairo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Cairo Travel Costs</a>
 San Salvador,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3583361" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/el-salvador/san-salvador" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">San Salvador Travel Costs</a>
-London,
-Malabo,
-Asmara,
-Tallinn,
-Mbabane,
-Addis Ababa,
-Palikir,
-Suva,
-Helsinki,
-Paris,
-Libreville,
-Banjul,
-Tbilisi,
-Berlin,
-Accra,
-Athens,
-Saint George's,
+London,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2643743" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/london" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">London Travel Costs</a>
+Tallinn,<script async src="https://widget.budgetyourtrip.com/location-widget-js/588409" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/estonia/tallinn" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tallinn Travel Costs</a>
+Mbabane,<script async src="https://widget.budgetyourtrip.com/location-widget-js/934985" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/swaziland/mbabane" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Mbabane Travel Costs</a>
+Addis Ababa,<script async src="https://widget.budgetyourtrip.com/location-widget-js/344979" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ethiopia/addis-ababa" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Addis Ababa Travel Costs</a>
+Suva,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2198148" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/fiji/suva" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Suva Travel Costs</a>
+Helsinki,<script async src="https://widget.budgetyourtrip.com/location-widget-js/658225" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/finland/helsinki" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Helsinki Travel Costs</a>
+Paris,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2988507" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/france/paris" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Paris Travel Costs</a>
+Tbilisi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/611717" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/georgia/tbilisi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tbilisi Travel Costs</a>
+Berlin,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2950159" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/germany/berlin" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Berlin Travel Costs</a>
+Accra,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2306104" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ghana/accra" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Accra Travel Costs</a>
+Athens,<script async src="https://widget.budgetyourtrip.com/location-widget-js/264371" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/greece/athens" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Athens Travel Costs</a>
+Saint George's,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3579925" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/grenada/saint-georges" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Saint George's Travel Costs</a>
 Guatemala City,
 Conakry,
 Bissau,
