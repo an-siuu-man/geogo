@@ -19,12 +19,15 @@ body {
     z-index: -999;
 }
 
-#error {
+.error {
     color: red;
     background-color: yellow;
     text-align: center;
 }
 
+label {
+    font-weight: bold;
+}
 #averageCost {
     padding: 15px;
     background: linear-gradient(orange,antiquewhite);

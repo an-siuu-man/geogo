@@ -14,8 +14,17 @@
         <div id="searchBar">
             Search Parameters would go here
             {% if invalid_airport %}
-            <p id='error'>Please choose an aiport of origin!</p>
+            <p class='error'>Please choose both airports!</p>
             {% endif %}
+
+			{% if same_airport %}
+			<p class="error">Origin and Destination are same!</p>
+			{% endif %}
+
+			{% if invalid_visa %}
+			<p class="error">Please enter a valid visa!</p>
+			{% endif %}
+
             <form action="{% url 'results' %}" method="post">
                 {% csrf_token %}
                 <label for="origin">Choose Origin</label>
@@ -25,8 +34,22 @@
                     <option value="LHR">London</option>
                     <option value="ORD">Chicago</option>
                 </select>
+				<label for="destination">Choose Destination</label>
+                <select id="destinationAirport" name="destinationAirport">
+                    <option value="default">Select Airport</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+				<label for="visa">Passenger's Visa</label>
+                <select id="getVisa" name="getVisa">
+                    <option value="default">Select Visa</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
             <button type="submit">Submit</button>
-            <form action="{% url 'results' %}" method="post">
+            <!-- <form action="{% url 'results' %}" method="post">
                 {% csrf_token %}
                 <label for="destination">Choose Destination</label>
                 <select id="destinationAirport" name="destinationAirport">
@@ -35,10 +58,10 @@
                     <option value="LHR">London</option>
                     <option value="ORD">Chicago</option>
                 </select>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> -->
 
 			<!--TopG Attempt to add a visa window -->
-            <form action="{% url 'results' %}" method="post">
+            <!-- <form action="{% url 'results' %}" method="post">
                 {% csrf_token %}
                 <label for="visa">Visa of Origin</label>
                 <select id="getVisa" name="getVisa">
@@ -47,7 +70,7 @@
                     <option value="LHR">London</option>
                     <option value="ORD">Chicago</option>
                 </select>
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> -->
 			<!--TopG Attempt to add a visa window -->
 			
         </div>
