@@ -10,426 +10,55 @@
 </head>
 
 <body>
-	<div id="mapBox">
-		<div id="searchBar">
-			Search Parameters would go here
-			{% if invalid_airport %}
-			<p id='error'>Please choose an aiport of origin!</p>
+    <div id="mapBox">
+        <div id="searchBar">
+            Search Parameters would go here
+            {% if invalid_airport %}
+            <p class='error'>Please choose both airports!</p>
+            {% endif %}
+
+			{% if same_airport %}
+			<p class="error">Origin and Destination are same!</p>
 			{% endif %}
-			<form action="{% url 'results' %}" method="post">
-				{% csrf_token %}
-				<label for="origin">Choose Origin</label>
-				<select id="originAirport" name="originAirport">
-					<option value="default">Select Airport</option>
-					<option value="ABV">Abuja</option>
-					<option value="ACC">Accra</option>
-					<option value="ADD">Addis Ababa</option>
-					<option value="ALG">Algiers</option>
-					<option value="AMM">Amman</option>
-					<option value="AMS">Amsterdam</option>
-					<option value="ESB">Ankara</option>
-					<option value="FGI">Apia</option>
-					<option value="ASB">Ashgabat</option>
-					<option value="ASM">Asmara</option>
-					<option value="TSE">Astana</option>
-					<option value="ASU">Asuncion</option>
-					<option value="ATH">Athens</option>
-					<option value="BGW">Baghdad</option>
-					<option value="GYD">Baku</option>
-					<option value="BKO">Bamako</option>
-					<option value="BKK">Bangkok</option>
-					<option value="BGF">Bangui</option>
-					<option value="BJL">Banjul</option>
-					<option value="SKB">Basseterre</option>
-					<option value="PEK">Beijing</option>
-					<option value="BEY">Beirut</option>
-					<option value="BEG">Belgrade</option>
-					<option value="BZE">Belmopan</option>
-					<option value="BER">Berlin</option>
-					<option value="BRN">Bern</option>
-					<option value="FRU">Bishkek</option>
-					<option value="OXB">Bissau</option>
-					<option value="BOG">Bogota</option>
-					<option value="BSB">Brasilia</option>
-					<option value="BTS">Bratislava</option>
-					<option value="BZV">Brazzaville</option>
-					<option value="BGI">Bridgetown</option>
-					<option value="BRU">Brussels</option>
-					<option value="OTP">Bucharest</option>
-					<option value="BUD">Budapest</option>
-					<option value="EZE">Buenos Aires</option>
-					<option value="BJM">Bujumbura</option>
-					<option value="CAI">Cairo</option>
-					<option value="CBR">Canberra</option>
-					<option value="CCS">Caracas</option>
-					<option value="CWL">Cardiff</option>
-					<option value="SLU">Castries</option>
-					<option value="CAY">Cayenne</option>
-					<option value="KIV">Chisinau</option>
-					<option value="CKY">Conakry</option>
-					<option value="CPH">Copenhagen</option>
-					<option value="DKR">Dakar</option>
-					<option value="DAM">Damascus</option>
-					<option value="DAC">Dhaka</option>
-					<option value="DIL">Dili</option>
-					<option value="JIB">Djibouti</option>
-					<option value="DAR">Dodoma</option>
-					<option value="DOH">Doha</option>
-					<option value="IOM">Douglas</option>
-					<option value="DUB">Dublin</option>
-					<option value="DYU">Dushanbe</option>
-					<option value="EDI">Edinburgh</option>
-					<option value="FNA">Freetown</option>
-					<option value="FUN">Funafuti</option>
-					<option value="GBE">Gaborone</option>
-					<option value="GCM">George Town</option>
-					<option value="GEO">Georgetown</option>
-					<option value="GIB">Gibraltar</option>
-					<option value="GUM">Hagatna</option>
-					<option value="HAN">Hanoi</option>
-					<option value="HRE">Harare</option>
-					<option value="HAV">Havana</option>
-					<option value="HEL">Helsinki</option>
-					<option value="HIR">Honiara</option>
-					<option value="ISB">Islamabad</option>
-					<option value="CGK">Jakarta</option>
-					<option value="JRS">Jerusalem</option>
-					<option value="JUB">Juba</option>
-					<option value="KBL">Kabul</option>
-					<option value="EBB">Kampala</option>
-					<option value="KTM">Kathmandu</option>
-					<option value="KRT">Khartoum</option>
-					<option value="IEV">Kiev</option>
-					<option value="KGL">Kigali</option>
-					<option value="KIN">Kingston</option>
-					<option value="SVD">Kingstown</option>
-					<option value="FIH">Kinshasa</option>
-					<option value="KUL">Kuala Lumpur</option>
-					<option value="KWI">Kuwait City</option>
-					<option value="IEV">Kyiv</option>
-					<option value="LPB">La Paz</option>
-					<option value="LBV">Libreville</option>
-					<option value="LLW">Lilongwe</option>
-					<option value="LIM">Lima</option>
-					<option value="LIS">Lisbon</option>
-					<option value="LJU">Ljubljana</option>
-					<option value="LFW">Lome</option>
-					<option value="LHR">London</option>
-					<option value="LUN">Lusaka</option>
-					<option value="LUX">Luxembourg City</option>
-					<option value="MAD">Madrid</option>
-					<option value="MAJ">Majuro</option>
-					<option value="SSG">Malabo</option>
-					<option value="MLE">Malé</option>
-					<option value="MGA">Managua</option>
-					<option value="BAH">Manama</option>
-					<option value="MNL">Manila</option>
-					<option value="MPM">Maputo</option>
-					<option value="MSU">Maseru</option>
-					<option value="SHO">Mbabane</option>
-					<option value="ROR">Melekeok</option>
-					<option value="MEX">Mexico City</option>
-					<option value="MSQ">Minsk</option>
-					<option value="MGQ">Mogadishu</option>
-					<option value="MCM">Monaco</option>
-					<option value="ROB">Monrovia</option>
-					<option value="MVD">Montevideo</option>
-					<option value="HAH">Moroni</option>
-					<option value="SVO">Moscow</option>
-					<option value="MCT">Muscat</option>
-					<option value="NBO">Nairobi</option>
-					<option value="NAS">Nassau</option>
-					<option value="NYP">Naypyidaw</option>
-					<option value="DEL">New Delhi</option>
-					<option value="NIC">Nicosia</option>
-					<option value="NKC">Nouakchott</option>
-					<option value="TBU">Nuku'alofa</option>
-					<option value="GOH">Nuuk</option>
-					<option value="AUA">Oranjestad</option>
-					<option value="OSL">Oslo</option>
-					<option value="YOW">Ottawa</option>
-					<option value="OUA">Ouagadougou</option>
-					<option value="PNI">Palikir</option>
-					<option value="PTY">Panama City</option>
-					<option value="PBM">Paramaribo</option>
-					<option value="PAR">Paris</option>
-					<option value="SXM">Philipsburg</option>
-					<option value="PNH">Phnom Penh</option>
-					<option value="TGD">Podgorica</option>
-					<option value="MRU">Port Louis</option>
-					<option value="POM">Port Moresby</option>
-					<option value="VLI">Port Vila</option>
-					<option value="PAP">Port-au-Prince</option>
-					<option value="POS">Port of Spain</option>
-					<option value="RAI">Praia</option>
-					<option value="PRY">Pretoria</option>
-					<option value="FNJ">Pyongyang</option>
-					<option value="UIO">Quito</option>
-					<option value="RBA">Rabat</option>
-					<option value="ZDM">Ramallah</option>
-					<option value="KEF">Reykjavik</option>
-					<option value="RIX">Riga</option>
-					<option value="RUH">Riyadh</option>
-					<option value="FCO">Rome</option>
-					<option value="DCF">Roseau</option>
-					<option value="RUN">Saint-Denis</option>
-					<option value="ANU">Saint John's</option>
-					<option value="GCI">Saint Peter Port</option>
-					<option value="FSP">Saint-Pierre</option>
-					<option value="SPN">Saipan</option>
-					<option value="SJO">San Jose</option>
-					<option value="SJU">San Juan</option>
-					<option value="SAI">San Marino</option>
-					<option value="SAL">San Salvador</option>
-					<option value="SAH">Sana'a</option>
-					<option value="SCL">Santiago</option>
-					<option value="SDQ">Santo Domingo</option>
-					<option value="TMS">Sao Tome</option>
-					<option value="SJJ">Sarajevo</option>
-					<option value="SEL">Seoul</option>
-					<option value="SIN">Singapore</option>
-					<option value="SKP">Skopje</option>
-					<option value="SOF">Sofia</option>
-					<option value="ARN">Stockholm</option>
-					<option value="SRE">Sucre</option>
-					<option value="SUV">Suva</option>
-					<option value="TPE">Taipei</option>
-					<option value="TLL">Tallinn</option>
-					<option value="TRW">Tarawa</option>
-					<option value="TAS">Tashkent</option>
-					<option value="TBS">Tbilisi</option>
-					<option value="TGU">Tegucigalpa</option>
-					<option value="IKA">Tehran</option>
-					<option value="PBH">Thimphu</option>
-					<option value="TIA">Tirana</option>
-					<option value="HND">Tokyo</option>
-					<option value="TIP">Tripoli</option>
-					<option value="TUN">Tunis</option>
-					<option value="ULN">Ulaanbaatar</option>
-					<option value="QKL">Vaduz</option>
-					<option value="MLA">Valletta</option>
-					<option value="VAT">Vatican City</option>
-					<option value="SEZ">Victoria</option>
-					<option value="VIE">Vienna</option>
-					<option value="VTE">Vientiane</option>
-					<option value="VNO">Vilnius</option>
-					<option value="WAW">Warsaw</option>
-					<option value="IAD">Washington D.C.</option>
-					<option value="WLG">Wellington</option>
-					<option value="WDH">Windhoek</option>
-					<option value="ASK">Yamoussoukro</option>
-					<option value="NSI">Yaounde</option>
-					<option value="EVN">Yerevan</option>
-					<option value="ZAG">Zagreb</option>
-				</select>
-				<button type="submit">Submit</button>
-				<form action="{% url 'results' %}" method="post">
-					{% csrf_token %}
-					<label for="destination">Choose Destination</label>
-					<select id="destinationAirport" name="destinationAirport">
-						<option value="default">Select Airport</option>
-						<option value="ABV">Abuja</option>
-						<option value="ACC">Accra</option>
-						<option value="ADD">Addis Ababa</option>
-						<option value="ALG">Algiers</option>
-						<option value="AMM">Amman</option>
-						<option value="AMS">Amsterdam</option>
-						<option value="ESB">Ankara</option>
-						<option value="FGI">Apia</option>
-						<option value="ASB">Ashgabat</option>
-						<option value="ASM">Asmara</option>
-						<option value="TSE">Astana</option>
-						<option value="ASU">Asuncion</option>
-						<option value="ATH">Athens</option>
-						<option value="BGW">Baghdad</option>
-						<option value="GYD">Baku</option>
-						<option value="BKO">Bamako</option>
-						<option value="BKK">Bangkok</option>
-						<option value="BGF">Bangui</option>
-						<option value="BJL">Banjul</option>
-						<option value="SKB">Basseterre</option>
-						<option value="PEK">Beijing</option>
-						<option value="BEY">Beirut</option>
-						<option value="BEG">Belgrade</option>
-						<option value="BZE">Belmopan</option>
-						<option value="BER">Berlin</option>
-						<option value="BRN">Bern</option>
-						<option value="FRU">Bishkek</option>
-						<option value="OXB">Bissau</option>
-						<option value="BOG">Bogota</option>
-						<option value="BSB">Brasilia</option>
-						<option value="BTS">Bratislava</option>
-						<option value="BZV">Brazzaville</option>
-						<option value="BGI">Bridgetown</option>
-						<option value="BRU">Brussels</option>
-						<option value="OTP">Bucharest</option>
-						<option value="BUD">Budapest</option>
-						<option value="EZE">Buenos Aires</option>
-						<option value="BJM">Bujumbura</option>
-						<option value="CAI">Cairo</option>
-						<option value="CBR">Canberra</option>
-						<option value="CCS">Caracas</option>
-						<option value="CWL">Cardiff</option>
-						<option value="SLU">Castries</option>
-						<option value="CAY">Cayenne</option>
-						<option value="KIV">Chisinau</option>
-						<option value="CKY">Conakry</option>
-						<option value="CPH">Copenhagen</option>
-						<option value="DKR">Dakar</option>
-						<option value="DAM">Damascus</option>
-						<option value="DAC">Dhaka</option>
-						<option value="DIL">Dili</option>
-						<option value="JIB">Djibouti</option>
-						<option value="DAR">Dodoma</option>
-						<option value="DOH">Doha</option>
-						<option value="IOM">Douglas</option>
-						<option value="DUB">Dublin</option>
-						<option value="DYU">Dushanbe</option>
-						<option value="EDI">Edinburgh</option>
-						<option value="FNA">Freetown</option>
-						<option value="FUN">Funafuti</option>
-						<option value="GBE">Gaborone</option>
-						<option value="GCM">George Town</option>
-						<option value="GEO">Georgetown</option>
-						<option value="GIB">Gibraltar</option>
-						<option value="GUM">Hagatna</option>
-						<option value="HAN">Hanoi</option>
-						<option value="HRE">Harare</option>
-						<option value="HAV">Havana</option>
-						<option value="HEL">Helsinki</option>
-						<option value="HIR">Honiara</option>
-						<option value="ISB">Islamabad</option>
-						<option value="CGK">Jakarta</option>
-						<option value="JRS">Jerusalem</option>
-						<option value="JUB">Juba</option>
-						<option value="KBL">Kabul</option>
-						<option value="EBB">Kampala</option>
-						<option value="KTM">Kathmandu</option>
-						<option value="KRT">Khartoum</option>
-						<option value="IEV">Kiev</option>
-						<option value="KGL">Kigali</option>
-						<option value="KIN">Kingston</option>
-						<option value="SVD">Kingstown</option>
-						<option value="FIH">Kinshasa</option>
-						<option value="KUL">Kuala Lumpur</option>
-						<option value="KWI">Kuwait City</option>
-						<option value="IEV">Kyiv</option>
-						<option value="LPB">La Paz</option>
-						<option value="LBV">Libreville</option>
-						<option value="LLW">Lilongwe</option>
-						<option value="LIM">Lima</option>
-						<option value="LIS">Lisbon</option>
-						<option value="LJU">Ljubljana</option>
-						<option value="LFW">Lome</option>
-						<option value="LHR">London</option>
-						<option value="LUN">Lusaka</option>
-						<option value="LUX">Luxembourg City</option>
-						<option value="MAD">Madrid</option>
-						<option value="MAJ">Majuro</option>
-						<option value="SSG">Malabo</option>
-						<option value="MLE">Malé</option>
-						<option value="MGA">Managua</option>
-						<option value="BAH">Manama</option>
-						<option value="MNL">Manila</option>
-						<option value="MPM">Maputo</option>
-						<option value="MSU">Maseru</option>
-						<option value="SHO">Mbabane</option>
-						<option value="ROR">Melekeok</option>
-						<option value="MEX">Mexico City</option>
-						<option value="MSQ">Minsk</option>
-						<option value="MGQ">Mogadishu</option>
-						<option value="MCM">Monaco</option>
-						<option value="ROB">Monrovia</option>
-						<option value="MVD">Montevideo</option>
-						<option value="HAH">Moroni</option>
-						<option value="SVO">Moscow</option>
-						<option value="MCT">Muscat</option>
-						<option value="NBO">Nairobi</option>
-						<option value="NAS">Nassau</option>
-						<option value="NYP">Naypyidaw</option>
-						<option value="DEL">New Delhi</option>
-						<option value="NIC">Nicosia</option>
-						<option value="NKC">Nouakchott</option>
-						<option value="TBU">Nuku'alofa</option>
-						<option value="GOH">Nuuk</option>
-						<option value="AUA">Oranjestad</option>
-						<option value="OSL">Oslo</option>
-						<option value="YOW">Ottawa</option>
-						<option value="OUA">Ouagadougou</option>
-						<option value="PNI">Palikir</option>
-						<option value="PTY">Panama City</option>
-						<option value="PBM">Paramaribo</option>
-						<option value="PAR">Paris</option>
-						<option value="SXM">Philipsburg</option>
-						<option value="PNH">Phnom Penh</option>
-						<option value="TGD">Podgorica</option>
-						<option value="MRU">Port Louis</option>
-						<option value="POM">Port Moresby</option>
-						<option value="VLI">Port Vila</option>
-						<option value="PAP">Port-au-Prince</option>
-						<option value="POS">Port of Spain</option>
-						<option value="RAI">Praia</option>
-						<option value="PRY">Pretoria</option>
-						<option value="FNJ">Pyongyang</option>
-						<option value="UIO">Quito</option>
-						<option value="RBA">Rabat</option>
-						<option value="ZDM">Ramallah</option>
-						<option value="KEF">Reykjavik</option>
-						<option value="RIX">Riga</option>
-						<option value="RUH">Riyadh</option>
-						<option value="FCO">Rome</option>
-						<option value="DCF">Roseau</option>
-						<option value="RUN">Saint-Denis</option>
-						<option value="ANU">Saint John's</option>
-						<option value="GCI">Saint Peter Port</option>
-						<option value="FSP">Saint-Pierre</option>
-						<option value="SPN">Saipan</option>
-						<option value="SJO">San Jose</option>
-						<option value="SJU">San Juan</option>
-						<option value="SAI">San Marino</option>
-						<option value="SAL">San Salvador</option>
-						<option value="SAH">Sana'a</option>
-						<option value="SCL">Santiago</option>
-						<option value="SDQ">Santo Domingo</option>
-						<option value="TMS">Sao Tome</option>
-						<option value="SJJ">Sarajevo</option>
-						<option value="SEL">Seoul</option>
-						<option value="SIN">Singapore</option>
-						<option value="SKP">Skopje</option>
-						<option value="SOF">Sofia</option>
-						<option value="ARN">Stockholm</option>
-						<option value="SRE">Sucre</option>
-						<option value="SUV">Suva</option>
-						<option value="TPE">Taipei</option>
-						<option value="TLL">Tallinn</option>
-						<option value="TRW">Tarawa</option>
-						<option value="TAS">Tashkent</option>
-						<option value="TBS">Tbilisi</option>
-						<option value="TGU">Tegucigalpa</option>
-						<option value="IKA">Tehran</option>
-						<option value="PBH">Thimphu</option>
-						<option value="TIA">Tirana</option>
-						<option value="HND">Tokyo</option>
-						<option value="TIP">Tripoli</option>
-						<option value="TUN">Tunis</option>
-						<option value="ULN">Ulaanbaatar</option>
-						<option value="QKL">Vaduz</option>
-						<option value="MLA">Valletta</option>
-						<option value="VAT">Vatican City</option>
-						<option value="SEZ">Victoria</option>
-						<option value="VIE">Vienna</option>
-						<option value="VTE">Vientiane</option>
-						<option value="VNO">Vilnius</option>
-						<option value="WAW">Warsaw</option>
-						<option value="IAD">Washington D.C.</option>
-						<option value="WLG">Wellington</option>
-						<option value="WDH">Windhoek</option>
-						<option value="ASK">Yamoussoukro</option>
-						<option value="NSI">Yaounde</option>
-						<option value="EVN">Yerevan</option>
-						<option value="ZAG">Zagreb</option>
-					</select>
-					<button type="submit">Submit</button>
+
+			{% if invalid_visa %}
+			<p class="error">Please enter a valid visa!</p>
+			{% endif %}
+
+            <form action="{% url 'results' %}" method="post">
+                {% csrf_token %}
+                <label for="origin">Choose Origin</label>
+                <select id="originAirport" name="originAirport">
+                    <option value="default">Select Airport</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+				<label for="destination">Choose Destination</label>
+                <select id="destinationAirport" name="destinationAirport">
+                    <option value="default">Select Airport</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+				<label for="visa">Passenger's Visa</label>
+                <select id="getVisa" name="getVisa">
+                    <option value="default">Select Visa</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+            <button type="submit">Submit</button>
+            <!-- <form action="{% url 'results' %}" method="post">
+                {% csrf_token %}
+                <label for="destination">Choose Destination</label>
+                <select id="destinationAirport" name="destinationAirport">
+                    <option value="default">Select Airport</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+            <button type="submit">Submit</button> -->
 
 					<!--TopG Attempt to add a visa window -->
 					<form action="{% url 'results' %}" method="post">
@@ -680,6 +309,20 @@
 						<!--TopG Attempt to add a visa window -->
 
 		</div>
+			<!--TopG Attempt to add a visa window -->
+            <!-- <form action="{% url 'results' %}" method="post">
+                {% csrf_token %}
+                <label for="visa">Visa of Origin</label>
+                <select id="getVisa" name="getVisa">
+                    <option value="default">Select Visa</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+            <button type="submit">Submit</button> -->
+			<!--TopG Attempt to add a visa window -->
+			
+        </div>
 
 		<div id="map">
 			<?xml version="1.0" encoding="utf-8"?>
