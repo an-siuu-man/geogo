@@ -14,3 +14,5 @@ params = {
 
 search = GoogleSearch(params)
 results = search.get_dict()
+
+print(results)
