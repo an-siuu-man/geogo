@@ -18,14 +18,24 @@
             {% endif %}
             <form action="{% url 'results' %}" method="post">
                 {% csrf_token %}
-                <label for="dropdown">Choose Origin</label>
-                <select id="originAirport" name="dropdown">
+                <label for="origin">Choose Origin</label>
+                <select id="originAirport" name="originAirport">
                     <option value="default">Select Airport</option>
                     <option value="MCI">Kansas City</option>
                     <option value="LHR">London</option>
                     <option value="ORD">Chicago</option>
                 </select>
-                <button type="submit">Submit</button>
+            <button type="submit">Submit</button>
+            <form action="{% url 'results' %}" method="post">
+                {% csrf_token %}
+                <label for="destination">Choose Destination</label>
+                <select id="destinationAirport" name="destinationAirport">
+                    <option value="default">Select Airport</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+            <button type="submit">Submit</button>
         </div>
 
         <div id="map">
