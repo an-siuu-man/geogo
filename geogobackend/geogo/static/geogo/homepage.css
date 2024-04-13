@@ -15,7 +15,6 @@ body {
 
 #map {
     margin-top: -45vh;
-    z-index: -999;
 }
 
 #error {
@@ -36,6 +35,7 @@ body {
 #searchBar {
     height: 8%;
     background-color: blueviolet;
+    position: relative;
     z-index: 999;
 }
 
