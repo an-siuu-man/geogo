@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>
+            Results
+        </title>
+        <link href = "{% static 'geogo/results.css' %}" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id = 'output'>
+            {% for spot in response %}
+
+            {{spot}}<br>
+
+            {% endfor %}
+        </div>
+
+        <a href="{% url 'homepage' %}">Home</a>
+    </body>
+</html>

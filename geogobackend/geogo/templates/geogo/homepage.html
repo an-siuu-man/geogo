@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{% static 'geogo/homepage.css' %}" rel = 'stylesheet'>
+    <title>Widget Inside a Div</title>
+</head>
+<body>        
+    <div id="searchBar">
+        Search Parameters would go here 
+    </div>
+    <div id="worldMap">
+        world map goes here
+    </div>
+
+    <div id="averageCost">
+        Average Cost overlay from budgetyourtrip.com would go here
+    </div>
+
+    <script>
+        // Function to load the Budget Your Trip widget
+        function loadBudgetYourTripWidget() {
+            var script = document.createElement('script');
+            script.src = 'https://widget.budgetyourtrip.com/location-widget-js/2643743&hidebudgetstyles=1';
+            script.async = true;
+            document.getElementById('averageCost').appendChild(script);
+        }
+
+        // Call the function to load the widget
+        loadBudgetYourTripWidget();
+    </script>
+</body>
+</html>
