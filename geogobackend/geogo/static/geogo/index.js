@@ -12,3 +12,14 @@ group.addEventListener('click', function(event) {
     // Display the ID in the console
     console.log(svgID);
 });
+
+        // Function to load the Budget Your Trip widget
+        function loadBudgetYourTripWidget() {
+            var script = document.createElement('script');
+            script.src = 'https://widget.budgetyourtrip.com/location-widget-js/2643743&hidebudgetstyles=1';
+            script.async = true;
+            document.getElementById('averageCost').appendChild(script);
+        }
+
+        // Call the function to load the widget
+        loadBudgetYourTripWidget();
