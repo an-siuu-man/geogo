@@ -16,6 +16,7 @@ body {
 
 #map {
     margin-top: -45vh;
+    z-index: -999;
 }
 
 #error {
