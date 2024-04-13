@@ -3,3 +3,7 @@ body {
     margin: 5%;
     background-color: antiquewhite;
 }
+
+a.budgetyourtrip-more-info-link {
+    color: transparent !important;
+}
