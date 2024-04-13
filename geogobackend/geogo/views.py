@@ -13,34 +13,7 @@ def results(request):
         originAirport = request.POST.get('originAirport')
         destinationAirport = request.POST.get('destinationAirport')
         getVisa = request.POST.get('getVisa')
-        # You can now use the selected option as needed
 
-        # if originAirport == 'MCI':
-        #     origin = 'Kansas City'
-        # elif originAirport == 'LHR':
-        #     origin = 'London'
-        # elif originAirport == 'ORD':
-        #     origin = 'Chicago'
-        # else:
-        #     origin = 'Unknown'
-
-        # if destinationAirport == 'MCI':
-        #     destination = 'Kansas City'
-        # elif destinationAirport == 'LHR':
-        #     destination = 'London'
-        # elif destinationAirport == 'ORD':
-        #     destination = 'Chicago'
-        # else:
-        #     destination = 'Unknown'
-
-        # if getVisa == 'MCI':
-        #     visa = 'Kansas City'
-        # elif getVisa == 'LHR':
-        #     visa = 'London'
-        # elif getVisa == 'ORD':
-        #     visa = 'Chicago'
-        # else:
-        #     visa = 'Unknown'
         codes = city_codes()
         origin = 'Unknown'
         destination = 'Unknown'
