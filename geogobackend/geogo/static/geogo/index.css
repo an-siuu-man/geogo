@@ -1,7 +1,6 @@
 body {
     margin-top: 3vh;
     background-color: antiquewhite;
-    height: 150%;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -26,7 +25,18 @@ body {
 }
 
 label {
-    font-weight: bold;
+    font-weight: 600;
+}
+
+option, select{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+option:hover, select.hover {
+    cursor: pointer;
+}
+form {
+    text-align: center;
 }
 #averageCost {
     padding: 15px;
@@ -38,10 +48,11 @@ label {
 }
 
 #searchBar {
-    height: 8%;
+    height: 6%;
     background-color: white;
     opacity: 70%;
     position: relative;
+    padding: 10px;
     z-index: 999;
 }
 
@@ -52,4 +63,27 @@ label {
     margin-left: auto;
     margin-right: auto;
     color: black;
+}
+
+.button, button {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    border: 3px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover, button:hover {
+    font-weight: 600;
+    box-shadow: none;
+    background-color: antiquewhite;
+    border-radius: 0;
+    border-color: white;
+    cursor: pointer;
+}
+
+a.budgetyourtrip-more-info-link {
+    color: transparent !important;
 }
