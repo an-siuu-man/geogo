@@ -15,6 +15,12 @@ body {
     margin-bottom: 10%;
 }
 
+#error {
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
 #averageCost {
     padding: 15px;
     background: linear-gradient(orange,antiquewhite);
