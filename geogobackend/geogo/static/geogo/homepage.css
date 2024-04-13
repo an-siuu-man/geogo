@@ -1,12 +1,12 @@
 body {
-    margin-top: 5%;
+    margin-top: 3vh;
     background-color: antiquewhite;
     height: 150%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #mapBox {
-    height: 90vh;
+    height: 100vh;
     margin-left: 3vh;
     margin-right: 3vh;
     background-color: #a6dffa;
@@ -35,7 +35,8 @@ body {
 
 #searchBar {
     height: 8%;
-    background-color: blueviolet;
+    background-color: blue;
+    opacity: 70%;
     position: relative;
     z-index: 999;
 }
