@@ -3,8 +3,8 @@ from django import forms
 from .api.gptAPI import generateResponse
 
 # Create your views here.
-def homepage(request):
-    return render(request, 'geogo/homepage.html')
+def index(request):
+    return render(request, 'geogo/index.html')
 
 def results(request):
 
@@ -33,7 +33,7 @@ def results(request):
             destination = 'Unknown'
 
         if origin == destination:
-            return render(request, 'geogo/homepage.html', {
+            return render(request, 'geogo/index.html', {
                 'same_airport': True
                 })
 
@@ -66,7 +66,7 @@ def results(request):
         })
 
         else:
-            return render(request, 'geogo/homepage.html', {
+            return render(request, 'geogo/index.html', {
                 'invalid_airport':True
                 })
     
