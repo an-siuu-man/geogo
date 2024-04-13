@@ -31,8 +31,8 @@ Copenhagen,<script async src="https://widget.budgetyourtrip.com/location-widget-
 Roseau,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3575635" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/dominica/roseau" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Roseau Travel Costs</a>
 Santo Domingo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3492908" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/dominican-republic/santo-domingo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Santo Domingo Travel Costs</a>
 Quito,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3652462" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ecuador/quito" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Quito Travel Costs</a>
-Cairo,
-San Salvador,
+Cairo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/360630" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/egypt/cairo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Cairo Travel Costs</a>
+San Salvador,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3583361" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/el-salvador/san-salvador" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">San Salvador Travel Costs</a>
 London,
 Malabo,
 Asmara,
