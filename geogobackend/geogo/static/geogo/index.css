@@ -1,24 +1,22 @@
 body {
-    margin-top: 3vh;
+    margin-top: 0;
     background-color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
 }
 
 #mapBox {
     height: 100vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
     background-color: #cca974;
-    margin-bottom: 10%;
     overflow: hidden;
 }
 
 #map {
-    margin-top: -45vh;
+    margin-top: -50vh;
     z-index: -999;
 }
 
 .error {
+    /* display: none; */
     color: red;
     background-color: yellow;
     text-align: center;
@@ -28,19 +26,23 @@ label {
     font-weight: 600;
 }
 
-option, select{
+option,
+select {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-option:hover, select.hover {
+option:hover,
+select.hover {
     cursor: pointer;
 }
+
 form {
     text-align: center;
 }
+
 #averageCost {
     padding: 15px;
-    background: linear-gradient(orange,antiquewhite);
+    background: linear-gradient(orange, antiquewhite);
     margin-left: auto;
     margin-right: auto;
     height: 20%;
@@ -65,8 +67,9 @@ form {
     color: black;
 }
 
-.button, button {
-    font-family:'Courier New', Courier, monospace;
+.button,
+button {
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px black solid;
     border-radius: 5px;
@@ -75,7 +78,8 @@ form {
     transition: all 0.3s ease-in;
 }
 
-.button:hover, button:hover {
+.button:hover,
+button:hover {
     font-weight: 600;
     box-shadow: none;
     background-color: antiquewhite;

@@ -13,15 +13,21 @@
 	<div id="mapBox">
 		<div id="searchBar">
 			{% if invalid_airport %}
-			<p class='error'>Please choose both airports!</p>
+			<script>
+				alert("Please choose both airports!");
+			</script>
 			{% endif %}
 
 			{% if same_airport %}
-			<p class="error">Origin and Destination are same!</p>
+			<script>
+				alert("Origin and Destination are same!");
+			</script>
 			{% endif %}
 
 			{% if invalid_visa %}
-			<p class="error">Please enter a valid visa!</p>
+			<script>
+				alert("Please enter a valid visa!");
+			</script>
 			{% endif %}
 
 			<form action="{% url 'results' %}" method="post">
@@ -732,14 +738,6 @@
 					stroke-width: 0.5;
 					stroke-linecap: round;
 					stroke-linejoin: round;
-				}
-
-				.st1 {
-					font-family: 'Roboto-Regular';
-				}
-
-				.st2 {
-					font-size: 14px;
 				}
 			</style>
 			<g id="World" style="text-shadow: 0px 10px 50px 100px #ab8960;">
@@ -11242,9 +11240,6 @@
 		</svg>
 	</div>
 </div>
-
-	<div id="averageCost">
-	</div>
 
 	<script src="../../static/geogo/index.js">
 	</script>
