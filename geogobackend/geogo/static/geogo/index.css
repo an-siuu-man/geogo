@@ -36,7 +36,7 @@ body {
 
 #searchBar {
     height: 8%;
-    background-color: blue;
+    background-color: white;
     opacity: 70%;
     position: relative;
     z-index: 999;
