@@ -45,7 +45,7 @@ def results(request):
 ]
         if origin != 'Unknown':
             return render(request, 'geogo/results.html', {
-            'response': locations, 
+            'locations': locations, 
             'origin':origin
         })
 
