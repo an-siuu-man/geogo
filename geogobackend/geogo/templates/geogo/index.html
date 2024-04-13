@@ -36,6 +36,20 @@
                     <option value="ORD">Chicago</option>
                 </select>
             <button type="submit">Submit</button>
+
+			<!--TopG Attempt to add a visa window -->
+            <form action="{% url 'results' %}" method="post">
+                {% csrf_token %}
+                <label for="visa">Visa of Origin</label>
+                <select id="getVisa" name="getVisa">
+                    <option value="default">Select Visa</option>
+                    <option value="MCI">Kansas City</option>
+                    <option value="LHR">London</option>
+                    <option value="ORD">Chicago</option>
+                </select>
+            <button type="submit">Submit</button>
+			<!--TopG Attempt to add a visa window -->
+			
         </div>
 
         <div id="map">

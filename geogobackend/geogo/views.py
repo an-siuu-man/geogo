@@ -37,6 +37,8 @@ def results(request):
                 'same_airport': True
                 })
 
+
+
         # response = generateResponse(f'top 10 tourist locations in {origin} in a list with one line descriptions').split('\n')
 
         # locations = []
