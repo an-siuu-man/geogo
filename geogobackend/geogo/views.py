@@ -10,17 +10,32 @@ def results(request):
 
     if request.method == 'POST':
 
-        selected_option = request.POST.get('dropdown')
+        originAirport = request.POST.get('originAirport')
+        destinationAirport = request.POST.get('destinationAirport')
         
         # You can now use the selected option as needed
-        if selected_option == 'MCI':
+        if originAirport == 'MCI':
             origin = 'Kansas City'
-        elif selected_option == 'LHR':
+        elif originAirport == 'LHR':
             origin = 'London'
-        elif selected_option == 'ORD':
+        elif originAirport == 'ORD':
             origin = 'Chicago'
         else:
             origin = 'Unknown'
+
+        if destinationAirport == 'MCI':
+            destination = 'Kansas City'
+        elif destinationAirport == 'LHR':
+            destination = 'London'
+        elif destinationAirport == 'ORD':
+            destination = 'Chicago'
+        else:
+            destination = 'Unknown'
+
+        if origin == destination:
+            return render(request, 'geogo/homepage.html', {
+                'same_airport': True
+                })
 
         # response = generateResponse(f'top 10 tourist locations in {origin} in a list with one line descriptions').split('\n')
 
@@ -43,10 +58,11 @@ def results(request):
     "Sainte-Chapelle: Gothic chapel known for its stunning stained glass windows.",
     "Musée Rodin: Museum showcasing the works of the French sculptor Auguste Rodin, set in a mansion with gardens."
 ]
-        if origin != 'Unknown':
+        if origin != 'Unknown' or destination != 'Unknown':
             return render(request, 'geogo/results.html', {
             'locations': locations, 
-            'origin':origin
+            'origin':origin,
+            'destination':destination
         })
 
         else:
