@@ -13,15 +13,21 @@
 	<div id="mapBox">
 		<div id="searchBar">
 			{% if invalid_airport %}
-			<p class='error'>Please choose both airports!</p>
+			<script>
+				alert("Please choose both airports!");
+			</script>
 			{% endif %}
 
 			{% if same_airport %}
-			<p class="error">Origin and Destination are same!</p>
+			<script>
+				alert("Origin and Destination are same!");
+			</script>
 			{% endif %}
 
 			{% if invalid_visa %}
-			<p class="error">Please enter a valid visa!</p>
+			<script>
+				alert("Please enter a valid visa!");
+			</script>
 			{% endif %}
 
 			<form action="{% url 'results' %}" method="post">

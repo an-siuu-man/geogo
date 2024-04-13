@@ -19,6 +19,7 @@ body {
 }
 
 .error {
+    /* display: none; */
     color: red;
     background-color: yellow;
     text-align: center;
