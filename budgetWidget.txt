@@ -31,151 +31,117 @@ Copenhagen,<script async src="https://widget.budgetyourtrip.com/location-widget-
 Roseau,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3575635" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/dominica/roseau" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Roseau Travel Costs</a>
 Santo Domingo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3492908" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/dominican-republic/santo-domingo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Santo Domingo Travel Costs</a>
 Quito,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3652462" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ecuador/quito" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Quito Travel Costs</a>
-Cairo,
-San Salvador,
-London,
-Malabo,
-Asmara,
-Tallinn,
-Mbabane,
-Addis Ababa,
-Palikir,
-Suva,
-Helsinki,
-Paris,
-Libreville,
-Banjul,
-Tbilisi,
-Berlin,
-Accra,
-Athens,
-Saint George's,
-Guatemala City,
-Conakry,
-Bissau,
-Georgetown,
-Port au Prince,
-Tegucigalpa,
-Budapest,
-Reykjavik,
-New Delhi,
-Jakarta,
-Tehran,
-Baghdad,
-Dublin,
-Jerusalem,
-Rome,
-Kingston,
-Tokyo,
-Amman,
-Astana,
-Nairobi,
-Tarawa Atoll,
-Pristina,
-Kuwait City,
-Bishkek,
-Vientiane,
-Riga,
-Beirut,
-Maseru,
-Monrovia,
-Tripoli,
-Vaduz,
-Vilnius,
-Luxembourg,
-Antananarivo,
-Lilongwe,
-Kuala Lumpur,
-Male,
-Bamako,
-Valletta,
-Majuro,
-Nouakchott,
-Port Louis,
-Mexico City,
-Chisinau,
-Monaco,
-Ulaanbaatar,
-Podgorica,
-Rabat,
-Maputo,
-Nay Pyi Taw,
-Windhoek,
-Kathmandu,
-Amsterdam,
-Wellington,
-Managua,
-Niamey,
-Abuja,
-Pyongyang,
-Skopje,
-Belfast,
-Oslo,
-Muscat,
-Islamabad,
-Melekeok,
-Jerusalem,
-Panama City,
-Port Moresby,
-Asuncion,
-Lima,
-Manila,
-Warsaw,
-Lisbon,
-Doha,
-Bucharest,
-Moscow,
-Kigali,
-Basseterre,
-Castries,
-Kingstown,
-Apia,
-San Marino,
-Sao Tome,
-Riyadh,
-Edinburgh,
-Dakar,
-Belgrade,
-Victoria,
-Freetown,
-Singapore,
-Bratislava,
-Ljubljana,
-Honiara,
-Mogadishu,
-Cape Town,
-Seoul,
-Juba,
-Madrid,
-Sri Jayawardenapura Kotte,
-Khartoum,
-Paramaribo,
-Stockholm,
-Bern,
-Damascus,
-Taipei,
-Dushanbe,
-Dodoma,
-Bangkok,
-Lome,
-Nuku'alofa,
-Port of Spain,
-Tunis,
-Ankara,
-Ashgabat,
-Funafuti,
-Kampala,
-Kyiv or Kiev,
-Abu Dhabi,
-London,
-Washington D.C.,
-Montevideo,
-Tashkent,
-Port Vila,
-Vatican City,
-Caracas,
-Hanoi,
-Cardiff,
-Sana'a,
-Lusaka,
-Harare,
+Cairo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/360630" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/egypt/cairo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Cairo Travel Costs</a>
+San Salvador,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3583361" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/el-salvador/san-salvador" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">San Salvador Travel Costs</a>
+London,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2643743" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/london" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">London Travel Costs</a>
+Tallinn,<script async src="https://widget.budgetyourtrip.com/location-widget-js/588409" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/estonia/tallinn" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tallinn Travel Costs</a>
+Mbabane,<script async src="https://widget.budgetyourtrip.com/location-widget-js/934985" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/swaziland/mbabane" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Mbabane Travel Costs</a>
+Addis Ababa,<script async src="https://widget.budgetyourtrip.com/location-widget-js/344979" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ethiopia/addis-ababa" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Addis Ababa Travel Costs</a>
+Suva,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2198148" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/fiji/suva" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Suva Travel Costs</a>
+Helsinki,<script async src="https://widget.budgetyourtrip.com/location-widget-js/658225" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/finland/helsinki" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Helsinki Travel Costs</a>
+Paris,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2988507" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/france/paris" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Paris Travel Costs</a>
+Tbilisi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/611717" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/georgia/tbilisi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tbilisi Travel Costs</a>
+Berlin,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2950159" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/germany/berlin" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Berlin Travel Costs</a>
+Accra,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2306104" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ghana/accra" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Accra Travel Costs</a>
+Athens,<script async src="https://widget.budgetyourtrip.com/location-widget-js/264371" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/greece/athens" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Athens Travel Costs</a>
+Saint George's,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3579925" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/grenada/saint-georges" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Saint George's Travel Costs</a>
+Guatemala City,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3598132" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/guatemala/guatemala-city" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Guatemala City Travel Costs</a>
+Port au Prince,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3718426" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/haiti/port-au-prince" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Port-au-Prince Travel Costs</a>
+Budapest,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3054643" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/hungary/budapest" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Budapest Travel Costs</a>
+Reykjavik,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3413829" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/iceland/reykjavik" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Reykjavik Travel Costs</a>
+New Delhi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1261481" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/india/new-delhi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">New Delhi Travel Costs</a>
+Jakarta,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1642911" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/indonesia/jakarta" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Jakarta Travel Costs</a>
+Tehran,<script async src="https://widget.budgetyourtrip.com/location-widget-js/112931" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/iran/tehran" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tehran Travel Costs</a>
+Baghdad,<script async src="https://widget.budgetyourtrip.com/location-widget-js/98182" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/iraq/baghdad" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Baghdad Travel Costs</a>
+Dublin,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2964574" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ireland/dublin" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Dublin Travel Costs</a>
+Jerusalem,<script async src="https://widget.budgetyourtrip.com/location-widget-js/281184" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/israel/jerusalem" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Jerusalem Travel Costs</a>
+Rome,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3169070" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/italy/rome" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Rome Travel Costs</a>
+Kingston,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3489854" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/jamaica/kingston" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kingston Travel Costs</a>
+Tokyo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1850147" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/japan/tokyo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tokyo Travel Costs</a>
+Amman,<script async src="https://widget.budgetyourtrip.com/location-widget-js/250441" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/jordan/amman" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Amman Travel Costs</a>
+Astana,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1526273" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/kazakhstan/astana" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Astana Travel Costs</a>
+Nairobi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/184745" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/kenya/nairobi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Nairobi Travel Costs</a>
+Bishkek,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1528675" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/kyrgyzstan/bishkek" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bishkek Travel Costs</a>
+Vientiane,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1651944" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/laos/vientiane" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Vientiane Travel Costs</a>
+Riga,<script async src="https://widget.budgetyourtrip.com/location-widget-js/456172" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/latvia/riga" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Riga Travel Costs</a>
+Beirut,<script async src="https://widget.budgetyourtrip.com/location-widget-js/276781" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/lebanon/beirut" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Beirut Travel Costs</a>
+Maseru,<script async src="https://widget.budgetyourtrip.com/location-widget-js/932505" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/lesotho/maseru" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Maseru Travel Costs</a>
+Tripoli,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2210247" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/libya/tripoli" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tripoli Travel Costs</a>
+Vaduz,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3042030" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/liechtenstein/vaduz" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Vaduz Travel Costs</a>
+Vilnius,<script async src="https://widget.budgetyourtrip.com/location-widget-js/593116" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/lithuania/vilnius" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Vilnius Travel Costs</a>
+Luxembourg,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2960316" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/luxembourg/luxembourg" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Luxembourg Travel Costs</a>
+Antananarivo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1070940" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/madagascar/antananarivo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Antananarivo Travel Costs</a>
+Lilongwe,<script async src="https://widget.budgetyourtrip.com/location-widget-js/927967" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/malawi/lilongwe" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Lilongwe Travel Costs</a>
+Kuala Lumpur,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1735161" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/malaysia/kuala-lumpur" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kuala Lumpur Travel Costs</a>
+Male,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1282027" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/maldives/male" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Male Travel Costs</a>
+Bamako,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2460596" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/mali/bamako" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bamako Travel Costs</a>
+Valletta,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2562305" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/malta/valletta" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Valletta Travel Costs</a>
+Nouakchott,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2377450" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/mauritania/nouakchott" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Nouakchott Travel Costs</a>
+Mexico City,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3530597" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/mexico/mexico-city" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Mexico City Travel Costs</a>
+Monaco,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2993458" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/monaco/monaco" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Monaco Travel Costs</a>
+Ulaanbaatar,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2028462" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/mongolia/ulaanbaatar" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Ulaanbaatar Travel Costs</a>
+Podgorica,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3193044" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/montenegro/podgorica" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Podgorica Travel Costs</a>
+Rabat,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2538475" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/morocco/rabat" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Rabat Travel Costs</a>
+Maputo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1040652" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/mozambique/maputo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Maputo Travel Costs</a>
+Windhoek,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3352136" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/namibia/windhoek" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Windhoek Travel Costs</a>
+Kathmandu,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1283240" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/nepal/kathmandu" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kathmandu Travel Costs</a>
+Amsterdam,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2759794" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/netherlands/amsterdam" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Amsterdam Travel Costs</a>
+Wellington,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2179537" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/new-zealand/wellington" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Wellington Travel Costs</a>
+Managua,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3617763" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/nicaragua/managua" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Managua Travel Costs</a>
+Skopje,<script async src="https://widget.budgetyourtrip.com/location-widget-js/785842" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/macedonia/skopje" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Skopje Travel Costs</a>
+Belfast,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2655984" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/belfast" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Belfast Travel Costs</a>
+Oslo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3143244" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/norway/oslo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Oslo Travel Costs</a>
+Muscat,<script async src="https://widget.budgetyourtrip.com/location-widget-js/287286" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/oman/muscat" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Muscat Travel Costs</a>
+Islamabad,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1176615" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/pakistan/islamabad" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Islamabad Travel Costs</a>
+Panama City,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3703443" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/panama/panama-city" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Panama City Travel Costs</a>
+Port Moresby,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2088122" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/papua-new-guinea/port-moresby" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Port Moresby Travel Costs</a>
+Asuncion,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3439389" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/paraguay/asuncion" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Asuncion Travel Costs</a>
+Lima,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3936456" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/peru/lima" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Lima Travel Costs</a>
+Manila,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1701668" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/philippines/manila" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Manila Travel Costs</a>
+Warsaw,<script async src="https://widget.budgetyourtrip.com/location-widget-js/756135" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/poland/warsaw" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Warsaw Travel Costs</a>
+Lisbon,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2267057" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/portugal/lisbon" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Lisbon Travel Costs</a>
+Doha,<script async src="https://widget.budgetyourtrip.com/location-widget-js/290030" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/qatar/doha" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Doha Travel Costs</a>
+Bucharest,<script async src="https://widget.budgetyourtrip.com/location-widget-js/683506" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/romania/bucharest" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bucharest Travel Costs</a>
+Moscow,<script async src="https://widget.budgetyourtrip.com/location-widget-js/524901" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/russia/moscow" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Moscow Travel Costs</a>
+Kigali,<script async src="https://widget.budgetyourtrip.com/location-widget-js/202061" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/rwanda/kigali" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kigali Travel Costs</a>
+Basseterre,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3575551" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/saint-kitts-and-nevis/basseterre" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Basseterre Travel Costs</a>
+Castries,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3576812" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/saint-lucia/castries" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Castries Travel Costs</a>
+Kingstown,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3577887" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/saint-vincent-and-the-grenadines/kingstown" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kingstown Travel Costs</a>
+Apia,<script async src="https://widget.budgetyourtrip.com/location-widget-js/4035413" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/samoa/apia" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Apia Travel Costs</a>
+San Marino,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3168070" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/san-marino/san-marino" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">San Marino Travel Costs</a>
+Riyadh,<script async src="https://widget.budgetyourtrip.com/location-widget-js/108410" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/saudi-arabia/riyadh" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Riyadh Travel Costs</a>
+Edinburgh,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2650225" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/edinburgh" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Edinburgh Travel Costs</a>
+Dakar,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2253354" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/senegal/dakar" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Dakar Travel Costs</a>
+Belgrade,<script async src="https://widget.budgetyourtrip.com/location-widget-js/792680" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/serbia/belgrade" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Belgrade Travel Costs</a>
+Victoria,<script async src="https://widget.budgetyourtrip.com/location-widget-js/241131" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/seychelles/victoria" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Victoria Travel Costs</a>
+Singapore,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1880252" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/singapore/singapore" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Singapore Travel Costs</a>
+Bratislava,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3060972" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/slovakia/bratislava" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bratislava Travel Costs</a>
+Ljubljana,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3196359" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/slovenia/ljubljana" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Ljubljana Travel Costs</a>
+Honiara,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2108502" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/solomon-islands/honiara" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Honiara Travel Costs</a>
+Cape Town,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3369157" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/south-africa/cape-town" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Cape Town Travel Costs</a>
+Seoul,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1835848" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/south-korea/seoul" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Seoul Travel Costs</a>
+Madrid,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3117735" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/spain/madrid" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Madrid Travel Costs</a>
+Stockholm,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2673730" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/sweden/stockholm" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Stockholm Travel Costs</a>
+Bern,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2661552" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/switzerland/bern" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bern Travel Costs</a>
+Damascus,<script async src="https://widget.budgetyourtrip.com/location-widget-js/170654" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/syria/damascus" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Damascus Travel Costs</a>
+Taipei,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1668341" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/taiwan/taipei" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Taipei Travel Costs</a>
+Dushanbe,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1221874" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/tajikistan/dushanbe" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Dushanbe Travel Costs</a>
+Dodoma,<script async src="https://widget.budgetyourtrip.com/location-widget-js/TZ" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/tanzania" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tanzania Travel Costs</a>
+Bangkok,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1609350" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/thailand/bangkok" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Bangkok Travel Costs</a>
+Port of Spain,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3573890" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/trinidad-and-tobago/port-of-spain" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Port-of-Spain Travel Costs</a>
+Tunis,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2464470" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/tunisia/tunis" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tunis Travel Costs</a>
+Ankara,<script async src="https://widget.budgetyourtrip.com/location-widget-js/323786" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/turkey/ankara" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Ankara Travel Costs</a>
+Kampala,<script async src="https://widget.budgetyourtrip.com/location-widget-js/232422" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/uganda/kampala" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kampala Travel Costs</a>
+Kiev,<script async src="https://widget.budgetyourtrip.com/location-widget-js/703448" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/ukraine/kiev" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Kiev Travel Costs</a>
+Abu Dhabi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/292968" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-arab-emirates/abu-dhabi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Abu Dhabi Travel Costs</a>
+London,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2643743" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/london" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">London Travel Costs</a>
+Washington D.C.,<script async src="https://widget.budgetyourtrip.com/location-widget-js/4140963" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-states-of-america/washington" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Washington Travel Costs</a>
+Montevideo,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3441575" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/uruguay/montevideo" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Montevideo Travel Costs</a>
+Tashkent,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1512569" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/uzbekistan/tashkent" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Tashkent Travel Costs</a>
+Port Vila,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2135171" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/vanautu/port-vila" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Port Vila Travel Costs</a>
+Vatican City,<script async src="https://widget.budgetyourtrip.com/location-widget-js/6691831" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/vatican/vatican-city" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Vatican City Travel Costs</a>
+Caracas,<script async src="https://widget.budgetyourtrip.com/location-widget-js/3646738" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/venezuela/caracas" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Caracas Travel Costs</a>
+Hanoi,<script async src="https://widget.budgetyourtrip.com/location-widget-js/1581130" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/vietnam/hanoi" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Hanoi Travel Costs</a>
+Cardiff,<script async src="https://widget.budgetyourtrip.com/location-widget-js/2653822" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/united-kingdom/cardiff" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Cardiff Travel Costs</a>
+Lusaka,<script async src="https://widget.budgetyourtrip.com/location-widget-js/909137" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/zambia/lusaka" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Lusaka Travel Costs</a>
+Harare,<script async src="https://widget.budgetyourtrip.com/location-widget-js/890299" type="text/javascript"></script><a href="https://www.budgetyourtrip.com/zimbabwe/harare" target="_blank" class="budgetyourtrip-logo-pushdown" rel="noopener">Harare Travel Costs</a>
