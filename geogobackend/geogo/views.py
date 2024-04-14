@@ -4,6 +4,7 @@ from datetime import datetime
 from .api.gptAPI import generateResponse
 from .api.airportCodes import city_codes
 from .api.serpapigit import getFlightDetails
+from .api.embedCodes import embed_codes
 # Create your views here.
 def index(request):
     return render(request, 'geogo/index.html')
@@ -104,13 +105,23 @@ def results(request):
         # no error case
 
         flightDetails = getFlightDetails(originAirport, destinationAirport, formatted_date)
-
-
+        embeddedCodes = embed_codes()
+        try:
+            required = embeddedCodes[destination]
+        except:
+            return render(request, 'geogo/results.html', {
+                'locations': locations,
+                'origin': origin,
+                'destination': destination,
+                'getVisa': visa,
+                'flightDetails': flightDetails
+            })
         return render(request, 'geogo/results.html', {
             'locations': locations, 
             'origin':origin,
             'destination':destination,
             'getVisa': visa,
-            'flightDetails': flightDetails
+            'flightDetails': flightDetails,
+            'code':required
         })
     
