@@ -51,9 +51,10 @@ form {
 }
 
 #searchBar {
-    height: 6%;
-    background-color: white;
-    opacity: 70%;
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
     position: relative;
     padding: 10px;
     z-index: 999;
@@ -70,6 +71,7 @@ form {
 
 .button,
 button {
+    height: 8vh;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px black solid;
