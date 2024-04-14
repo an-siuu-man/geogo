@@ -10,9 +10,9 @@ def results(request):
 
     if request.method == 'POST':
 
-        originAirport = request.POST.get('originAirport')
-        destinationAirport = request.POST.get('destinationAirport')
-        getVisa = request.POST.get('getVisa')
+        originAirport = request.POST['originAirport']
+        destinationAirport = request.POST['destinationAirport']
+        getVisa = request.POST['getVisa']
 
         codes = city_codes()
         origin = 'Unknown'
@@ -23,7 +23,7 @@ def results(request):
         if destinationAirport in codes[0].keys():
             destination = codes[0][destinationAirport]
         if getVisa in codes[1].keys():
-            visa = codes[1][getVisa]
+            visa = getVisa
 
         same_airport = False
         invalid_airport = False
