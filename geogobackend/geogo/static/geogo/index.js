@@ -5,6 +5,10 @@ var origin = document.getElementById('originAirportInput');
 var destination = document.getElementById('destinationAirportInput');
 var visa = document.getElementById('visaInput');
 
+document.addEventListener('DOMContentLoaded', function () {
+    form = document.getElementById('formsub');
+    form.reset();
+})
 // Add an event listener to the group element
 map.addEventListener('click', function (event) {
     // Access the ID of the specific SVG element that was clicked

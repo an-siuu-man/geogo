@@ -22,3 +22,5 @@ def generateResponse(prompt):
     response1 = requests.post(api_endpoint, json=payload1, headers=headers)
     l = response1.json()['choices'][0]['message']['content']
     return l
+
+print(generateResponse())
