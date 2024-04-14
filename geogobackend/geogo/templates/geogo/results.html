@@ -11,9 +11,7 @@
 </head>
 
 <body>
-    <h1>Flight from: {{origin}} -> {{destination}}</h1>
-    <h1>Passport: {{getVisa}}</h1>
-
+    <h1>Flight from: {{origin}} -> {{destination}} with passport issued in {{getVisa}}</h1>
     <h1>Flight Details</h1>
     <div id='flight_details'>
         {% for i in flightDetails%}
@@ -27,6 +25,8 @@
         <br>
         {% endfor %}
     </div>
+    <div style="position: fixed; right: 0;"><img href="https://flagsapi.com/US/shiny/64.png"></div>
+    <h2>Visa Requirements:</h2>
     <p id = 'visaRequirements'>{{visaReq}}</p>
     <div id='tourist_locations'>
         <h2>Popular Tourist Locations in {{destination}}</h2>
@@ -48,7 +48,7 @@
 <div style="display: block;" id='embed'></div>
 
 <script>
-
+    
     var destination = "{{ destination }}";
     console.log(destination);
     var code = '{{code}}';

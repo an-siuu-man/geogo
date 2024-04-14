@@ -34,3 +34,9 @@ map.addEventListener('click', function (event) {
 
 const today = new Date().toISOString().split('T')[0];
 document.getElementById('getDepartDate').setAttribute('min', today);
+
+document.getElementById('formsub').addEventListener('submit', function () {
+    // Display the loading overlay when the form is submitted
+    document.getElementById('loading').style.display = 'inline-block';
+
+});

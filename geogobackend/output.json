@@ -1,21 +1,21 @@
 {
     "search_metadata": {
-        "id": "661bc7154b91eb83dca4c110",
+        "id": "661bcbf1797ac6d2c3a372d1",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/9f8f78c7ee9a3948/661bc7154b91eb83dca4c110.json",
-        "created_at": "2024-04-14 12:07:49 UTC",
-        "processed_at": "2024-04-14 12:07:50 UTC",
-        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+PEK+from+AMM+on+2024-04-16+one-way",
-        "raw_html_file": "https://serpapi.com/searches/9f8f78c7ee9a3948/661bc7154b91eb83dca4c110.html",
-        "prettify_html_file": "https://serpapi.com/searches/9f8f78c7ee9a3948/661bc7154b91eb83dca4c110.prettify",
-        "total_time_taken": 1.23
+        "json_endpoint": "https://serpapi.com/searches/dfeb63082ebd6892/661bcbf1797ac6d2c3a372d1.json",
+        "created_at": "2024-04-14 12:28:33 UTC",
+        "processed_at": "2024-04-14 12:28:33 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+PEK+from+BOM+on+2024-04-16+one-way",
+        "raw_html_file": "https://serpapi.com/searches/dfeb63082ebd6892/661bcbf1797ac6d2c3a372d1.html",
+        "prettify_html_file": "https://serpapi.com/searches/dfeb63082ebd6892/661bcbf1797ac6d2c3a372d1.prettify",
+        "total_time_taken": 1.27
     },
     "search_parameters": {
         "engine": "google_flights",
         "hl": "en",
         "gl": "us",
         "type": "2",
-        "departure_id": "AMM",
+        "departure_id": "BOM",
         "arrival_id": "PEK",
         "outbound_date": "2024-04-16",
         "adults": 1,
@@ -26,436 +26,50 @@
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 10:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 10:30"
-                    },
-                    "duration": 90,
-                    "airplane": "Boeing 737",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 720",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 74 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-17 01:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-17 17:00"
-                    },
-                    "duration": 570,
-                    "airplane": "Boeing 787",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 955",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 501 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 900,
-                    "name": "Cairo International Airport",
-                    "id": "CAI"
-                }
-            ],
-            "total_duration": 1560,
-            "carbon_emissions": {
-                "this_flight": 575000
-            },
-            "price": 627,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFZ3ROVXpjeU1IeE5VemsxTlJvTENNRHBBeEFDR2dOVlUwUTRISERBNlFNPSIsW1siQU1NIiwiMjAyNC0wNC0xNiIsIkNBSSIsbnVsbCwiTVMiLCI3MjAiXSxbIkNBSSIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIk1TIiwiOTU1Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 16:35"
-                    },
-                    "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 20:35"
-                    },
-                    "duration": 180,
-                    "airplane": "Airbus A320",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 614",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 194 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 22:55"
-                    },
-                    "arrival_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-04-17 10:20"
-                    },
-                    "duration": 445,
-                    "airplane": "Boeing 777",
-                    "airline": "Cathay Pacific",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Premium Economy",
-                    "flight_number": "CX 738",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 766 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-04-17 12:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-17 15:30"
-                    },
-                    "duration": 210,
-                    "airplane": "Boeing 777",
-                    "airline": "Cathay Pacific",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Premium Economy",
-                    "flight_number": "CX 332",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 299 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 140,
-                    "name": "Dubai International Airport",
-                    "id": "DXB"
-                },
-                {
-                    "duration": 100,
-                    "name": "Hong Kong International Airport",
-                    "id": "HKG"
-                }
-            ],
-            "total_duration": 1075,
-            "carbon_emissions": {
-                "this_flight": 1260000
-            },
-            "price": 949,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZTU2pZeE5IeERXRGN6T0h4RFdETXpNaG9MQ05ya0JSQUNHZ05WVTBRNEhIRGE1QVU9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiRFhCIixudWxsLCJSSiIsIjYxNCJdLFsiRFhCIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI3MzgiXSxbIkhLRyIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkNYIiwiMzMyIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 10:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 10:30"
-                    },
-                    "duration": 90,
-                    "airplane": "Boeing 737",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 720",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 74 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 19:05"
-                    },
-                    "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-17 00:40"
-                    },
-                    "duration": 215,
-                    "airplane": "Airbus A380",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "EK 924",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 228 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-17 03:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-17 15:25"
-                    },
-                    "duration": 455,
-                    "airplane": "Boeing 777",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "EK 306",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 495 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 515,
-                    "name": "Cairo International Airport",
-                    "id": "CAI"
-                },
-                {
-                    "duration": 190,
-                    "name": "Dubai International Airport",
-                    "id": "DXB",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 1465,
-            "carbon_emissions": {
-                "this_flight": 798000
-            },
-            "price": 1014,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZOVXpjeU1IeEZTemt5Tkh4RlN6TXdOaG9MQ0x1WEJoQUNHZ05WVTBRNEhIQzdsd1k9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiQ0FJIixudWxsLCJNUyIsIjcyMCJdLFsiQ0FJIiwiMjAyNC0wNC0xNiIsIkRYQiIsbnVsbCwiRUsiLCI5MjQiXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkVLIiwiMzA2Il1dXQ=="
-        }
-    ],
-    "other_flights": [
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
                         "time": "2024-04-16 21:45"
                     },
                     "arrival_airport": {
-                        "name": "Bahrain International Airport",
-                        "id": "BAH",
-                        "time": "2024-04-17 00:10"
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "time": "2024-04-16 23:25"
                     },
-                    "duration": 145,
-                    "airplane": "Airbus A320",
-                    "airline": "Gulf Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+                    "duration": 100,
+                    "airplane": "Airbus A350",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
                     "travel_class": "Economy",
-                    "flight_number": "GF 965",
-                    "legroom": "32 in",
+                    "flight_number": "AI 591",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 167 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Bahrain International Airport",
-                        "id": "BAH",
-                        "time": "2024-04-17 20:55"
-                    },
-                    "arrival_airport": {
-                        "name": "Ninoy Aquino International Airport",
-                        "id": "MNL",
-                        "time": "2024-04-18 11:30"
-                    },
-                    "duration": 575,
-                    "airplane": "Boeing 787",
-                    "airline": "Gulf Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
-                    "travel_class": "Economy",
-                    "flight_number": "GF 154",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Free Wi-Fi",
+                        "Average legroom (31 in)",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 543 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Ninoy Aquino International Airport",
-                        "id": "MNL",
-                        "time": "2024-04-19 06:55"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-19 11:55"
-                    },
-                    "duration": 300,
-                    "airplane": "Airbus A321",
-                    "airline": "Philippine Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "PR 358",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 245 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 1245,
-                    "name": "Bahrain International Airport",
-                    "id": "BAH",
-                    "overnight": true
-                },
-                {
-                    "duration": 1165,
-                    "name": "Ninoy Aquino International Airport",
-                    "id": "MNL",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 3430,
-            "carbon_emissions": {
-                "this_flight": 958000
-            },
-            "price": 923,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZIUmprMk5YeEhSakUxTkh4UVVqTTFPQm9MQ05uUUJSQUNHZ05WVTBRNEhIRFowQVU9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiQkFIIixudWxsLCJHRiIsIjk2NSJdLFsiQkFIIiwiMjAyNC0wNC0xNyIsIk1OTCIsbnVsbCwiR0YiLCIxNTQiXSxbIk1OTCIsIjIwMjQtMDQtMTkiLCJQRUsiLG51bGwsIlBSIiwiMzU4Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 15:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Bahrain International Airport",
-                        "id": "BAH",
-                        "time": "2024-04-16 17:45"
-                    },
-                    "duration": 150,
-                    "airplane": "Airbus A320",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 672",
-                    "ticket_also_sold_by": [
-                        "Gulf Air"
-                    ],
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 181 kg"
+                        "Carbon emissions estimate: 92 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Bahrain International Airport",
-                        "id": "BAH",
-                        "time": "2024-04-17 23:25"
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "time": "2024-04-17 00:55"
                     },
                     "arrival_airport": {
                         "name": "Singapore Changi Airport",
                         "id": "SIN",
-                        "time": "2024-04-18 12:15"
+                        "time": "2024-04-17 08:15"
                     },
-                    "duration": 470,
-                    "airplane": "Boeing 787",
-                    "airline": "Gulf Air",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/GF.png",
+                    "duration": 290,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
                     "travel_class": "Economy",
-                    "flight_number": "GF 165",
-                    "legroom": "32 in",
+                    "flight_number": "AI 392",
+                    "legroom": "28 in",
                     "extensions": [
-                        "Above average legroom (32 in)",
-                        "Free Wi-Fi",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 467 kg"
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 228 kg"
                     ],
                     "overnight": true
                 },
@@ -463,12 +77,12 @@
                     "departure_airport": {
                         "name": "Singapore Changi Airport",
                         "id": "SIN",
-                        "time": "2024-04-18 16:50"
+                        "time": "2024-04-17 16:50"
                     },
                     "arrival_airport": {
                         "name": "Beijing Capital International Airport",
                         "id": "PEK",
-                        "time": "2024-04-18 23:00"
+                        "time": "2024-04-17 23:00"
                     },
                     "duration": 370,
                     "airplane": "Airbus A350",
@@ -488,76 +102,127 @@
             ],
             "layovers": [
                 {
-                    "duration": 1780,
-                    "name": "Bahrain International Airport",
-                    "id": "BAH",
-                    "overnight": true
+                    "duration": 90,
+                    "name": "Kempegowda International Airport Bengaluru",
+                    "id": "BLR"
                 },
                 {
-                    "duration": 275,
+                    "duration": 515,
                     "name": "Singapore Changi Airport",
                     "id": "SIN"
                 }
             ],
-            "total_duration": 3045,
+            "total_duration": 1365,
             "carbon_emissions": {
-                "this_flight": 950000
+                "this_flight": 621000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 6
             },
-            "price": 940,
+            "price": 519,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZTU2pZM01ueEhSakUyTlh4VFVUZ3dOaG9MQ0tqZUJSQUNHZ05WVTBRNEhIQ28zZ1U9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiQkFIIixudWxsLCJSSiIsIjY3MiJdLFsiQkFIIiwiMjAyNC0wNC0xNyIsIlNJTiIsbnVsbCwiR0YiLCIxNjUiXSxbIlNJTiIsIjIwMjQtMDQtMTgiLCJQRUsiLG51bGwsIlNRIiwiODA2Il1dXQ=="
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFaEZCU1RVNU1YeEJTVE01TW54VFVUZ3dOaG9MQ0pLVkF4QUNHZ05WVTBRNEhIQ1NsUU09IixbWyJCT00iLCIyMDI0LTA0LTE2IiwiQkxSIixudWxsLCJBSSIsIjU5MSJdLFsiQkxSIiwiMjAyNC0wNC0xNyIsIlNJTiIsbnVsbCwiQUkiLCIzOTIiXSxbIlNJTiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIlNRIiwiODA2Il1dXQ=="
         },
         {
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 16:35"
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 11:45"
                     },
                     "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 20:35"
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-16 19:50"
                     },
-                    "duration": 180,
-                    "airplane": "Airbus A320",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
+                    "duration": 335,
+                    "airplane": "Airbus A350",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
                     "travel_class": "Economy",
-                    "flight_number": "RJ 614",
-                    "legroom": "30 in",
+                    "flight_number": "SQ 421",
+                    "legroom": "32 in",
                     "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 194 kg"
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 267 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 22:55"
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 08:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-17 14:40"
+                    },
+                    "duration": 370,
+                    "airplane": "Boeing 777",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 802",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 484 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 760,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1465,
+            "carbon_emissions": {
+                "this_flight": 752000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 28
+            },
+            "price": 552,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RUVVRReU1YeFRVVGd3TWhvTENPT3VBeEFDR2dOVlUwUTRISERqcmdNPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIlNJTiIsbnVsbCwiU1EiLCI0MjEiXSxbIlNJTiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIlNRIiwiODAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 22:40"
                     },
                     "arrival_airport": {
                         "name": "Hong Kong International Airport",
                         "id": "HKG",
-                        "time": "2024-04-17 10:20"
+                        "time": "2024-04-17 07:00"
                     },
-                    "duration": 445,
+                    "duration": 350,
                     "airplane": "Boeing 777",
                     "airline": "Cathay Pacific",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Premium Economy",
-                    "flight_number": "CX 738",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 696",
+                    "legroom": "32 in",
                     "extensions": [
-                        "Extra reclining seat",
+                        "Above average legroom (32 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 766 kg"
+                        "Carbon emissions estimate: 376 kg"
                     ],
                     "overnight": true
                 },
@@ -565,175 +230,646 @@
                     "departure_airport": {
                         "name": "Hong Kong International Airport",
                         "id": "HKG",
-                        "time": "2024-04-17 17:45"
+                        "time": "2024-04-17 09:00"
                     },
                     "arrival_airport": {
                         "name": "Beijing Capital International Airport",
                         "id": "PEK",
-                        "time": "2024-04-17 21:10"
+                        "time": "2024-04-17 12:25"
                     },
                     "duration": 205,
-                    "airplane": "Airbus A330",
+                    "airplane": "Boeing 777",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 390",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 196 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 120,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
+                }
+            ],
+            "total_duration": 675,
+            "carbon_emissions": {
+                "this_flight": 574000,
+                "typical_for_this_route": 588000,
+                "difference_percent": -2
+            },
+            "price": 928,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3REV0RZNU5ueERXRE01TUJvTENMVFVCUkFDR2dOVlUwUTRISEMwMUFVPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI2OTYiXSxbIkhLRyIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkNYIiwiMzkwIl1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 20:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "time": "2024-04-16 22:40"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A320",
+                    "airline": "Air India Express",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/I5.png",
+                    "travel_class": "Economy",
+                    "flight_number": "I5 670",
+                    "ticket_also_sold_by": [
+                        "Air India"
+                    ],
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 88 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Kempegowda International Airport Bengaluru",
+                        "id": "BLR",
+                        "time": "2024-04-17 00:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 08:15"
+                    },
+                    "duration": 290,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 392",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 228 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 16:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-17 23:00"
+                    },
+                    "duration": 370,
+                    "airplane": "Airbus A350",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 806",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 300 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 135,
+                    "name": "Kempegowda International Airport Bengaluru",
+                    "id": "BLR"
+                },
+                {
+                    "duration": 515,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                }
+            ],
+            "total_duration": 1435,
+            "carbon_emissions": {
+                "this_flight": 617000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 5
+            },
+            "price": 539,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFaEZKTlRZM01IeEJTVE01TW54VFVUZ3dOaG9MQ0xLa0F4QUNHZ05WVTBRNEhIQ3lwQU09IixbWyJCT00iLCIyMDI0LTA0LTE2IiwiQkxSIixudWxsLCJJNSIsIjY3MCJdLFsiQkxSIiwiMjAyNC0wNC0xNyIsIlNJTiIsbnVsbCwiQUkiLCIzOTIiXSxbIlNJTiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIlNRIiwiODA2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 23:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 07:50"
+                    },
+                    "duration": 345,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Air India",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AI 342",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 277 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 16:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-17 23:00"
+                    },
+                    "duration": 370,
+                    "airplane": "Airbus A350",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 806",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 300 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 540,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                }
+            ],
+            "total_duration": 1255,
+            "carbon_emissions": {
+                "this_flight": 578000,
+                "typical_for_this_route": 588000,
+                "difference_percent": -2
+            },
+            "price": 596,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RCU1RNME1ueFRVVGd3TmhvTENMUFJBeEFDR2dOVlUwUTRISEN6MFFNPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIlNJTiIsbnVsbCwiQUkiLCIzNDIiXSxbIlNJTiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIlNRIiwiODA2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 23:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 07:40"
+                    },
+                    "duration": 330,
+                    "airplane": "Airbus A380",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 423",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 389 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Singapore Changi Airport",
+                        "id": "SIN",
+                        "time": "2024-04-17 08:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-17 14:40"
+                    },
+                    "duration": 370,
+                    "airplane": "Boeing 777",
+                    "airline": "Singapore Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+                    "travel_class": "Economy",
+                    "flight_number": "SQ 802",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 484 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 50,
+                    "name": "Singapore Changi Airport",
+                    "id": "SIN"
+                }
+            ],
+            "total_duration": 750,
+            "carbon_emissions": {
+                "this_flight": 874000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 49
+            },
+            "price": 812,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SQ.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RUVVRReU0zeFRVVGd3TWhvTENPNzVCQkFDR2dOVlUwUTRISER1K1FRPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIlNJTiIsbnVsbCwiU1EiLCI0MjMiXSxbIlNJTiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIlNRIiwiODAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 01:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 09:50"
+                    },
+                    "duration": 355,
+                    "airplane": "Boeing 777",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 660",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 376 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 12:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-16 15:30"
+                    },
+                    "duration": 210,
+                    "airplane": "Boeing 777",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 332",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 199 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 130,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
+                }
+            ],
+            "total_duration": 695,
+            "carbon_emissions": {
+                "this_flight": 576000,
+                "typical_for_this_route": 588000,
+                "difference_percent": -2
+            },
+            "price": 928,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3REV0RZMk1IeERXRE16TWhvTENMVFVCUkFDR2dOVlUwUTRISEMwMUFVPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI2NjAiXSxbIkhLRyIsIjIwMjQtMDQtMTYiLCJQRUsiLG51bGwsIkNYIiwiMzMyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 01:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 09:50"
+                    },
+                    "duration": 355,
+                    "airplane": "Boeing 777",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "CX 660",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 565 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 12:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-16 16:20"
+                    },
+                    "duration": 215,
+                    "airplane": "Airbus A321",
                     "airline": "Air China",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
                     "travel_class": "Economy",
-                    "flight_number": "CA 110",
+                    "flight_number": "CA 102",
                     "ticket_also_sold_by": [
                         "Cathay Pacific"
                     ],
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
+                        "Carbon emissions estimate: 223 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 175,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
+                }
+            ],
+            "total_duration": 745,
+            "carbon_emissions": {
+                "this_flight": 788000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 34
+            },
+            "price": 1054,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3REV0RZMk1IeERRVEV3TWhvTENKbTNCaEFDR2dOVlUwUTRISENadHdZPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI2NjAiXSxbIkhLRyIsIjIwMjQtMDQtMTYiLCJQRUsiLG51bGwsIkNBIiwiMTAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 02:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Suvarnabhumi Airport",
+                        "id": "BKK",
+                        "time": "2024-04-16 08:40"
+                    },
+                    "duration": 270,
+                    "airplane": "Airbus A320",
+                    "airline": "THAI",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TG.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TG 352",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 277 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Suvarnabhumi Airport",
+                        "id": "BKK",
+                        "time": "2024-04-16 11:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 15:00"
+                    },
+                    "duration": 180,
+                    "airplane": "Airbus A350",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 750",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 124 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-16 17:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-16 20:25"
+                    },
+                    "duration": 205,
+                    "airplane": "Airbus A330",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CX 312",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
                         "In-seat power outlet",
-                        "Carbon emissions estimate: 171 kg"
+                        "On-demand video",
+                        "Carbon emissions estimate: 169 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
                     "duration": 140,
-                    "name": "Dubai International Airport",
-                    "id": "DXB"
+                    "name": "Suvarnabhumi Airport",
+                    "id": "BKK"
                 },
                 {
-                    "duration": 445,
+                    "duration": 120,
                     "name": "Hong Kong International Airport",
                     "id": "HKG"
                 }
             ],
-            "total_duration": 1415,
+            "total_duration": 915,
             "carbon_emissions": {
-                "this_flight": 1133000
+                "this_flight": 571000,
+                "typical_for_this_route": 588000,
+                "difference_percent": -3
             },
-            "price": 949,
+            "price": 2088,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZTU2pZeE5IeERXRGN6T0h4RFFURXhNQm9MQ05ya0JSQUNHZ05WVTBRNEhIRGE1QVU9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiRFhCIixudWxsLCJSSiIsIjYxNCJdLFsiRFhCIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI3MzgiXSxbIkhLRyIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkNBIiwiMTEwIl1dXQ=="
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFaEZVUnpNMU1ueERXRGMxTUh4RFdETXhNaG9MQ0puZkRCQUNHZ05WVTBRNEhIQ1ozd3c9IixbWyJCT00iLCIyMDI0LTA0LTE2IiwiQktLIixudWxsLCJURyIsIjM1MiJdLFsiQktLIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI3NTAiXSxbIkhLRyIsIjIwMjQtMDQtMTYiLCJQRUsiLG51bGwsIkNYIiwiMzEyIl1dXQ=="
         },
         {
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 20:10"
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 22:40"
                     },
                     "arrival_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 20:40"
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-17 07:00"
                     },
-                    "duration": 90,
-                    "airplane": "Boeing 737",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 702",
-                    "legroom": "31 in",
+                    "duration": 350,
+                    "airplane": "Boeing 777",
+                    "airline": "Cathay Pacific",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "CX 696",
                     "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 77 kg"
+                        "Lie flat seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1506 kg"
                     ],
-                    "often_delayed_by_over_30_min": true
+                    "overnight": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-17 01:30"
+                        "name": "Hong Kong International Airport",
+                        "id": "HKG",
+                        "time": "2024-04-17 08:30"
                     },
                     "arrival_airport": {
                         "name": "Beijing Capital International Airport",
                         "id": "PEK",
-                        "time": "2024-04-17 17:00"
+                        "time": "2024-04-17 11:35"
                     },
-                    "duration": 570,
-                    "airplane": "Boeing 787",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 955",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 501 kg"
+                    "duration": 185,
+                    "airplane": "Airbus A321",
+                    "airline": "Air China",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "CA 118",
+                    "ticket_also_sold_by": [
+                        "Cathay Pacific"
                     ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power outlet",
+                        "Carbon emissions estimate: 334 kg"
+                    ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 290,
-                    "name": "Cairo International Airport",
-                    "id": "CAI"
+                    "duration": 90,
+                    "name": "Hong Kong International Airport",
+                    "id": "HKG"
                 }
             ],
-            "total_duration": 950,
+            "total_duration": 625,
             "carbon_emissions": {
-                "this_flight": 578000
+                "this_flight": 1841000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 213
             },
-            "price": 1012,
+            "price": 2394,
             "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFZ3ROVXpjd01ueE5VemsxTlJvTENPNlZCaEFDR2dOVlUwUTRISER1bFFZPSIsW1siQU1NIiwiMjAyNC0wNC0xNiIsIkNBSSIsbnVsbCwiTVMiLCI3MDIiXSxbIkNBSSIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIk1TIiwiOTU1Il1dXQ=="
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3REV0RZNU5ueERRVEV4T0JvTENQYk5EaEFDR2dOVlUwUTRISEQyelE0PSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI2OTYiXSxbIkhLRyIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkNBIiwiMTE4Il1dXQ=="
         },
         {
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 10:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 10:30"
-                    },
-                    "duration": 90,
-                    "airplane": "Boeing 737",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "MS 720",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 74 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-16 16:35"
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 15:35"
                     },
                     "arrival_airport": {
                         "name": "Dubai International Airport",
                         "id": "DXB",
-                        "time": "2024-04-16 22:00"
+                        "time": "2024-04-16 17:20"
                     },
-                    "duration": 205,
+                    "duration": 195,
                     "airplane": "Boeing 777",
                     "airline": "Emirates",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
                     "travel_class": "Economy",
-                    "flight_number": "EK 922",
+                    "flight_number": "EK 507",
                     "legroom": "32 in",
                     "extensions": [
                         "Above average legroom (32 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 222 kg"
-                    ]
+                        "Carbon emissions estimate: 184 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
@@ -765,280 +901,48 @@
             ],
             "layovers": [
                 {
-                    "duration": 365,
-                    "name": "Cairo International Airport",
-                    "id": "CAI"
-                },
-                {
-                    "duration": 350,
+                    "duration": 630,
                     "name": "Dubai International Airport",
                     "id": "DXB",
                     "overnight": true
                 }
             ],
-            "total_duration": 1465,
+            "total_duration": 1280,
             "carbon_emissions": {
-                "this_flight": 792000
+                "this_flight": 679000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 15
             },
-            "price": 1014,
+            "price": 2432,
             "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZOVXpjeU1IeEZTemt5TW54RlN6TXdOaG9MQ0x1WEJoQUNHZ05WVTBRNEhIQzdsd1k9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiQ0FJIixudWxsLCJNUyIsIjcyMCJdLFsiQ0FJIiwiMjAyNC0wNC0xNiIsIkRYQiIsbnVsbCwiRUsiLCI5MjIiXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkVLIiwiMzA2Il1dXQ=="
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RGU3pVd04zeEZTek13TmhvTENNYnJEaEFDR2dOVlUwUTRISERHNnc0PSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkRYQiIsbnVsbCwiRUsiLCI1MDciXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkVLIiwiMzA2Il1dXQ=="
         },
         {
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 16:35"
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 22:20"
                     },
                     "arrival_airport": {
                         "name": "Dubai International Airport",
                         "id": "DXB",
-                        "time": "2024-04-16 20:35"
+                        "time": "2024-04-17 00:05"
                     },
-                    "duration": 180,
-                    "airplane": "Airbus A320",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 614",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 194 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 22:55"
-                    },
-                    "arrival_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-04-17 10:20"
-                    },
-                    "duration": 445,
-                    "airplane": "Boeing 777",
-                    "airline": "Cathay Pacific",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-                    "travel_class": "Premium Economy",
-                    "flight_number": "CX 738",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 766 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Hong Kong International Airport",
-                        "id": "HKG",
-                        "time": "2024-04-17 12:45"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-17 16:30"
-                    },
-                    "duration": 225,
-                    "airplane": "Airbus A321",
-                    "airline": "Air China",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CA 102",
-                    "ticket_also_sold_by": [
-                        "Cathay Pacific"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Carbon emissions estimate: 223 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 140,
-                    "name": "Dubai International Airport",
-                    "id": "DXB"
-                },
-                {
-                    "duration": 145,
-                    "name": "Hong Kong International Airport",
-                    "id": "HKG"
-                }
-            ],
-            "total_duration": 1135,
-            "carbon_emissions": {
-                "this_flight": 1184000
-            },
-            "price": 1194,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZTU2pZeE5IeERXRGN6T0h4RFFURXdNaG9MQ0tLa0J4QUNHZ05WVTBRNEhIQ2lwQWM9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiRFhCIixudWxsLCJSSiIsIjYxNCJdLFsiRFhCIiwiMjAyNC0wNC0xNiIsIkhLRyIsbnVsbCwiQ1giLCI3MzgiXSxbIkhLRyIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkNBIiwiMTAyIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 03:45"
-                    },
-                    "arrival_airport": {
-                        "name": "Frankfurt Airport",
-                        "id": "FRA",
-                        "time": "2024-04-16 07:30"
-                    },
-                    "duration": 285,
-                    "airplane": "Airbus A319",
-                    "airline": "Lufthansa",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-                    "travel_class": "Economy",
-                    "flight_number": "LH 693",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "Carbon emissions estimate: 293 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Frankfurt Airport",
-                        "id": "FRA",
-                        "time": "2024-04-16 09:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Munich International Airport",
-                        "id": "MUC",
-                        "time": "2024-04-16 10:10"
-                    },
-                    "duration": 55,
-                    "airplane": "Airbus A321",
-                    "airline": "Lufthansa",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-                    "travel_class": "Economy",
-                    "flight_number": "LH 98",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "Carbon emissions estimate: 55 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Munich International Airport",
-                        "id": "MUC",
-                        "time": "2024-04-16 19:35"
-                    },
-                    "arrival_airport": {
-                        "name": "Beijing Capital International Airport",
-                        "id": "PEK",
-                        "time": "2024-04-17 11:40"
-                    },
-                    "duration": 605,
-                    "airplane": "Airbus A350",
-                    "airline": "Lufthansa",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-                    "travel_class": "Economy",
-                    "flight_number": "LH 722",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 476 kg"
-                    ],
-                    "overnight": true,
-                    "often_delayed_by_over_30_min": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 105,
-                    "name": "Frankfurt Airport",
-                    "id": "FRA"
-                },
-                {
-                    "duration": 565,
-                    "name": "Munich International Airport",
-                    "id": "MUC"
-                }
-            ],
-            "total_duration": 1615,
-            "carbon_emissions": {
-                "this_flight": 826000
-            },
-            "price": 3769,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEJNU0RZNU0zeE1TRGs0ZkV4SU56SXlHZ3NJdVlBWEVBSWFBMVZUUkRnY2NMbUFGdz09IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiRlJBIixudWxsLCJMSCIsIjY5MyJdLFsiRlJBIiwiMjAyNC0wNC0xNiIsIk1VQyIsbnVsbCwiTEgiLCI5OCJdLFsiTVVDIiwiMjAyNC0wNC0xNiIsIlBFSyIsbnVsbCwiTEgiLCI3MjIiXV1d"
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 17:10"
-                    },
-                    "arrival_airport": {
-                        "name": "King Fahd International Airport",
-                        "id": "DMM",
-                        "time": "2024-04-16 19:35"
-                    },
-                    "duration": 145,
-                    "airplane": "Airbus A320",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Business Class",
-                    "flight_number": "RJ 740",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 228 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "King Fahd International Airport",
-                        "id": "DMM",
-                        "time": "2024-04-16 22:45"
-                    },
-                    "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-17 01:00"
-                    },
-                    "duration": 75,
+                    "duration": 195,
                     "airplane": "Boeing 777",
                     "airline": "Emirates",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
                     "travel_class": "Business Class",
-                    "flight_number": "EK 822",
-                    "ticket_also_sold_by": [
-                        "Qantas"
-                    ],
+                    "flight_number": "EK 509",
                     "extensions": [
                         "Angled flat seat",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 319 kg"
+                        "Carbon emissions estimate: 733 kg"
                     ]
                 },
                 {
@@ -1070,114 +974,350 @@
             ],
             "layovers": [
                 {
-                    "duration": 190,
-                    "name": "King Fahd International Airport",
-                    "id": "DMM"
-                },
-                {
-                    "duration": 170,
+                    "duration": 225,
                     "name": "Dubai International Airport",
                     "id": "DXB",
                     "overnight": true
                 }
             ],
-            "total_duration": 1035,
+            "total_duration": 875,
             "carbon_emissions": {
-                "this_flight": 2529000
+                "this_flight": 2714000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 362
             },
-            "price": 12459,
+            "price": 3580,
             "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJU25ob1IwOXJTSEJhVERoQlJrSkNVMEZDUnkwdExTMHRMUzB0TFhWcWNtRXhOMEZCUVVGQlIxbGllSGhaVFZabGNrTkJFaEZTU2pjME1IeEZTemd5TW54RlN6TXdOaG9MQ0t5RlRCQUNHZ05WVTBRNEhIQ3NoVXc9IixbWyJBTU0iLCIyMDI0LTA0LTE2IiwiRE1NIixudWxsLCJSSiIsIjc0MCJdLFsiRE1NIiwiMjAyNC0wNC0xNiIsIkRYQiIsbnVsbCwiRUsiLCI4MjIiXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkVLIiwiMzA2Il1dXQ=="
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RGU3pVd09YeEZTek13TmhvTENLM3NGUkFDR2dOVlUwUTRISEN0N0JVPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIkRYQiIsbnVsbCwiRUsiLCI1MDkiXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIkVLIiwiMzA2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Chhatrapati Shivaji Maharaj International Airport (CSMIA)",
+                        "id": "BOM",
+                        "time": "2024-04-16 19:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Narita International Airport",
+                        "id": "NRT",
+                        "time": "2024-04-17 07:35"
+                    },
+                    "duration": 505,
+                    "airplane": "Boeing 787",
+                    "airline": "ANA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "NH 830",
+                    "legroom": "34 in",
+                    "extensions": [
+                        "Above average legroom (34 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 584 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Haneda Airport",
+                        "id": "HND",
+                        "time": "2024-04-17 17:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Beijing Capital International Airport",
+                        "id": "PEK",
+                        "time": "2024-04-17 20:15"
+                    },
+                    "duration": 235,
+                    "airplane": "Airbus A320",
+                    "airline": "ANA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "NH 963",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 246 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 585,
+                    "name": "Haneda Airport",
+                    "id": "NRT"
+                }
+            ],
+            "total_duration": 1325,
+            "carbon_emissions": {
+                "this_flight": 830000,
+                "typical_for_this_route": 588000,
+                "difference_percent": 41
+            },
+            "price": 3932,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+            "booking_token": "WyJDalJJTlVSUmVVczVlVkpSU0d0QlNHTnNVMEZDUnkwdExTMHRMUzB0TFMxMWFuRmtNVUZCUVVGQlIxbGllVjlKVDBOR1RFVkJFZ3RPU0Rnek1IeE9TRGsyTXhvTENOVC9GeEFDR2dOVlUwUTRISERVL3hjPSIsW1siQk9NIiwiMjAyNC0wNC0xNiIsIk5SVCIsbnVsbCwiTkgiLCI4MzAiXSxbIkhORCIsIjIwMjQtMDQtMTciLCJQRUsiLG51bGwsIk5IIiwiOTYzIl1dXQ=="
         }
     ],
     "price_insights": {
-        "lowest_price": 627,
-        "price_level": "typical",
+        "lowest_price": 519,
+        "price_level": "high",
         "typical_price_range": [
-            485,
-            690
+            345,
+            460
         ],
         "price_history": [
             [
-                1711400400,
-                488
+                1707849000,
+                253
             ],
             [
-                1711486800,
-                488
+                1707935400,
+                252
             ],
             [
-                1711573200,
-                488
+                1708021800,
+                252
             ],
             [
-                1711659600,
-                488
+                1708108200,
+                253
             ],
             [
-                1711746000,
-                488
+                1708194600,
+                253
             ],
             [
-                1711832400,
-                488
+                1708281000,
+                252
             ],
             [
-                1711918800,
-                488
+                1708367400,
+                253
             ],
             [
-                1712005200,
-                488
+                1708453800,
+                274
             ],
             [
-                1712091600,
-                488
+                1708540200,
+                275
             ],
             [
-                1712178000,
-                488
+                1708626600,
+                274
             ],
             [
-                1712264400,
-                488
+                1708713000,
+                275
             ],
             [
-                1712350800,
-                488
+                1708799400,
+                275
             ],
             [
-                1712437200,
-                488
+                1708885800,
+                314
             ],
             [
-                1712523600,
-                488
+                1708972200,
+                314
             ],
             [
-                1712610000,
-                488
+                1709058600,
+                353
             ],
             [
-                1712696400,
-                488
+                1709145000,
+                352
             ],
             [
-                1712782800,
-                488
+                1709231400,
+                393
             ],
             [
-                1712869200,
-                488
+                1709317800,
+                393
             ],
             [
-                1712955600,
-                488
+                1709404200,
+                353
             ],
             [
-                1713042000,
-                627
+                1709490600,
+                353
+            ],
+            [
+                1709577000,
+                353
+            ],
+            [
+                1709663400,
+                393
+            ],
+            [
+                1709749800,
+                393
+            ],
+            [
+                1709836200,
+                353
+            ],
+            [
+                1709922600,
+                353
+            ],
+            [
+                1710009000,
+                353
+            ],
+            [
+                1710095400,
+                353
+            ],
+            [
+                1710181800,
+                353
+            ],
+            [
+                1710268200,
+                353
+            ],
+            [
+                1710354600,
+                353
+            ],
+            [
+                1710441000,
+                353
+            ],
+            [
+                1710527400,
+                352
+            ],
+            [
+                1710613800,
+                353
+            ],
+            [
+                1710700200,
+                412
+            ],
+            [
+                1710786600,
+                353
+            ],
+            [
+                1710873000,
+                352
+            ],
+            [
+                1710959400,
+                412
+            ],
+            [
+                1711045800,
+                412
+            ],
+            [
+                1711132200,
+                409
+            ],
+            [
+                1711218600,
+                409
+            ],
+            [
+                1711305000,
+                409
+            ],
+            [
+                1711391400,
+                411
+            ],
+            [
+                1711477800,
+                341
+            ],
+            [
+                1711564200,
+                325
+            ],
+            [
+                1711650600,
+                325
+            ],
+            [
+                1711737000,
+                325
+            ],
+            [
+                1711823400,
+                325
+            ],
+            [
+                1711909800,
+                325
+            ],
+            [
+                1711996200,
+                366
+            ],
+            [
+                1712082600,
+                383
+            ],
+            [
+                1712169000,
+                382
+            ],
+            [
+                1712255400,
+                383
+            ],
+            [
+                1712341800,
+                383
+            ],
+            [
+                1712428200,
+                383
+            ],
+            [
+                1712514600,
+                362
+            ],
+            [
+                1712601000,
+                376
+            ],
+            [
+                1712687400,
+                376
+            ],
+            [
+                1712773800,
+                537
+            ],
+            [
+                1712860200,
+                542
+            ],
+            [
+                1712946600,
+                552
+            ],
+            [
+                1713033000,
+                519
             ]
         ]
     }

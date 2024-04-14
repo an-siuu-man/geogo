@@ -1,10 +1,13 @@
 body {
     height: 150%;
     margin: 5%;
-    background-color: antiquewhite;
+    background: linear-gradient(antiquewhite, orange);
+
 }
 h1, h2 {
     text-align: center;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 a.budgetyourtrip-more-info-link {
@@ -39,4 +42,16 @@ button:hover, #home:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+ul {
+    background: linear-gradient(rgb(255, 70, 70), transparent);
+    border-radius: 6px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

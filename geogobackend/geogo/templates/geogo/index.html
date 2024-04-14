@@ -33,7 +33,7 @@
 
 			<img src="../../static/geogo/geogo.png" style="height: 8vh;">
 
-			<form action="{% url 'results' %}" method="post">
+			<form action="{% url 'results' %}" id = 'formsub' method="post">
 				{% csrf_token %}
 				<div style="display: flex; flex-direction: column; width: 35vw; float: left">
 					<div style="margin-bottom: 1vh;">
@@ -781,8 +781,8 @@
 				<button type="submit">Submit</button>
 			</form>
 		</div>
-
-
+		
+		<div id = 'loading'></div>
 		<div id="map">
 			<?xml version="1.0" encoding="utf-8"?>
 			<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
