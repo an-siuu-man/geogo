@@ -7,7 +7,8 @@ with open('output.json') as f:
     
     # Accessing best_flights
     best_flights = data.get("best_flights", [])
-    
+    flightDetails = []
+
     # Iterating over each best flight
     for idx, flight in enumerate(best_flights, start=1):
         print(f"Flight {idx}:")
@@ -24,7 +25,7 @@ with open('output.json') as f:
         # Accessing layovers
         print("\tLayovers:")
         for layover in flight.get("layovers", []):
-            print("\tName:", layover.get("name"))
+            print("\tName:", layover.get("name"), layover.get("id"))
 
         # Accessing carbon emissions
         # carbon_emissions = flight.get("carbon_emissions", {})
