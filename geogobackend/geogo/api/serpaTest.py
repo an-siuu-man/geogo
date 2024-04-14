@@ -1,22 +1,12 @@
-import json
-
-# Assuming flights_data contains the JSON data provided
-flights_data = """"""
-
-
-
-# Parse the JSON data
-data = json.loads(flights_data)
-
-# Extract information for the first 3 flights
-first_3_flights = data['data'][:3]
-
-# Display the information for the first 3 flights
-for idx, flight in enumerate(first_3_flights, start=1):
-    print(f"Flight {idx}:")
-    print(f"  Departure Airport: {flight['departure_airport']}")
-    print(f"  Destination Airport: {flight['destination_airport']}")
-    print(f"  Departure Time: {flight['departure_time']}")
-    print(f"  Arrival Time: {flight['arrival_time']}")
-    print(f"  Price: {flight['price']}")
-    print()
+[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 12:05'}, 'arrival_airport': {'name': 'Seattle–Tacoma International Airport', 'id': 'SEA', 'time': '2024-04-14 13:10'}, 'duration': 605, 'airplane': 'Boeing 787', 'airline': 'Air Tahiti Nui', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/TN.png', 'travel_class': 'Economy', 'flight_number': 'TN 57', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat USB outlet', 'On-demand video', 'Carbon emissions estimate: 571 kg']}, {'departure_airport': {'name': 'Seattle–Tacoma International Airport', 'id': 'SEA', 'time': '2024-04-14 22:46'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-15 04:45'}, 'duration': 239, 'airplane': 'Boeing 737MAX 9 Passenger', 'airline': 'Alaska', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AS.png', 'travel_class': 'Economy', 'flight_number': 'AS 594', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'Stream media to your device', 'Carbon emissions estimate: 202 kg'], 'overnight': True}]
+[{'duration': 576, 'name': 'Seattle–Tacoma International Airport', 'id': 'SEA'}]
+1094
+[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 11:00'}, 'arrival_airport': {'name': 'Shannon Airport', 'id': 'SNN', 'time': '2024-04-14 11:50'}, 'duration': 110, 'airplane': 'Airbus A321neo', 'airline': 'Aer Lingus', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/EI.png', 'travel_class': 'Economy', 'flight_number': 'EI 909', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 97 kg']}, {'departure_airport': {'name': 'Shannon Airport', 'id': 'SNN', 'time': '2024-04-14 13:20'}, 'arrival_airport': {'name': 'John F. Kennedy International Airport', 'id': 'JFK', 'time': '2024-04-14 15:29'}, 'duration': 429, 'airplane': 'Airbus A321neo', 'airline': 'Aer Lingus', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/EI.png', 'travel_class': 'Economy', 'flight_number': 'EI 111', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 410 kg']}, {'departure_airport': {'name': 'John F. Kennedy International Airport', 'id': 'JFK', 'time': '2024-04-14 17:29'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 20:53'}, 'duration': 264, 'airplane': 'Boeing 737MAX 8 Passenger', 'airline': 'American', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AA.png', 'travel_class': 'Economy', 'flight_number': 'AA 2772', 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'Stream media to your device', 'Carbon emissions estimate: 169 kg']}]
+[{'duration': 90, 'name': 'Shannon Airport', 'id': 'SNN'}, {'duration': 120, 'name': 'John F. Kennedy International Airport', 'id': 'JFK'}]
+1138
+[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 09:45'}, 'arrival_airport': {'name': 'Newark Liberty International Airport', 'id': 'EWR', 'time': '2024-04-14 11:50'}, 'duration': 485, 'airplane': 'Boeing 777', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 56', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 550 kg'], 'often_delayed_by_over_30_min': True}, {'departure_airport': {'name': 'Newark Liberty International Airport', 'id': 'EWR', 'time': '2024-04-14 15:19'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 18:22'}, 'duration': 243, 'airplane': 'Airbus A319', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 1401', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'In-seat power outlet', 'Stream media to your device', 'Carbon emissions estimate: 236 kg']}]
+[{'duration': 209, 'name': 'Newark Liberty International Airport', 'id': 'EWR'}]
+1567
+[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 12:25'}, 'arrival_airport': {'name': 'Dulles International Airport', 'id': 'IAD', 'time': '2024-04-14 14:45'}, 'duration': 500, 'airplane': 'Boeing 777', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 914', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 583 kg']}, {'departure_airport': {'name': 'Dulles International Airport', 'id': 'IAD', 'time': '2024-04-14 17:50'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 20:26'}, 'duration': 216, 'airplane': 'Boeing 737', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 1858', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'Stream media to your device', 'Carbon emissions estimate: 182 kg']}]
+[{'duration': 185, 'name': 'Dulles International Airport', 'id': 'IAD'}]
+1567

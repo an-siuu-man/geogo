@@ -15,4 +15,20 @@ params = {
 search = GoogleSearch(params)
 results = search.get_dict()
 
-print(results)
+# print(results['best_flights'][0]['flights'])
+
+for i in results['best_flights']:
+  print(i['flights']['departure_airport']['name'],
+        '\n',
+        i['flights']['departure_airport']['id'],
+        '\n',
+        i['flights']['arrival_airport']['name'],
+        '\n',
+        i['flights']['arrival_airport']['id'],
+        '\n',
+        i['flights']['airline'],
+        '\n',
+        i['flights']['flight_number']
+        )
+  print(i['layovers'])
+  print(i['price'])
