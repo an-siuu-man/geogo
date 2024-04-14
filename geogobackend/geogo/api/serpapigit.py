@@ -46,55 +46,22 @@ def getFlightDetails (departure_id, arrival_id, date):
       #accessing other flights if best flights dont return any flights
       if not best_flights:
           best_flights = data.get('other_flights', [])
-      flightDetails = []
       dictTest = {}
       idxCounter = 0
       # Iterating over each best flight
       for idx, flight in enumerate(best_flights, start=1):
-          # print(f"Flight {idx}:")
-          # print("Price:", flight.get("price"))
-          flightDetails.append(f"Flight {idx}")
           dictTest[f'Flight_no_{idx}'] = f'{idx}'
-          flightDetails.append(flight.get("price"))
           dictTest[f'price{idx}'] = str(flight.get('price'))
           idxCounter += 1
 
           # Accessing flights details
           for i, flight_details in enumerate(flight.get("flights", []), start=1):
-              # print(f"\tLeg {i}:")
-              # print("\tDeparture Airport:", flight_details.get("departure_airport", {}).get("name"))
-              # print("\tArrival Airport:", flight_details.get("arrival_airport", {}).get("name"))
-              # print("\tAirline:", flight_details.get("airline"))
-              # print("\tFlight Number:", flight_details.get("flight_number"))
 
-              flightDetails.append(f"Leg {i}")
               dictTest[f'Leg_{i}_for_flight_no_{idx}'] = f'{i}'
-              flightDetails.append(flight_details.get("departure_airport", {}).get("name"))
               dictTest[f'departure_airport{i}_for_flight_no_{idx}'] = str(flight_details.get('departure_airport', {}).get('name'))
-              flightDetails.append(flight_details.get("arrival_airport", {}).get("name"))
               dictTest[f'arrival_airport{i}_for_flight_no_{idx}'] = str(flight_details.get("arrival_airport", {}).get("name"))
-              flightDetails.append(flight_details.get("airline"))
               dictTest[f'airline{i}_for_flight_no_{idx}'] = str(flight_details.get("airline"))
-              flightDetails.append(flight_details.get("flight_number"))
-              dictTest[f'flight_number_for_flight_no_{idx}'] = str(flight_details.get("flight_number"))
-
-          # Accessing layovers
-          # print("\tLayovers:")
-          flightDetails.append('Layovers')
-          for layover in flight.get("layovers", []):
-              # print("\tName:", layover.get("name"), layover.get("id"))
-              flightDetails.append(layover.get('name'))
-              flightDetails.append(layover.get('id'))
-
-          # Accessing carbon emissions
-          # carbon_emissions = flight.get("carbon_emissions", {})
-          # print("\tCarbon Emissions:")
-          # print("\tThis Flight:", carbon_emissions.get("this_flight"))
-          # print("\tTypical For This Route:", carbon_emissions.get("typical_for_this_route"))
-          # print("\tDifference Percent:", carbon_emissions.get("difference_percent"))
-
-          # print("\tBooking Token:", flight.get("booking_token"))
-          # print()
+              # dictTest[f'flight_number_for_flight_no_{idx}'] = str(flight_details.get("flight_number"))
 
       # print(flightDetails)
       return dictTest
@@ -105,4 +72,31 @@ def getFlightDetails (departure_id, arrival_id, date):
           # else:
         # print(type(i))
       # return flightDetails
-# print(getFlightDetails('MCI', 'DEL', '2024-04-20'))
+flight_details = (getFlightDetails('MCI', 'DEL', '2024-04-20'))
+def formatFlights(flight_details):
+  noOfFlights = 0
+  for i in flight_details.keys():
+    if 'Flight_no_' in i:
+      noOfFlights += 1
+  flights = []
+
+  for i in range(noOfFlights):
+    flights.append([])
+
+  for i in range(noOfFlights):
+    for j in flight_details.keys():
+        if j[-1] == str(i+1):
+          flights[i].append(flight_details[j])
+  formatted_flights = []
+
+  for flight in flights:
+      itinerary = []
+      for i in range(2, len(flight), 4):  # Start from index 2 to skip the flight number and flight code
+          leg = flight[i:i+4]
+          itinerary.append(leg)
+      formatted_flights.append(itinerary)
+  return formatted_flights
+
+
+
+

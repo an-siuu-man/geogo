@@ -1,14 +1,14 @@
 {
     "search_metadata": {
-        "id": "661b8acba4bb38ccdd21774a",
+        "id": "661b9b4d36e6a91b73388f5e",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.json",
-        "created_at": "2024-04-14 07:50:35 UTC",
-        "processed_at": "2024-04-14 07:50:35 UTC",
+        "json_endpoint": "https://serpapi.com/searches/79e1ccfdf34637d0/661b9b4d36e6a91b73388f5e.json",
+        "created_at": "2024-04-14 09:01:01 UTC",
+        "processed_at": "2024-04-14 09:01:01 UTC",
         "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+DEL+from+MCI+on+2024-04-20+one-way",
-        "raw_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.html",
-        "prettify_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.prettify",
-        "total_time_taken": 2.23
+        "raw_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b9b4d36e6a91b73388f5e.html",
+        "prettify_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b9b4d36e6a91b73388f5e.prettify",
+        "total_time_taken": 1.91
     },
     "search_parameters": {
         "engine": "google_flights",
@@ -125,7 +125,7 @@
             "price": 582,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek5UUjhRVUV5TmpJMGZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI2MjQiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRFek5UUjhRVUV5TmpJMGZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI2MjQiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -231,7 +231,7 @@
             "price": 583,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRJME9EZDhRVUV5TWpRMmZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIyNDg3Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjIyNDYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRJME9EZDhRVUV5TWpRMmZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIyNDg3Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjIyNDYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -333,7 +333,7 @@
             "price": 583,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRZd016VjhRVUV5TURReGZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIk9SRCIsbnVsbCwiQUEiLCI2MDM1Il0sWyJPUkQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIwNDEiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRZd016VjhRVUV5TURReGZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIk9SRCIsbnVsbCwiQUEiLCI2MDM1Il0sWyJPUkQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIwNDEiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         }
     ],
     "other_flights": [
@@ -440,7 +440,7 @@
             "price": 582,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpCUVRFek5UUjhRVUU0TXpaOFFVRXlPVElhQ3dpU3hnTVFBaG9EVlZORU9CeHdrc1lEIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiQ0xUIixudWxsLCJBQSIsIjEzNTQiXSxbIkNMVCIsIjIwMjQtMDQtMjAiLCJMR0EiLG51bGwsIkFBIiwiODM2Il0sWyJKRksiLCIyMDI0LTA0LTIwIiwiREVMIixudWxsLCJBQSIsIjI5MiJdXV0="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEpCUVRFek5UUjhRVUU0TXpaOFFVRXlPVElhQ3dpU3hnTVFBaG9EVlZORU9CeHdrc1lEIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiQ0xUIixudWxsLCJBQSIsIjEzNTQiXSxbIkNMVCIsIjIwMjQtMDQtMjAiLCJMR0EiLG51bGwsIkFBIiwiODM2Il0sWyJKRksiLCIyMDI0LTA0LTIwIiwiREVMIixudWxsLCJBQSIsIjI5MiJdXV0="
         },
         {
             "flights": [
@@ -546,7 +546,7 @@
             "price": 582,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek5UUjhRVUV5TVRReWZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIxNDIiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRFek5UUjhRVUV5TVRReWZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIxNDIiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -652,7 +652,7 @@
             "price": 601,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFMk1UVjhRVUV5TlRZMmZFRkJNamt5R2dzSTh0UURFQUlhQTFWVFJEZ2NjUExVQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE1Il0sWyJDTFQiLCIyMDI0LTA0LTIxIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRFMk1UVjhRVUV5TlRZMmZFRkJNamt5R2dzSTh0UURFQUlhQTFWVFJEZ2NjUExVQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE1Il0sWyJDTFQiLCIyMDI0LTA0LTIxIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -757,7 +757,7 @@
             "price": 682,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFMk1UWjhRVUV5TlRZMmZFRkJNamt5R2dzSW9wUUVFQUlhQTFWVFJEZ2NjS0tVQkE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE2Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRFMk1UWjhRVUV5TlRZMmZFRkJNamt5R2dzSW9wUUVFQUlhQTFWVFJEZ2NjS0tVQkE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE2Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -865,7 +865,7 @@
             "price": 831,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRZeE5qaDhSVXN5TVRKOFJVczFNVElhQ3dqQ2lBVVFBaG9EVlZORU9CeHd3b2dGIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFIIixudWxsLCJVQSIsIjYxNjgiXSxbIklBSCIsIjIwMjQtMDQtMjAiLCJEWEIiLG51bGwsIkVLIiwiMjEyIl0sWyJEWEIiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJFSyIsIjUxMiJdXV0="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEpWUVRZeE5qaDhSVXN5TVRKOFJVczFNVElhQ3dqQ2lBVVFBaG9EVlZORU9CeHd3b2dGIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFIIixudWxsLCJVQSIsIjYxNjgiXSxbIklBSCIsIjIwMjQtMDQtMjAiLCJEWEIiLG51bGwsIkVLIiwiMjEyIl0sWyJEWEIiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJFSyIsIjUxMiJdXV0="
         },
         {
             "flights": [
@@ -971,115 +971,7 @@
             "price": 839,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEZCVXpVMk0zeEZTekl6TUh4RlN6VXhNaG9MQ09LT0JSQUNHZ05WVTBRNEhIRGlqZ1U9IixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiU0VBIixudWxsLCJBUyIsIjU2MyJdLFsiU0VBIiwiMjAyNC0wNC0yMCIsIkRYQiIsbnVsbCwiRUsiLCIyMzAiXSxbIkRYQiIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkVLIiwiNTEyIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-20 08:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-20 09:36"
-                    },
-                    "duration": 96,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 303",
-                    "ticket_also_sold_by": [
-                        "Turkish Airlines"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 80 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-20 20:40"
-                    },
-                    "arrival_airport": {
-                        "name": "Istanbul Airport",
-                        "id": "IST",
-                        "time": "2024-04-21 15:25"
-                    },
-                    "duration": 645,
-                    "airplane": "Boeing 777",
-                    "airline": "Turkish Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TK 6",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 821 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Istanbul Airport",
-                        "id": "IST",
-                        "time": "2024-04-21 20:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-04-22 04:50"
-                    },
-                    "duration": 365,
-                    "airplane": "Boeing 777",
-                    "airline": "Turkish Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TK 716",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 436 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 664,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD"
-                },
-                {
-                    "duration": 290,
-                    "name": "Istanbul Airport",
-                    "id": "IST"
-                }
-            ],
-            "total_duration": 2060,
-            "carbon_emissions": {
-                "this_flight": 1339000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": 20
-            },
-            "price": 879,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFZzlWUVRNd00zeFVTelo4VkVzM01UWWFDd2pJcmdVUUFob0RWVk5FT0J4d3lLNEYiLFtbIk1DSSIsIjIwMjQtMDQtMjAiLCJPUkQiLG51bGwsIlVBIiwiMzAzIl0sWyJPUkQiLCIyMDI0LTA0LTIwIiwiSVNUIixudWxsLCJUSyIsIjYiXSxbIklTVCIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIlRLIiwiNzE2Il1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEZCVXpVMk0zeEZTekl6TUh4RlN6VXhNaG9MQ09LT0JSQUNHZ05WVTBRNEhIRGlqZ1U9IixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiU0VBIixudWxsLCJBUyIsIjU2MyJdLFsiU0VBIiwiMjAyNC0wNC0yMCIsIkRYQiIsbnVsbCwiRUsiLCIyMzAiXSxbIkRYQiIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkVLIiwiNTEyIl1dXQ=="
         },
         {
             "flights": [
@@ -1188,7 +1080,121 @@
             "price": 927,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek56WjhVVkkzTXpCOE5rVXhNelEyR2dzSW5OUUZFQUlhQTFWVFJEZ2NjSnpVQlE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIxMzc2Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiRE9IIixudWxsLCJRUiIsIjczMCJdLFsiRE9IIiwiMjAyNC0wNC0yMSIsIkRFTCIsbnVsbCwiNkUiLCIxMzQ2Il1dXQ=="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaE5CUVRFek56WjhVVkkzTXpCOE5rVXhNelEyR2dzSW5OUUZFQUlhQTFWVFJEZ2NjSnpVQlE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIxMzc2Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiRE9IIixudWxsLCJRUiIsIjczMCJdLFsiRE9IIiwiMjAyNC0wNC0yMSIsIkRFTCIsbnVsbCwiNkUiLCIxMzQ2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 12:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Detroit Metropolitan Wayne County Airport",
+                        "id": "DTW",
+                        "time": "2024-04-20 14:50"
+                    },
+                    "duration": 110,
+                    "airplane": "Boeing 717",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 2454",
+                    "ticket_also_sold_by": [
+                        "KLM"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 134 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Detroit Metropolitan Wayne County Airport",
+                        "id": "DTW",
+                        "time": "2024-04-20 18:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-21 08:15"
+                    },
+                    "duration": 480,
+                    "airplane": "Airbus A330",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 98",
+                    "ticket_also_sold_by": [
+                        "KLM"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 461 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-21 10:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 22:35"
+                    },
+                    "duration": 520,
+                    "airplane": "Airbus A350",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 226",
+                    "ticket_also_sold_by": [
+                        "Delta",
+                        "KLM"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 393 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 205,
+                    "name": "Detroit Metropolitan Wayne County Airport",
+                    "id": "DTW"
+                },
+                {
+                    "duration": 130,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 1445,
+            "carbon_emissions": {
+                "this_flight": 990000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": -12
+            },
+            "price": 1020,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEZFVERJME5UUjhSRXc1T0h4QlJqSXlOaG9MQ055Y0JoQUNHZ05WVTBRNEhIRGNuQVk9IixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiRFRXIixudWxsLCJETCIsIjI0NTQiXSxbIkRUVyIsIjIwMjQtMDQtMjAiLCJDREciLG51bGwsIkRMIiwiOTgiXSxbIkNERyIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkFGIiwiMjI2Il1dXQ=="
         },
         {
             "flights": [
@@ -1300,7 +1306,7 @@
             "price": 1026,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpFVERRNU1URjhSRXd4TXpaOFMwdzROekVhQ3dqSW9RWVFBaG9EVlZORU9CeHd5S0VHIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiRFRXIixudWxsLCJETCIsIjQ5MTEiXSxbIkRUVyIsIjIwMjQtMDQtMjAiLCJBTVMiLG51bGwsIkRMIiwiMTM2Il0sWyJBTVMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEpFVERRNU1URjhSRXd4TXpaOFMwdzROekVhQ3dqSW9RWVFBaG9EVlZORU9CeHd5S0VHIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiRFRXIixudWxsLCJETCIsIjQ5MTEiXSxbIkRUVyIsIjIwMjQtMDQtMjAiLCJBTVMiLG51bGwsIkRMIiwiMTM2Il0sWyJBTVMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
         },
         {
             "flights": [
@@ -1408,7 +1414,7 @@
             "price": 1197,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRZeE1UVjhWVUV6TkRVemZFRkRORElhQ3dqb3BnY1FBaG9EVlZORU9CeHc2S1lIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFEIixudWxsLCJVQSIsIjYxMTUiXSxbIklBRCIsIjIwMjQtMDQtMjAiLCJZWVoiLG51bGwsIlVBIiwiMzQ1MyJdLFsiWVlaIiwiMjAyNC0wNC0yMCIsIkRFTCIsbnVsbCwiQUMiLCI0MiJdXV0="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEpWUVRZeE1UVjhWVUV6TkRVemZFRkRORElhQ3dqb3BnY1FBaG9EVlZORU9CeHc2S1lIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFEIixudWxsLCJVQSIsIjYxMTUiXSxbIklBRCIsIjIwMjQtMDQtMjAiLCJZWVoiLG51bGwsIlVBIiwiMzQ1MyJdLFsiWVlaIiwiMjAyNC0wNC0yMCIsIkRFTCIsbnVsbCwiQUMiLCI0MiJdXV0="
         },
         {
             "flights": [
@@ -1512,7 +1518,7 @@
             "price": 1211,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRNMk16WjhWVUU1TlROOFRFZzNOaklhQ3dpQ3NnY1FBaG9EVlZORU9CeHdncklIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiT1JEIixudWxsLCJVQSIsIjM2MzYiXSxbIk9SRCIsIjIwMjQtMDQtMjAiLCJNVUMiLG51bGwsIlVBIiwiOTUzIl0sWyJNVUMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJMSCIsIjc2MiJdXV0="
+            "booking_token": "WyJDalJJZDFSclQyeFpVamhFYjNOQlF6TlRNSGRDUnkwdExTMHRMUzB0TFMxMWFuSjVOa0ZCUVVGQlIxbGliVEE0UTJkUFNtOUJFaEpWUVRNMk16WjhWVUU1TlROOFRFZzNOaklhQ3dpQ3NnY1FBaG9EVlZORU9CeHdncklIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiT1JEIixudWxsLCJVQSIsIjM2MzYiXSxbIk9SRCIsIjIwMjQtMDQtMjAiLCJNVUMiLG51bGwsIlVBIiwiOTUzIl0sWyJNVUMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJMSCIsIjc2MiJdXV0="
         }
     ],
     "price_insights": {

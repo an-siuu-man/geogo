@@ -11,7 +11,7 @@ genai.configure(api_key=keykey)
 
 model = genai.GenerativeModel('gemini-pro')
 
-def generateResponse(airports, finalDST, passportCountry):
+def generateVisaResponse(airports, finalDST, passportCountry):
 
     b = [str(airports) for airports in airports] 
     comma = ","
@@ -20,6 +20,7 @@ def generateResponse(airports, finalDST, passportCountry):
     response = model.generate_content(
         "What are the transit visa requirements of these airports " + airport_String + " if I have a passport from " + str(passportCountry) +" and what are the tourist visa requirements for the country of airport " + str(finalDST) + " if I have a passport from " + str(passportCountry) + ". Generate a Response that has a sentence for each airport with a transit visa requirement inquiry, provide a sentence for the tourist visa requirements of the country of the airport associated with the visa requirements inquiry based on the hypothetical passport proposed. Do Not provide me website links to get the recommended visas for both transit and tourist. Do not include Headers. Each Sentence should be a bullet"
         )
-    print(response.text)
-
+    # print(response.text)
+    return(response.text)
 # generateResponse(["LAX","LHR"],"DEL","India")
+# print(generateVisaResponse(['LAX','LHR', 'ORD', 'MCI'], 'DEL', 'India'))
