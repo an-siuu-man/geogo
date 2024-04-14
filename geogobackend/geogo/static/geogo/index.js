@@ -22,6 +22,13 @@ map.addEventListener('click', function (event) {
     }
     else {
         console.log(svgID);
+        if(origin.value == ''){
+            origin.value = svgID;
+            visa.value = svgID;
+        }
+        else {
+            destination.value = svgID;
+        }
     }
 });
 
