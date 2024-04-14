@@ -25,11 +25,13 @@
     </div>
 
     <div id='tourist_locations'>
+        <ol>
         {% for spot in locations %}
-
+        <li>
         {{spot}}<br>
-
+        </li>
         {% endfor %}
+        </ol>
     </div>
 
     <a href="{% url 'index' %}">Home</a>
