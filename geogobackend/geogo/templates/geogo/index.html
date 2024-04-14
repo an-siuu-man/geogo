@@ -33,8 +33,8 @@
 			<form action="{% url 'results' %}" method="post">
 				{% csrf_token %}
 				<label for="origin">Choose Origin</label>
-				<input id="originAirportInput" list="originAirport" required>
-				<datalist id="originAirport" name="originAirport">
+				<input id="originAirportInput" list="originAirport" name="originAirport" required>
+				<datalist id="originAirport">
 					<option value="AUH">Abu Dhabi, United Arab Emirates</option>
 					<option value="ABV">Abuja, Nigeria</option>
 					<option value="ACC">Accra, Ghana</option>
@@ -299,8 +299,8 @@
 					<option value="ZRH">Zurich, Switzerland</option>
 				</datalist>
 				<label for="destination">Choose Destination</label>
-				<input id="destinationAirportInput" list="destinationAirport" required>
-				<datalist id="destinationAirport" name="destinationAirport">
+				<input id="destinationAirportInput" list="destinationAirport" name="destinationAirport" required>
+				<datalist id="destinationAirport">
 					<option value="AUH">Abu Dhabi, United Arab Emirates</option>
 					<option value="ABV">Abuja, Nigeria</option>
 					<option value="ACC">Accra, Ghana</option>
@@ -565,8 +565,8 @@
 					<option value="ZRH">Zurich, Switzerland</option>
 				</datalist>
 				<label for="visa">Passenger's Visa</label>
-				<input id="visaInput" list="getVisa">
-				<datalist id="getVisa" name="getVisa">
+				<input id="visaInput" list="getVisa" name="getVisa">
+				<datalist id="getVisa">
 					<option value="Afghanistan">AF</option>
 					<option value="Albania">AL</option>
 					<option value="Algeria">DZ</option>
