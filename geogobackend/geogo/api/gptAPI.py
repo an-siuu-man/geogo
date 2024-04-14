@@ -23,4 +23,4 @@ def generateResponse(prompt):
     l = response1.json()['choices'][0]['message']['content']
     return l
 
-print(generateResponse())
+# print(generateResponse())
