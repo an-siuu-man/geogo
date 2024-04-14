@@ -12,8 +12,6 @@ with open('output.json') as f:
     for idx, flight in enumerate(best_flights, start=1):
         print(f"Flight {idx}:")
         print("Price:", flight.get("price"))
-        print("Type:", flight.get("type"))
-        print("Total Duration:", flight.get("total_duration"))
 
         # Accessing flights details
         for i, flight_details in enumerate(flight.get("flights", []), start=1):
