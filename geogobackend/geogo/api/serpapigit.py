@@ -72,7 +72,7 @@ def getFlightDetails (departure_id, arrival_id, date):
           # else:
         # print(type(i))
       # return flightDetails
-flight_details = (getFlightDetails('MCI', 'DEL', '2024-04-20'))
+# flight_details = (getFlightDetails('MCI', 'DEL', '2024-04-20'))
 def formatFlights(flight_details):
   noOfFlights = 0
   for i in flight_details.keys():

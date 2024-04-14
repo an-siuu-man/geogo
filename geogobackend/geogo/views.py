@@ -3,7 +3,8 @@ from django import forms
 from datetime import datetime
 from .api.gptAPI import generateResponse
 from .api.airportCodes import city_codes
-from .api.serpapigit import getFlightDetails
+from .api.serpapigit import *
+from .api.geminiAPI import generateVisaResponse
 # Create your views here.
 def index(request):
     return render(request, 'geogo/index.html')
@@ -105,12 +106,25 @@ def results(request):
 
         flightDetails = getFlightDetails(originAirport, destinationAirport, formatted_date)
 
-
+        formattedFlights = formatFlights(flightDetails)
+        layoverAirports = []
+        for i in formattedFlights:
+            for j in i:
+                if j == i[0]:
+                    layoverAirports.append(j[2])
+                elif j == i[-1]:
+                    layoverAirports.append(j[1])
+                else:
+                    layoverAirports.append(j[1])
+                    layoverAirports.append(j[2])
+        
+        visaReq = generateVisaResponse(layoverAirports,destinationAirport, getVisa)
         return render(request, 'geogo/results.html', {
             'locations': locations, 
             'origin':origin,
             'destination':destination,
             'getVisa': visa,
-            'flightDetails': flightDetails
+            'flightDetails': formattedFlights,
+            'visaReq':visaReq
         })
     
