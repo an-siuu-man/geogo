@@ -22,7 +22,7 @@ map.addEventListener('click', function (event) {
     }
     else {
         console.log(svgID);
-});
+};
 
 const today = new Date().toISOString().split('T')[0];
 document.getElementById('getDepartDate').setAttribute('min', today);
