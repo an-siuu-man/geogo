@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from django import forms
+from datetime import datetime
 from .api.gptAPI import generateResponse
 from .api.airportCodes import city_codes
+from .api.serpapigit import getFlightDetails
 # Create your views here.
 def index(request):
     return render(request, 'geogo/index.html')
@@ -14,6 +16,18 @@ def results(request):
         destinationAirport = request.POST['destinationAirport']
         getVisa = request.POST['getVisa']
 
+        somedate = request.POST.get('somedate')
+        # 'somedate' will contain the date in 'YYYY-MM-DD' format
+        formatted_date = ''
+        # Now you can convert the date string to a datetime object if needed
+        if somedate:
+            somedate_obj = datetime.strptime(somedate, '%Y-%m-%d')
+            # somedate_obj is a datetime object
+            
+            # Format the datetime object to 'YYYY-MM-DD' format
+            formatted_date = somedate_obj.strftime('%Y-%m-%d')
+        else:
+            formatted_date = '2024-04-16'
         codes = city_codes()
         origin = 'Unknown'
         destination = 'Unknown'
@@ -88,10 +102,15 @@ def results(request):
                 })
 
         # no error case
+
+        flightDetails = getFlightDetails(originAirport, destinationAirport, formatted_date)
+
+
         return render(request, 'geogo/results.html', {
             'locations': locations, 
             'origin':origin,
             'destination':destination,
-            'getVisa': visa
+            'getVisa': visa,
+            'flightDetails': flightDetails
         })
     

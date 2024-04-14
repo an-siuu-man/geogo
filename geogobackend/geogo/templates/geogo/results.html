@@ -13,13 +13,25 @@
 <body>
     <h1>City of origin: {{origin}}</h1>
     <h1>Destination City: {{destination}}</h1>
-    <h1>Visa City: {{getVisa}}</h1>
-    <div id='output'>
-        {% for spot in locations %}
+    <h1>Visa Country: {{getVisa}}</h1>
 
-        {{spot}}<br>
+    <h1>Flight Details</h1>
+    <div id = 'flight_details'>
+        {% for i in flightDetails%}
+
+        {{i}}
 
         {% endfor %}
+    </div>
+
+    <div id='tourist_locations'>
+        <ol>
+        {% for spot in locations %}
+        <li>
+        {{spot}}<br>
+        </li>
+        {% endfor %}
+        </ol>
     </div>
 
     <a href="{% url 'index' %}">Home</a>
