@@ -12,7 +12,7 @@ body {
 }
 
 #map {
-    /* margin-top: -50vh; */
+    margin-top: -50vh;
     z-index: -999;
 }
 
