@@ -92,7 +92,7 @@ def results(request):
         finalFlights = formatFlights(flightDetails)
 
         embeddedCodes = embed_codes()
-        # visaReq = generateVisaResponse(layoverFlights, destinationAirport, getVisa)
+        visaReq = generateVisaResponse([originAirport, destinationAirport], destinationAirport, getVisa)
         try:
             required = embeddedCodes[destination]
         except:
@@ -101,7 +101,8 @@ def results(request):
                 'origin': origin,
                 'destination': destination,
                 'getVisa': visa,
-                'flightDetails': finalFlights
+                'flightDetails': finalFlights,
+                'visaReq': visaReq
             })
         return render(request, 'geogo/results.html', {
             'locations': locations, 
@@ -109,6 +110,7 @@ def results(request):
             'destination':destination,
             'getVisa': visa,
             'flightDetails': finalFlights,
+            'visaReq': visaReq,
             'code':required
         })
     
