@@ -5,6 +5,7 @@ from .api.gptAPI import generateResponse
 from .api.airportCodes import city_codes
 from .api.serpapigit import *
 from .api.geminiAPI import generateVisaResponse
+from .api.embedCodes import embed_codes
 # Create your views here.
 def index(request):
     return render(request, 'geogo/index.html')
