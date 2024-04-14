@@ -7,3 +7,24 @@ body {
 a.budgetyourtrip-more-info-link {
     color: transparent !important;
 }
+
+.button,
+button, a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border: 3px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease-in;
+}
+
+.button:hover,
+button:hover, a:hover {
+    font-weight: 600;
+    box-shadow: none;
+    background-color: antiquewhite;
+    border-radius: 0;
+    border-color: white;
+    cursor: pointer;
+}

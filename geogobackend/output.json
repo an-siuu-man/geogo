@@ -1,23 +1,23 @@
 {
     "search_metadata": {
-        "id": "661b6f54a1b423a3ad012ab9",
+        "id": "661b922dad7fa9977d0ea78f",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/aa522b3bb48fdfa5/661b6f54a1b423a3ad012ab9.json",
-        "created_at": "2024-04-14 05:53:24 UTC",
-        "processed_at": "2024-04-14 05:53:24 UTC",
-        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+BGW+from+MCI+on+2024-04-15+one-way",
-        "raw_html_file": "https://serpapi.com/searches/aa522b3bb48fdfa5/661b6f54a1b423a3ad012ab9.html",
-        "prettify_html_file": "https://serpapi.com/searches/aa522b3bb48fdfa5/661b6f54a1b423a3ad012ab9.prettify",
-        "total_time_taken": 0.98
+        "json_endpoint": "https://serpapi.com/searches/32121a196a7c0b76/661b922dad7fa9977d0ea78f.json",
+        "created_at": "2024-04-14 08:22:05 UTC",
+        "processed_at": "2024-04-14 08:22:05 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+ABV+from+AUH+on+2024-04-16+one-way",
+        "raw_html_file": "https://serpapi.com/searches/32121a196a7c0b76/661b922dad7fa9977d0ea78f.html",
+        "prettify_html_file": "https://serpapi.com/searches/32121a196a7c0b76/661b922dad7fa9977d0ea78f.prettify",
+        "total_time_taken": 1.8
     },
     "search_parameters": {
         "engine": "google_flights",
         "hl": "en",
         "gl": "us",
         "type": "2",
-        "departure_id": "MCI",
-        "arrival_id": "BGW",
-        "outbound_date": "2024-04-15",
+        "departure_id": "AUH",
+        "arrival_id": "ABV",
+        "outbound_date": "2024-04-16",
         "adults": 1,
         "currency": "USD"
     },
@@ -26,423 +26,391 @@
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 16:16"
-                    },
-                    "arrival_airport": {
-                        "name": "Dallas Fort Worth International Airport",
-                        "id": "DFW",
-                        "time": "2024-04-15 18:05"
-                    },
-                    "duration": 109,
-                    "airplane": "Boeing 737",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AA 1376",
-                    "ticket_also_sold_by": [
-                        "Qatar Airways"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 85 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dallas Fort Worth International Airport",
-                        "id": "DFW",
-                        "time": "2024-04-15 18:55"
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 11:55"
                     },
                     "arrival_airport": {
                         "name": "Hamad International Airport",
                         "id": "DOH",
-                        "time": "2024-04-16 17:20"
+                        "time": "2024-04-16 12:00"
                     },
-                    "duration": 865,
-                    "airplane": "Airbus A350",
-                    "airline": "Qatar Airways",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
-                    "travel_class": "Economy",
-                    "flight_number": "QR 730",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 810 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Hamad International Airport",
-                        "id": "DOH",
-                        "time": "2024-04-16 18:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-16 20:55"
-                    },
-                    "duration": 125,
+                    "duration": 65,
                     "airplane": "Boeing 737MAX 8 Passenger",
                     "airline": "Qatar Airways",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
                     "travel_class": "Economy",
-                    "flight_number": "QR 442",
+                    "flight_number": "QR 1045",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
                         "In-seat power & USB outlets",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 94 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 50,
-                    "name": "Dallas Fort Worth International Airport",
-                    "id": "DFW"
-                },
-                {
-                    "duration": 90,
-                    "name": "Hamad International Airport",
-                    "id": "DOH"
-                }
-            ],
-            "total_duration": 1239,
-            "carbon_emissions": {
-                "this_flight": 991000
-            },
-            "price": 1015,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEpCUVRFek56WjhVVkkzTXpCOFVWSTBORElhQ3dqOG1BWVFBaG9EVlZORU9CeHcvSmdHIixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiREZXIixudWxsLCJBQSIsIjEzNzYiXSxbIkRGVyIsIjIwMjQtMDQtMTUiLCJET0giLG51bGwsIlFSIiwiNzMwIl0sWyJET0giLCIyMDI0LTA0LTE2IiwiQkdXIixudWxsLCJRUiIsIjQ0MiJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 18:13"
-                    },
-                    "arrival_airport": {
-                        "name": "Dallas Fort Worth International Airport",
-                        "id": "DFW",
-                        "time": "2024-04-15 20:00"
-                    },
-                    "duration": 107,
-                    "airplane": "Airbus A319",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AA 2100",
-                    "ticket_also_sold_by": [
-                        "Qatar Airways"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 102 kg"
+                        "Carbon emissions estimate: 44 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Dallas Fort Worth International Airport",
-                        "id": "DFW",
-                        "time": "2024-04-15 22:55"
-                    },
-                    "arrival_airport": {
                         "name": "Hamad International Airport",
                         "id": "DOH",
-                        "time": "2024-04-16 21:20"
+                        "time": "2024-04-17 00:50"
                     },
-                    "duration": 865,
-                    "airplane": "Airbus A350",
+                    "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-17 06:40"
+                    },
+                    "duration": 470,
+                    "airplane": "Boeing 787",
                     "airline": "Qatar Airways",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
                     "travel_class": "Economy",
-                    "flight_number": "QR 732",
+                    "flight_number": "QR 1431",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 810 kg"
+                        "Carbon emissions estimate: 394 kg"
                     ],
                     "overnight": true
-                },
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 770,
+                    "name": "Hamad International Airport",
+                    "id": "DOH"
+                }
+            ],
+            "total_duration": 1305,
+            "carbon_emissions": {
+                "this_flight": 439000
+            },
+            "price": 402,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZzFSVWpFd05EVjhVVkl4TkRNeEdnc0k1TGtDRUFJYUExVlRSRGdjY09TNUFnPT0iLFtbIkFVSCIsIjIwMjQtMDQtMTYiLCJET0giLG51bGwsIlFSIiwiMTA0NSJdLFsiRE9IIiwiMjAyNC0wNC0xNyIsIkFCViIsbnVsbCwiUVIiLCIxNDMxIl1dXQ=="
+        },
+        {
+            "flights": [
                 {
                     "departure_airport": {
-                        "name": "Hamad International Airport",
-                        "id": "DOH",
-                        "time": "2024-04-17 01:10"
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 23:45"
                     },
                     "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-17 03:15"
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-04-16 23:50"
                     },
-                    "duration": 125,
+                    "duration": 65,
                     "airplane": "Boeing 737MAX 8 Passenger",
                     "airline": "Qatar Airways",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
                     "travel_class": "Economy",
-                    "flight_number": "QR 458",
+                    "flight_number": "QR 1055",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
                         "In-seat power & USB outlets",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 94 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 175,
-                    "name": "Dallas Fort Worth International Airport",
-                    "id": "DFW"
-                },
-                {
-                    "duration": 230,
-                    "name": "Hamad International Airport",
-                    "id": "DOH"
-                }
-            ],
-            "total_duration": 1502,
-            "carbon_emissions": {
-                "this_flight": 1008000
-            },
-            "price": 1015,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEpCUVRJeE1EQjhVVkkzTXpKOFVWSTBOVGdhQ3dqOG1BWVFBaG9EVlZORU9CeHcvSmdHIixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiREZXIixudWxsLCJBQSIsIjIxMDAiXSxbIkRGVyIsIjIwMjQtMDQtMTUiLCJET0giLG51bGwsIlFSIiwiNzMyIl0sWyJET0giLCIyMDI0LTA0LTE3IiwiQkdXIixudWxsLCJRUiIsIjQ1OCJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 15:28"
-                    },
-                    "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 17:04"
-                    },
-                    "duration": 96,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 2374",
-                    "ticket_also_sold_by": [
-                        "Emirates"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 80 kg"
+                        "Carbon emissions estimate: 44 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 20:45"
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-04-17 00:50"
                     },
                     "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 19:10"
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-17 06:40"
                     },
-                    "duration": 805,
-                    "airplane": "Boeing 777",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "duration": 470,
+                    "airplane": "Boeing 787",
+                    "airline": "Qatar Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
                     "travel_class": "Economy",
-                    "flight_number": "EK 236",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 1162 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-17 07:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-17 09:20"
-                    },
-                    "duration": 150,
-                    "airplane": "Boeing 777",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "EK 941",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 143 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 221,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD"
-                },
-                {
-                    "duration": 760,
-                    "name": "Dubai International Airport",
-                    "id": "DXB",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 2032,
-            "carbon_emissions": {
-                "this_flight": 1387000
-            },
-            "price": 1141,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEpWUVRJek56UjhSVXN5TXpaOFJVczVOREVhQ3dqYStnWVFBaG9EVlZORU9CeHcydm9HIixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiT1JEIixudWxsLCJVQSIsIjIzNzQiXSxbIk9SRCIsIjIwMjQtMDQtMTUiLCJEWEIiLG51bGwsIkVLIiwiMjM2Il0sWyJEWEIiLCIyMDI0LTA0LTE3IiwiQkdXIixudWxsLCJFSyIsIjk0MSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 15:28"
-                    },
-                    "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 17:04"
-                    },
-                    "duration": 96,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 2374",
-                    "ticket_also_sold_by": [
-                        "Turkish Airlines"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 80 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 20:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Istanbul Airport",
-                        "id": "IST",
-                        "time": "2024-04-16 15:25"
-                    },
-                    "duration": 655,
-                    "airplane": "Boeing 777",
-                    "airline": "Turkish Airlines",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "TK 6",
+                    "flight_number": "QR 1431",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 821 kg"
+                        "Carbon emissions estimate: 394 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 60,
+                    "name": "Hamad International Airport",
+                    "id": "DOH"
+                }
+            ],
+            "total_duration": 595,
+            "carbon_emissions": {
+                "this_flight": 439000
+            },
+            "price": 438,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZzFSVWpFd05UVjhVVkl4TkRNeEdnc0l1TlVDRUFJYUExVlRSRGdjY0xqVkFnPT0iLFtbIkFVSCIsIjIwMjQtMDQtMTYiLCJET0giLG51bGwsIlFSIiwiMTA1NSJdLFsiRE9IIiwiMjAyNC0wNC0xNyIsIkFCViIsbnVsbCwiUVIiLCIxNDMxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 16:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-04-16 18:05"
+                    },
+                    "duration": 215,
+                    "airplane": "Boeing 737",
+                    "airline": "EgyptAir",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MS 915",
+                    "ticket_also_sold_by": [
+                        "Etihad"
+                    ],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 221 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-04-17 10:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-17 14:15"
+                    },
+                    "duration": 300,
+                    "airplane": "Boeing 737",
+                    "airline": "EgyptAir",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MS 877",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Carbon emissions estimate: 318 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 970,
+                    "name": "Cairo International Airport",
+                    "id": "CAI",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1485,
+            "carbon_emissions": {
+                "this_flight": 540000
+            },
+            "price": 487,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZ3ROVXpreE5YeE5VemczTnhvTENOMzdBaEFDR2dOVlUwUTRISERkK3dJPSIsW1siQVVIIiwiMjAyNC0wNC0xNiIsIkNBSSIsbnVsbCwiTVMiLCI5MTUiXSxbIkNBSSIsIjIwMjQtMDQtMTciLCJBQlYiLG51bGwsIk1TIiwiODc3Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 02:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Muscat International Airport",
+                        "id": "MCT",
+                        "time": "2024-04-16 03:20"
+                    },
+                    "duration": 75,
+                    "airplane": "Airbus A320",
+                    "airline": "Etihad",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EY 384",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 69 kg"
                     ],
                     "overnight": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Istanbul Airport",
-                        "id": "IST",
-                        "time": "2024-04-16 21:30"
+                        "name": "Muscat International Airport",
+                        "id": "MCT",
+                        "time": "2024-04-16 04:40"
                     },
                     "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-17 00:30"
+                        "name": "Bole Addis Ababa International Airport",
+                        "id": "ADD",
+                        "time": "2024-04-16 07:40"
                     },
-                    "duration": 180,
+                    "duration": 240,
+                    "airplane": "Boeing 737",
+                    "airline": "Ethiopian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ET 625",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 241 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Bole Addis Ababa International Airport",
+                        "id": "ADD",
+                        "time": "2024-04-16 09:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-16 12:00"
+                    },
+                    "duration": 280,
+                    "airplane": "Boeing 777",
+                    "airline": "Ethiopian",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/ET.png",
+                    "travel_class": "Economy",
+                    "flight_number": "ET 951",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 295 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 80,
+                    "name": "Muscat International Airport",
+                    "id": "MCT",
+                    "overnight": true
+                },
+                {
+                    "duration": 100,
+                    "name": "Bole Addis Ababa International Airport",
+                    "id": "ADD"
+                }
+            ],
+            "total_duration": 775,
+            "carbon_emissions": {
+                "this_flight": 606000
+            },
+            "price": 922,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFaEZGV1RNNE5IeEZWRFl5Tlh4RlZEazFNUm9MQ0l6UUJSQUNHZ05WVTBRNEhIQ00wQVU9IixbWyJBVUgiLCIyMDI0LTA0LTE2IiwiTUNUIixudWxsLCJFWSIsIjM4NCJdLFsiTUNUIiwiMjAyNC0wNC0xNiIsIkFERCIsbnVsbCwiRVQiLCI2MjUiXSxbIkFERCIsIjIwMjQtMDQtMTYiLCJBQlYiLG51bGwsIkVUIiwiOTUxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 01:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-16 05:25"
+                    },
+                    "duration": 295,
                     "airplane": "Airbus A321neo",
                     "airline": "Turkish Airlines",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
                     "travel_class": "Economy",
-                    "flight_number": "TK 302",
+                    "flight_number": "TK 869",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
                         "Wi-Fi for a fee",
                         "In-seat USB outlet",
                         "On-demand video",
-                        "Carbon emissions estimate: 146 kg"
+                        "Carbon emissions estimate: 247 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-16 14:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-16 19:15"
+                    },
+                    "duration": 390,
+                    "airplane": "Airbus A330",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 623",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 343 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 206,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD"
-                },
-                {
-                    "duration": 365,
+                    "duration": 560,
                     "name": "Istanbul Airport",
                     "id": "IST"
                 }
             ],
-            "total_duration": 1502,
+            "total_duration": 1245,
             "carbon_emissions": {
-                "this_flight": 1048000
+                "this_flight": 591000
             },
-            "price": 1300,
+            "price": 941,
             "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEJWUVRJek56UjhWRXMyZkZSTE16QXlHZ3NJdlBjSEVBSWFBMVZUUkRnY2NMejNCdz09IixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiT1JEIixudWxsLCJVQSIsIjIzNzQiXSxbIk9SRCIsIjIwMjQtMDQtMTUiLCJJU1QiLG51bGwsIlRLIiwiNiJdLFsiSVNUIiwiMjAyNC0wNC0xNiIsIkJHVyIsbnVsbCwiVEsiLCIzMDIiXV1d"
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZ3RVU3pnMk9YeFVTell5TXhvTENQN2VCUkFDR2dOVlUwUTRISEQrM2dVPSIsW1siQVVIIiwiMjAyNC0wNC0xNiIsIklTVCIsbnVsbCwiVEsiLCI4NjkiXSxbIklTVCIsIjIwMjQtMDQtMTYiLCJBQlYiLG51bGwsIlRLIiwiNjIzIl1dXQ=="
         }
     ],
     "other_flights": [
@@ -450,335 +418,274 @@
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 18:01"
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 02:20"
                     },
                     "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 19:35"
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-16 06:20"
                     },
-                    "duration": 94,
-                    "airplane": "Boeing 737",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "duration": 300,
+                    "airplane": "Airbus A320",
+                    "airline": "Etihad",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
                     "travel_class": "Economy",
-                    "flight_number": "AA 1779",
-                    "legroom": "30 in",
+                    "flight_number": "EY 99",
+                    "ticket_also_sold_by": [
+                        "Turkish Airlines"
+                    ],
+                    "legroom": "32 in",
                     "extensions": [
-                        "Average legroom (30 in)",
+                        "Above average legroom (32 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 253 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-16 14:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-16 19:15"
+                    },
+                    "duration": 390,
+                    "airplane": "Airbus A330",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 623",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 343 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 505,
+                    "name": "Istanbul Airport",
+                    "id": "IST"
+                }
+            ],
+            "total_duration": 1195,
+            "carbon_emissions": {
+                "this_flight": 597000
+            },
+            "price": 868,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZ3BGV1RrNWZGUkxOakl6R2dzSXhxVUZFQUlhQTFWVFJEZ2NjTWFsQlE9PSIsW1siQVVIIiwiMjAyNC0wNC0xNiIsIklTVCIsbnVsbCwiRVkiLCI5OSJdLFsiSVNUIiwiMjAyNC0wNC0xNiIsIkFCViIsbnVsbCwiVEsiLCI2MjMiXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 14:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-04-16 15:55"
+                    },
+                    "duration": 235,
+                    "airplane": "Airbus A321",
+                    "airline": "Etihad",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EY 655",
+                    "ticket_also_sold_by": [
+                        "EgyptAir"
+                    ],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 87 kg"
+                        "Carbon emissions estimate: 213 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-16 13:30"
+                        "name": "Cairo International Airport",
+                        "id": "CAI",
+                        "time": "2024-04-17 10:15"
                     },
                     "arrival_airport": {
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-17 14:15"
+                    },
+                    "duration": 300,
+                    "airplane": "Boeing 737",
+                    "airline": "EgyptAir",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "MS 877",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Carbon emissions estimate: 318 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1100,
+                    "name": "Cairo International Airport",
+                    "id": "CAI",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1635,
+            "carbon_emissions": {
+                "this_flight": 531000
+            },
+            "price": 1004,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFZ3RGV1RZMU5YeE5VemczTnhvTENQV1BCaEFDR2dOVlUwUTRISEQxandZPSIsW1siQVVIIiwiMjAyNC0wNC0xNiIsIkNBSSIsbnVsbCwiRVkiLCI2NTUiXSxbIkNBSSIsIjIwMjQtMDQtMTciLCJBQlYiLG51bGwsIk1TIiwiODc3Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
                         "name": "Zayed International Airport",
                         "id": "AUH",
-                        "time": "2024-04-17 12:00"
+                        "time": "2024-04-16 02:25"
                     },
-                    "duration": 810,
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-16 07:45"
+                    },
+                    "duration": 440,
                     "airplane": "Airbus A350",
                     "airline": "Etihad",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
                     "travel_class": "Economy",
-                    "flight_number": "EY 150",
+                    "flight_number": "EY 31",
+                    "ticket_also_sold_by": [
+                        "Air France"
+                    ],
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat USB outlet",
                         "On-demand video",
-                        "Carbon emissions estimate: 695 kg"
+                        "Carbon emissions estimate: 314 kg"
                     ],
-                    "overnight": true
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Zayed International Airport",
-                        "id": "AUH",
-                        "time": "2024-04-18 09:00"
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-16 11:00"
                     },
                     "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-18 10:30"
+                        "name": "N'Djamena International Airport",
+                        "id": "NDJ",
+                        "time": "2024-04-16 17:45"
                     },
-                    "duration": 150,
-                    "airplane": "Airbus A320",
-                    "airline": "Air Arabia",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/3L.png",
+                    "duration": 465,
+                    "airplane": "Airbus A330",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
                     "travel_class": "Economy",
-                    "flight_number": "3L 76",
-                    "ticket_also_sold_by": [
-                        "Etihad"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 130 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 1075,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD",
-                    "overnight": true
-                },
-                {
-                    "duration": 1260,
-                    "name": "Zayed International Airport",
-                    "id": "AUH",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 3389,
-            "carbon_emissions": {
-                "this_flight": 914000
-            },
-            "price": 1004,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEZCUVRFM056bDhSVmt4TlRCOE0wdzNOaG9MQ09hUEJoQUNHZ05WVTBRNEhIRG1qd1k9IixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiT1JEIixudWxsLCJBQSIsIjE3NzkiXSxbIk9SRCIsIjIwMjQtMDQtMTYiLCJBVUgiLG51bGwsIkVZIiwiMTUwIl0sWyJBVUgiLCIyMDI0LTA0LTE4IiwiQkdXIixudWxsLCIzTCIsIjc2Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 07:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 08:50"
-                    },
-                    "duration": 95,
-                    "airplane": "Boeing 737",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AA 636",
-                    "ticket_also_sold_by": [
-                        "Royal Jordanian"
-                    ],
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 87 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 20:20"
-                    },
-                    "arrival_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 15:45"
-                    },
-                    "duration": 685,
-                    "airplane": "Boeing 787",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 264",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 746 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 16:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-16 18:25"
-                    },
-                    "duration": 95,
-                    "airplane": "Airbus A319",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 814",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 117 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 690,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD"
-                },
-                {
-                    "duration": 65,
-                    "name": "Queen Alia International Airport",
-                    "id": "AMM"
-                }
-            ],
-            "total_duration": 1630,
-            "carbon_emissions": {
-                "this_flight": 951000
-            },
-            "price": 1523,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEZCUVRZek5ueFNTakkyTkh4U1NqZ3hOQm9MQ0pLbENSQUNHZ05WVTBRNEhIQ1NwUWs9IixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiT1JEIixudWxsLCJBQSIsIjYzNiJdLFsiT1JEIiwiMjAyNC0wNC0xNSIsIkFNTSIsbnVsbCwiUkoiLCIyNjQiXSxbIkFNTSIsIjIwMjQtMDQtMTYiLCJCR1ciLG51bGwsIlJKIiwiODE0Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 07:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Seattle\u2013Tacoma International Airport",
-                        "id": "SEA",
-                        "time": "2024-04-15 08:59"
-                    },
-                    "duration": 239,
-                    "airplane": "Boeing 737",
-                    "airline": "Alaska",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AS 563",
+                    "flight_number": "AF 878",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 212 kg"
+                        "On-demand video",
+                        "Carbon emissions estimate: 378 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Seattle\u2013Tacoma International Airport",
-                        "id": "SEA",
-                        "time": "2024-04-15 17:15"
+                        "name": "N'Djamena International Airport",
+                        "id": "NDJ",
+                        "time": "2024-04-16 19:15"
                     },
                     "arrival_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-16 18:30"
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-16 20:55"
                     },
-                    "duration": 855,
-                    "airplane": "Boeing 777",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "duration": 100,
+                    "airplane": "Airbus A330",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
                     "travel_class": "Economy",
-                    "flight_number": "EK 230",
-                    "legroom": "32 in",
+                    "flight_number": "AF 878",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Above average legroom (32 in)",
+                        "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 1239 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dubai International Airport",
-                        "id": "DXB",
-                        "time": "2024-04-17 07:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-17 09:20"
-                    },
-                    "duration": 150,
-                    "airplane": "Boeing 777",
-                    "airline": "Emirates",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
-                    "travel_class": "Economy",
-                    "flight_number": "EK 941",
-                    "legroom": "32 in",
-                    "extensions": [
-                        "Above average legroom (32 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 143 kg"
+                        "Carbon emissions estimate: 115 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 496,
-                    "name": "Seattle\u2013Tacoma International Airport",
-                    "id": "SEA"
+                    "duration": 195,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
                 },
                 {
-                    "duration": 800,
-                    "name": "Dubai International Airport",
-                    "id": "DXB",
-                    "overnight": true
+                    "duration": 90,
+                    "name": "N'Djamena International Airport",
+                    "id": "NDJ"
                 }
             ],
-            "total_duration": 2540,
+            "total_duration": 1290,
             "carbon_emissions": {
-                "this_flight": 1596000
+                "this_flight": 809000
             },
-            "price": 1792,
+            "price": 1731,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaEZCVXpVMk0zeEZTekl6TUh4RlN6azBNUm9MQ0tiM0NoQUNHZ05WVTBRNEhIQ205d289IixbWyJNQ0kiLCIyMDI0LTA0LTE1IiwiU0VBIixudWxsLCJBUyIsIjU2MyJdLFsiU0VBIiwiMjAyNC0wNC0xNSIsIkRYQiIsbnVsbCwiRUsiLCIyMzAiXSxbIkRYQiIsIjIwMjQtMDQtMTciLCJCR1ciLG51bGwsIkVLIiwiOTQxIl1dXQ=="
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFaEJGV1RNeGZFRkdPRGM0ZkVGR09EYzRHZ3NJODhjS0VBSWFBMVZUUkRnY2NQUEhDZz09IixbWyJBVUgiLCIyMDI0LTA0LTE2IiwiQ0RHIixudWxsLCJFWSIsIjMxIl0sWyJDREciLCIyMDI0LTA0LTE2IiwiTkRKIixudWxsLCJBRiIsIjg3OCJdLFsiTkRKIiwiMjAyNC0wNC0xNiIsIkFCViIsbnVsbCwiQUYiLCI4NzgiXV1d"
         },
         {
             "flights": [
                 {
                     "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 18:30"
+                        "name": "Zayed International Airport",
+                        "id": "AUH",
+                        "time": "2024-04-16 02:45"
                     },
                     "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 20:12"
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-04-16 07:00"
                     },
-                    "duration": 102,
-                    "airplane": "Embraer 175",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "duration": 375,
+                    "airplane": "Boeing 787",
+                    "airline": "Etihad",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
                     "travel_class": "Economy",
-                    "flight_number": "UA 4770",
+                    "flight_number": "EY 125",
                     "ticket_also_sold_by": [
                         "Lufthansa"
                     ],
@@ -786,34 +693,9 @@
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 99 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-04-15 21:25"
-                    },
-                    "arrival_airport": {
-                        "name": "Munich International Airport",
-                        "id": "MUC",
-                        "time": "2024-04-16 12:55"
-                    },
-                    "duration": 510,
-                    "airplane": "Airbus A350",
-                    "airline": "Lufthansa",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
-                    "travel_class": "Premium Economy",
-                    "flight_number": "LH 435",
-                    "extensions": [
-                        "Extra reclining seat",
-                        "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 720 kg"
+                        "Carbon emissions estimate: 332 kg"
                     ],
                     "overnight": true
                 },
@@ -821,462 +703,178 @@
                     "departure_airport": {
                         "name": "Munich International Airport",
                         "id": "MUC",
-                        "time": "2024-04-16 21:40"
+                        "time": "2024-04-16 09:00"
                     },
                     "arrival_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-17 01:25"
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-16 10:00"
                     },
-                    "duration": 225,
-                    "airplane": "Airbus A321neo",
+                    "duration": 60,
+                    "airplane": "Airbus A320",
                     "airline": "Lufthansa",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
                     "travel_class": "Economy",
-                    "flight_number": "LH 586",
-                    "legroom": "29 in",
+                    "flight_number": "LH 99",
+                    "legroom": "30 in",
                     "extensions": [
-                        "Below average legroom (29 in)",
-                        "In-seat USB outlet",
-                        "Carbon emissions estimate: 194 kg"
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 51 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Cairo International Airport",
-                        "id": "CAI",
-                        "time": "2024-04-17 05:00"
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-16 11:15"
                     },
                     "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-17 08:05"
+                        "name": "Nnamdi Azikiwe International Airport",
+                        "id": "ABV",
+                        "time": "2024-04-16 16:20"
                     },
-                    "duration": 125,
-                    "airplane": "Boeing 737",
-                    "airline": "EgyptAir",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MS.png",
+                    "duration": 365,
+                    "airplane": "Airbus A340",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
                     "travel_class": "Economy",
-                    "flight_number": "MS 627",
+                    "flight_number": "LH 594",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
-                        "Carbon emissions estimate: 142 kg"
-                    ]
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 460 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
                 }
             ],
             "layovers": [
                 {
-                    "duration": 73,
-                    "name": "Chicago O'Hare International Airport",
-                    "id": "ORD"
-                },
-                {
-                    "duration": 525,
+                    "duration": 120,
                     "name": "Munich International Airport",
                     "id": "MUC"
                 },
                 {
-                    "duration": 215,
-                    "name": "Cairo International Airport",
-                    "id": "CAI",
-                    "overnight": true
+                    "duration": 75,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
                 }
             ],
-            "total_duration": 1775,
+            "total_duration": 995,
             "carbon_emissions": {
-                "this_flight": 1157000
+                "this_flight": 844000
             },
-            "price": 2067,
+            "price": 6461,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaGhWUVRRM056QjhURWcwTXpWOFRFZzFPRFo4VFZNMk1qY2FDd2pNemd3UUFob0RWVk5FT0J4d3pNNE0iLFtbIk1DSSIsIjIwMjQtMDQtMTUiLCJPUkQiLG51bGwsIlVBIiwiNDc3MCJdLFsiT1JEIiwiMjAyNC0wNC0xNSIsIk1VQyIsbnVsbCwiTEgiLCI0MzUiXSxbIk1VQyIsIjIwMjQtMDQtMTYiLCJDQUkiLG51bGwsIkxIIiwiNTg2Il0sWyJDQUkiLCIyMDI0LTA0LTE3IiwiQkdXIixudWxsLCJNUyIsIjYyNyJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-04-15 12:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Dulles International Airport",
-                        "id": "IAD",
-                        "time": "2024-04-15 16:00"
-                    },
-                    "duration": 150,
-                    "airplane": "Embraer 175",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "First Class",
-                    "flight_number": "UA 6115",
-                    "extensions": [
-                        "Standard recliner seat",
-                        "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 276 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Dulles International Airport",
-                        "id": "IAD",
-                        "time": "2024-04-15 17:35"
-                    },
-                    "arrival_airport": {
-                        "name": "Vienna International Airport",
-                        "id": "VIE",
-                        "time": "2024-04-16 08:30"
-                    },
-                    "duration": 535,
-                    "airplane": "Boeing 767",
-                    "airline": "Austrian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "OS 94",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 619 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Vienna International Airport",
-                        "id": "VIE",
-                        "time": "2024-04-16 11:15"
-                    },
-                    "arrival_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 15:45"
-                    },
-                    "duration": 210,
-                    "airplane": "Airbus A320",
-                    "airline": "Austrian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/OS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "OS 853",
-                    "legroom": "28 in",
-                    "extensions": [
-                        "Below average legroom (28 in)",
-                        "In-seat USB outlet",
-                        "Carbon emissions estimate: 219 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Queen Alia International Airport",
-                        "id": "AMM",
-                        "time": "2024-04-16 16:50"
-                    },
-                    "arrival_airport": {
-                        "name": "Baghdad International Airport (BGW)",
-                        "id": "BGW",
-                        "time": "2024-04-16 18:25"
-                    },
-                    "duration": 95,
-                    "airplane": "Airbus A319",
-                    "airline": "Royal Jordanian",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/RJ.png",
-                    "travel_class": "Economy",
-                    "flight_number": "RJ 814",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 117 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 95,
-                    "name": "Dulles International Airport",
-                    "id": "IAD"
-                },
-                {
-                    "duration": 165,
-                    "name": "Vienna International Airport",
-                    "id": "VIE"
-                },
-                {
-                    "duration": 65,
-                    "name": "Queen Alia International Airport",
-                    "id": "AMM"
-                }
-            ],
-            "total_duration": 1315,
-            "carbon_emissions": {
-                "this_flight": 1232000
-            },
-            "price": 7876,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJYTFSTlRVTkNhM1Z1U0hkQlJXMXdZbEZDUnkwdExTMHRMUzB0TFMxd1puRjZOa0ZCUVVGQlIxbGlZakZWU1dwUVpqWkJFaGRWUVRZeE1UVjhUMU01Tkh4UFV6ZzFNM3hTU2pneE5Cb0xDTXFJTUJBQ0dnTlZVMFE0SEhES2lEQT0iLFtbIk1DSSIsIjIwMjQtMDQtMTUiLCJJQUQiLG51bGwsIlVBIiwiNjExNSJdLFsiSUFEIiwiMjAyNC0wNC0xNSIsIlZJRSIsbnVsbCwiT1MiLCI5NCJdLFsiVklFIiwiMjAyNC0wNC0xNiIsIkFNTSIsbnVsbCwiT1MiLCI4NTMiXSxbIkFNTSIsIjIwMjQtMDQtMTYiLCJCR1ciLG51bGwsIlJKIiwiODE0Il1dXQ=="
+            "booking_token": "WyJDalJJUkRjMWFqZFFVekZyU2poQlJUVnVXV2RDUnkwdExTMHRMUzB0TFhCbWNXWXhNVUZCUVVGQlIxbGlhMmswU25aeWVGbEJFaEJGV1RFeU5YeE1TRGs1ZkV4SU5UazBHZ3NJZ3JjbkVBSWFBMVZUUkRnY2NJSzNKdz09IixbWyJBVUgiLCIyMDI0LTA0LTE2IiwiTVVDIixudWxsLCJFWSIsIjEyNSJdLFsiTVVDIiwiMjAyNC0wNC0xNiIsIkZSQSIsbnVsbCwiTEgiLCI5OSJdLFsiRlJBIiwiMjAyNC0wNC0xNiIsIkFCViIsbnVsbCwiTEgiLCI1OTQiXV1d"
         }
     ],
     "price_insights": {
-        "lowest_price": 1004,
-        "price_level": "high",
+        "lowest_price": 402,
+        "price_level": "typical",
         "typical_price_range": [
-            860,
-            980
+            295,
+            790
         ],
         "price_history": [
             [
-                1707804000,
-                919
+                1711051200,
+                280
             ],
             [
-                1707890400,
-                919
+                1711137600,
+                315
             ],
             [
-                1707976800,
-                919
+                1711224000,
+                315
             ],
             [
-                1708063200,
-                919
+                1711310400,
+                315
             ],
             [
-                1708149600,
-                919
+                1711396800,
+                315
             ],
             [
-                1708236000,
-                919
+                1711483200,
+                399
             ],
             [
-                1708322400,
-                919
+                1711569600,
+                399
             ],
             [
-                1708408800,
-                919
+                1711656000,
+                399
             ],
             [
-                1708495200,
-                919
+                1711742400,
+                399
             ],
             [
-                1708581600,
-                919
+                1711828800,
+                399
             ],
             [
-                1708668000,
-                919
+                1711915200,
+                399
             ],
             [
-                1708754400,
-                919
+                1712001600,
+                399
             ],
             [
-                1708840800,
-                919
+                1712088000,
+                399
             ],
             [
-                1708927200,
-                919
+                1712174400,
+                399
             ],
             [
-                1709013600,
-                919
+                1712260800,
+                399
             ],
             [
-                1709100000,
-                919
+                1712347200,
+                399
             ],
             [
-                1709186400,
-                919
+                1712433600,
+                399
             ],
             [
-                1709272800,
-                919
+                1712520000,
+                399
             ],
             [
-                1709359200,
-                919
+                1712606400,
+                399
             ],
             [
-                1709445600,
-                919
+                1712692800,
+                399
             ],
             [
-                1709532000,
-                919
+                1712779200,
+                399
             ],
             [
-                1709618400,
-                919
+                1712865600,
+                487
             ],
             [
-                1709704800,
-                919
+                1712952000,
+                438
             ],
             [
-                1709791200,
-                919
-            ],
-            [
-                1709877600,
-                919
-            ],
-            [
-                1709964000,
-                919
-            ],
-            [
-                1710050400,
-                884
-            ],
-            [
-                1710133200,
-                884
-            ],
-            [
-                1710219600,
-                884
-            ],
-            [
-                1710306000,
-                884
-            ],
-            [
-                1710392400,
-                884
-            ],
-            [
-                1710478800,
-                884
-            ],
-            [
-                1710565200,
-                884
-            ],
-            [
-                1710651600,
-                884
-            ],
-            [
-                1710738000,
-                884
-            ],
-            [
-                1710824400,
-                884
-            ],
-            [
-                1710910800,
-                884
-            ],
-            [
-                1710997200,
-                884
-            ],
-            [
-                1711083600,
-                884
-            ],
-            [
-                1711170000,
-                884
-            ],
-            [
-                1711256400,
-                884
-            ],
-            [
-                1711342800,
-                884
-            ],
-            [
-                1711429200,
-                884
-            ],
-            [
-                1711515600,
-                884
-            ],
-            [
-                1711602000,
-                884
-            ],
-            [
-                1711688400,
-                845
-            ],
-            [
-                1711774800,
-                845
-            ],
-            [
-                1711861200,
-                845
-            ],
-            [
-                1711947600,
-                845
-            ],
-            [
-                1712034000,
-                845
-            ],
-            [
-                1712120400,
-                845
-            ],
-            [
-                1712206800,
-                845
-            ],
-            [
-                1712293200,
-                845
-            ],
-            [
-                1712379600,
-                822
-            ],
-            [
-                1712466000,
-                822
-            ],
-            [
-                1712552400,
-                822
-            ],
-            [
-                1712638800,
-                799
-            ],
-            [
-                1712725200,
-                799
-            ],
-            [
-                1712811600,
-                799
-            ],
-            [
-                1712898000,
-                799
-            ],
-            [
-                1712984400,
-                799
-            ],
-            [
-                1713070800,
-                1004
+                1713038400,
+                402
             ]
         ]
     }

@@ -48,6 +48,7 @@ def getFlightDetails (departure_id, arrival_id, date):
           best_flights = data.get('other_flights', [])
       flightDetails = []
       dictTest = {}
+      idxCounter = 0
       # Iterating over each best flight
       for idx, flight in enumerate(best_flights, start=1):
           # print(f"Flight {idx}:")
@@ -56,6 +57,7 @@ def getFlightDetails (departure_id, arrival_id, date):
           dictTest[f'Flight_no_{idx}'] = f'{idx}'
           flightDetails.append(flight.get("price"))
           dictTest[f'price{idx}'] = str(flight.get('price'))
+          idxCounter += 1
 
           # Accessing flights details
           for i, flight_details in enumerate(flight.get("flights", []), start=1):
@@ -74,7 +76,7 @@ def getFlightDetails (departure_id, arrival_id, date):
               flightDetails.append(flight_details.get("airline"))
               dictTest[f'airline{i}_for_flight_no_{idx}'] = str(flight_details.get("airline"))
               flightDetails.append(flight_details.get("flight_number"))
-              dictTest[f'flight_number{i}_for_flight_no_{idx}'] = str(flight_details.get("flight_number"))
+              dictTest[f'flight_number_for_flight_no_{idx}'] = str(flight_details.get("flight_number"))
 
           # Accessing layovers
           # print("\tLayovers:")
@@ -103,4 +105,4 @@ def getFlightDetails (departure_id, arrival_id, date):
           # else:
         # print(type(i))
       # return flightDetails
-print(getFlightDetails('MCI','DEL', '2024-05-01'))
+# print(getFlightDetails('MCI', 'DEL', '2024-04-20'))

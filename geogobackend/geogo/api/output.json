@@ -1,14 +1,14 @@
 {
     "search_metadata": {
-        "id": "661b765e24e88e7940c187de",
+        "id": "661b8acba4bb38ccdd21774a",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/477562e30b2a187d/661b765e24e88e7940c187de.json",
-        "created_at": "2024-04-14 06:23:26 UTC",
-        "processed_at": "2024-04-14 06:23:26 UTC",
-        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+DEL+from+MCI+on+2024-05-01+one-way",
-        "raw_html_file": "https://serpapi.com/searches/477562e30b2a187d/661b765e24e88e7940c187de.html",
-        "prettify_html_file": "https://serpapi.com/searches/477562e30b2a187d/661b765e24e88e7940c187de.prettify",
-        "total_time_taken": 1.21
+        "json_endpoint": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.json",
+        "created_at": "2024-04-14 07:50:35 UTC",
+        "processed_at": "2024-04-14 07:50:35 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+DEL+from+MCI+on+2024-04-20+one-way",
+        "raw_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.html",
+        "prettify_html_file": "https://serpapi.com/searches/79e1ccfdf34637d0/661b8acba4bb38ccdd21774a.prettify",
+        "total_time_taken": 2.23
     },
     "search_parameters": {
         "engine": "google_flights",
@@ -17,7 +17,7 @@
         "type": "2",
         "departure_id": "MCI",
         "arrival_id": "DEL",
-        "outbound_date": "2024-05-01",
+        "outbound_date": "2024-04-20",
         "adults": 1,
         "currency": "USD"
     },
@@ -28,64 +28,64 @@
                     "departure_airport": {
                         "name": "Kansas City International Airport",
                         "id": "MCI",
-                        "time": "2024-05-01 12:24"
+                        "time": "2024-04-20 06:44"
                     },
                     "arrival_airport": {
                         "name": "Charlotte Douglas International Airport",
                         "id": "CLT",
-                        "time": "2024-05-01 15:45"
+                        "time": "2024-04-20 10:04"
                     },
-                    "duration": 141,
-                    "airplane": "Airbus A321",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AA 1616",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 126 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Charlotte Douglas International Airport",
-                        "id": "CLT",
-                        "time": "2024-05-01 16:21"
-                    },
-                    "arrival_airport": {
-                        "name": "John F. Kennedy International Airport",
-                        "id": "JFK",
-                        "time": "2024-05-01 18:14"
-                    },
-                    "duration": 113,
+                    "duration": 140,
                     "airplane": "Airbus A319",
                     "airline": "American",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
                     "travel_class": "Economy",
-                    "flight_number": "AA 2566",
+                    "flight_number": "AA 1354",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
                         "Wi-Fi for a fee",
                         "In-seat power outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 113 kg"
+                        "Carbon emissions estimate: 147 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 13:30"
+                    },
+                    "arrival_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 15:30"
+                    },
+                    "duration": 120,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2624",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 98 kg"
                     ]
                 },
                 {
                     "departure_airport": {
                         "name": "John F. Kennedy International Airport",
                         "id": "JFK",
-                        "time": "2024-05-01 20:30"
+                        "time": "2024-04-20 20:30"
                     },
                     "arrival_airport": {
                         "name": "Indira Gandhi International Airport",
                         "id": "DEL",
-                        "time": "2024-05-02 21:00"
+                        "time": "2024-04-21 21:00"
                     },
                     "duration": 900,
                     "airplane": "Boeing 777",
@@ -99,7 +99,639 @@
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 1016 kg"
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 206,
+                    "name": "Charlotte Douglas International Airport",
+                    "id": "CLT"
+                },
+                {
+                    "duration": 300,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "JFK"
+                }
+            ],
+            "total_duration": 1666,
+            "carbon_emissions": {
+                "this_flight": 1279000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 14
+            },
+            "price": 582,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek5UUjhRVUV5TmpJMGZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI2MjQiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 07:12"
+                    },
+                    "arrival_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-20 08:59"
+                    },
+                    "duration": 107,
+                    "airplane": "Airbus A321",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2487",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 90 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-20 12:49"
+                    },
+                    "arrival_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 17:30"
+                    },
+                    "duration": 221,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2246",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 146 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 230,
+                    "name": "Dallas Fort Worth International Airport",
+                    "id": "DFW"
+                },
+                {
+                    "duration": 180,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "JFK"
+                }
+            ],
+            "total_duration": 1638,
+            "carbon_emissions": {
+                "this_flight": 1269000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 13
+            },
+            "price": 583,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRJME9EZDhRVUV5TWpRMmZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIyNDg3Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjIyNDYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 10:36"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-20 12:16"
+                    },
+                    "duration": 100,
+                    "airplane": "Canadair Reg. Jet",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 6035",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Carbon emissions estimate: 189 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-20 13:25"
+                    },
+                    "arrival_airport": {
+                        "name": "LaGuardia Airport",
+                        "id": "LGA",
+                        "time": "2024-04-20 16:28"
+                    },
+                    "duration": 123,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2041",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 146 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 69,
+                    "name": "Chicago O'Hare International Airport",
+                    "id": "ORD"
+                },
+                {
+                    "duration": 242,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "LGA"
+                }
+            ],
+            "total_duration": 1434,
+            "carbon_emissions": {
+                "this_flight": 1368000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 22
+            },
+            "price": 583,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRZd016VjhRVUV5TURReGZFRkJNamt5R2dzSXFNY0RFQUlhQTFWVFJEZ2NjS2pIQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIk9SRCIsbnVsbCwiQUEiLCI2MDM1Il0sWyJPUkQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIwNDEiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 06:44"
+                    },
+                    "arrival_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 10:04"
+                    },
+                    "duration": 140,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 1354",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 147 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 13:57"
+                    },
+                    "arrival_airport": {
+                        "name": "LaGuardia Airport",
+                        "id": "LGA",
+                        "time": "2024-04-20 15:42"
+                    },
+                    "duration": 105,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 836",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 99 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 233,
+                    "name": "Charlotte Douglas International Airport",
+                    "id": "CLT"
+                },
+                {
+                    "duration": 288,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "LGA"
+                }
+            ],
+            "total_duration": 1666,
+            "carbon_emissions": {
+                "this_flight": 1279000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 14
+            },
+            "price": 582,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpCUVRFek5UUjhRVUU0TXpaOFFVRXlPVElhQ3dpU3hnTVFBaG9EVlZORU9CeHdrc1lEIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiQ0xUIixudWxsLCJBQSIsIjEzNTQiXSxbIkNMVCIsIjIwMjQtMDQtMjAiLCJMR0EiLG51bGwsIkFBIiwiODM2Il0sWyJKRksiLCIyMDI0LTA0LTIwIiwiREVMIixudWxsLCJBQSIsIjI5MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 06:44"
+                    },
+                    "arrival_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 10:04"
+                    },
+                    "duration": 140,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 1354",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 147 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 10:47"
+                    },
+                    "arrival_airport": {
+                        "name": "LaGuardia Airport",
+                        "id": "LGA",
+                        "time": "2024-04-20 12:30"
+                    },
+                    "duration": 103,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2142",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 119 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 43,
+                    "name": "Charlotte Douglas International Airport",
+                    "id": "CLT"
+                },
+                {
+                    "duration": 480,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "LGA"
+                }
+            ],
+            "total_duration": 1666,
+            "carbon_emissions": {
+                "this_flight": 1299000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 16
+            },
+            "price": 582,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek5UUjhRVUV5TVRReWZFRkJNamt5R2dzSWtzWURFQUlhQTFWVFJEZ2NjSkxHQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxMzU0Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiTEdBIixudWxsLCJBQSIsIjIxNDIiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 17:26"
+                    },
+                    "arrival_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 20:47"
+                    },
+                    "duration": 141,
+                    "airplane": "Airbus A321",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 1615",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 131 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-21 16:21"
+                    },
+                    "arrival_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-21 18:14"
+                    },
+                    "duration": 113,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2566",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 118 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-21 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-22 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1174,
+                    "name": "Charlotte Douglas International Airport",
+                    "id": "CLT",
+                    "overnight": true
+                },
+                {
+                    "duration": 136,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "JFK"
+                }
+            ],
+            "total_duration": 2464,
+            "carbon_emissions": {
+                "this_flight": 1282000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 15
+            },
+            "price": 601,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFMk1UVjhRVUV5TlRZMmZFRkJNamt5R2dzSTh0UURFQUlhQTFWVFJEZ2NjUExVQXc9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE1Il0sWyJDTFQiLCIyMDI0LTA0LTIxIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 12:24"
+                    },
+                    "arrival_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 15:45"
+                    },
+                    "duration": 141,
+                    "airplane": "Airbus A321",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 1616",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 131 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Charlotte Douglas International Airport",
+                        "id": "CLT",
+                        "time": "2024-04-20 16:21"
+                    },
+                    "arrival_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 18:14"
+                    },
+                    "duration": 113,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2566",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 118 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-20 20:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-21 21:00"
+                    },
+                    "duration": 900,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 292",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1032 kg"
                     ],
                     "overnight": true
                 }
@@ -118,14 +750,14 @@
             ],
             "total_duration": 1326,
             "carbon_emissions": {
-                "this_flight": 1257000,
+                "this_flight": 1282000,
                 "typical_for_this_route": 1119000,
-                "difference_percent": 12
+                "difference_percent": 15
             },
-            "price": 547,
+            "price": 682,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaE5CUVRFMk1UWjhRVUV5TlRZMmZFRkJNamt5R2dzSTVxb0RFQUlhQTFWVFJEZ2NjT2FxQXc9PSIsW1siTUNJIiwiMjAyNC0wNS0wMSIsIkNMVCIsbnVsbCwiQUEiLCIxNjE2Il0sWyJDTFQiLCIyMDI0LTA1LTAxIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDUtMDEiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFMk1UWjhRVUV5TlRZMmZFRkJNamt5R2dzSW9wUUVFQUlhQTFWVFJEZ2NjS0tVQkE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkNMVCIsbnVsbCwiQUEiLCIxNjE2Il0sWyJDTFQiLCIyMDI0LTA0LTIwIiwiSkZLIixudWxsLCJBQSIsIjI1NjYiXSxbIkpGSyIsIjIwMjQtMDQtMjAiLCJERUwiLG51bGwsIkFBIiwiMjkyIl1dXQ=="
         },
         {
             "flights": [
@@ -133,104 +765,321 @@
                     "departure_airport": {
                         "name": "Kansas City International Airport",
                         "id": "MCI",
-                        "time": "2024-05-01 07:15"
+                        "time": "2024-04-20 15:10"
                     },
                     "arrival_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-05-01 08:50"
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-04-20 17:21"
                     },
-                    "duration": 95,
-                    "airplane": "Boeing 737",
-                    "airline": "American",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "duration": 131,
+                    "airplane": "Embraer 175",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "AA 636",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 83 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Chicago O'Hare International Airport",
-                        "id": "ORD",
-                        "time": "2024-05-01 13:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Zayed International Airport",
-                        "id": "AUH",
-                        "time": "2024-05-02 12:00"
-                    },
-                    "duration": 810,
-                    "airplane": "Airbus A350",
-                    "airline": "Etihad",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
-                    "travel_class": "Economy",
-                    "flight_number": "EY 150",
+                    "flight_number": "UA 6168",
+                    "ticket_also_sold_by": [
+                        "Emirates"
+                    ],
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
-                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 139 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-04-20 19:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-04-21 19:45"
+                    },
+                    "duration": 890,
+                    "airplane": "Airbus A380",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 212",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 662 kg"
+                        "Carbon emissions estimate: 1353 kg"
                     ],
                     "overnight": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Zayed International Airport",
-                        "id": "AUH",
-                        "time": "2024-05-02 14:30"
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-04-21 22:00"
                     },
                     "arrival_airport": {
                         "name": "Indira Gandhi International Airport",
                         "id": "DEL",
-                        "time": "2024-05-02 19:35"
+                        "time": "2024-04-22 02:45"
                     },
-                    "duration": 215,
-                    "airplane": "Boeing 787",
-                    "airline": "Etihad",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EY.png",
+                    "duration": 195,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
                     "travel_class": "Economy",
-                    "flight_number": "EY 224",
+                    "flight_number": "EK 512",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 202 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 154,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH"
+                },
+                {
+                    "duration": 135,
+                    "name": "Dubai International Airport",
+                    "id": "DXB"
+                }
+            ],
+            "total_duration": 1505,
+            "carbon_emissions": {
+                "this_flight": 1696000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 52
+            },
+            "price": 831,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRZeE5qaDhSVXN5TVRKOFJVczFNVElhQ3dqQ2lBVVFBaG9EVlZORU9CeHd3b2dGIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFIIixudWxsLCJVQSIsIjYxNjgiXSxbIklBSCIsIjIwMjQtMDQtMjAiLCJEWEIiLG51bGwsIkVLIiwiMjEyIl0sWyJEWEIiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJFSyIsIjUxMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 07:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Seattle\u2013Tacoma International Airport",
+                        "id": "SEA",
+                        "time": "2024-04-20 08:53"
+                    },
+                    "duration": 233,
+                    "airplane": "Boeing 737",
+                    "airline": "Alaska",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AS 563",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 203 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Seattle\u2013Tacoma International Airport",
+                        "id": "SEA",
+                        "time": "2024-04-20 17:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-04-21 18:30"
+                    },
+                    "duration": 855,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 230",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1239 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dubai International Airport",
+                        "id": "DXB",
+                        "time": "2024-04-21 22:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-22 02:45"
+                    },
+                    "duration": 195,
+                    "airplane": "Boeing 777",
+                    "airline": "Emirates",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EK 512",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 202 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 502,
+                    "name": "Seattle\u2013Tacoma International Airport",
+                    "id": "SEA"
+                },
+                {
+                    "duration": 210,
+                    "name": "Dubai International Airport",
+                    "id": "DXB"
+                }
+            ],
+            "total_duration": 1995,
+            "carbon_emissions": {
+                "this_flight": 1645000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": 47
+            },
+            "price": 839,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEZCVXpVMk0zeEZTekl6TUh4RlN6VXhNaG9MQ09LT0JSQUNHZ05WVTBRNEhIRGlqZ1U9IixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiU0VBIixudWxsLCJBUyIsIjU2MyJdLFsiU0VBIiwiMjAyNC0wNC0yMCIsIkRYQiIsbnVsbCwiRUsiLCIyMzAiXSxbIkRYQiIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIkVLIiwiNTEyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 08:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-20 09:36"
+                    },
+                    "duration": 96,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 303",
+                    "ticket_also_sold_by": [
+                        "Turkish Airlines"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 80 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-20 20:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-21 15:25"
+                    },
+                    "duration": 645,
+                    "airplane": "Boeing 777",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 6",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 179 kg"
-                    ]
+                        "Carbon emissions estimate: 821 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Istanbul Airport",
+                        "id": "IST",
+                        "time": "2024-04-21 20:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-22 04:50"
+                    },
+                    "duration": 365,
+                    "airplane": "Boeing 777",
+                    "airline": "Turkish Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TK.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TK 716",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 436 kg"
+                    ],
+                    "overnight": true
                 }
             ],
             "layovers": [
                 {
-                    "duration": 280,
+                    "duration": 664,
                     "name": "Chicago O'Hare International Airport",
                     "id": "ORD"
                 },
                 {
-                    "duration": 150,
-                    "name": "Zayed International Airport",
-                    "id": "AUH"
+                    "duration": 290,
+                    "name": "Istanbul Airport",
+                    "id": "IST"
                 }
             ],
-            "total_duration": 1550,
+            "total_duration": 2060,
             "carbon_emissions": {
-                "this_flight": 925000,
+                "this_flight": 1339000,
                 "typical_for_this_route": 1119000,
-                "difference_percent": -17
+                "difference_percent": 20
             },
-            "price": 634,
+            "price": 879,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEZCUVRZek5ueEZXVEUxTUh4RldUSXlOQm9MQ003dUF4QUNHZ05WVTBRNEhIRE83Z009IixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiT1JEIixudWxsLCJBQSIsIjYzNiJdLFsiT1JEIiwiMjAyNC0wNS0wMSIsIkFVSCIsbnVsbCwiRVkiLCIxNTAiXSxbIkFVSCIsIjIwMjQtMDUtMDIiLCJERUwiLG51bGwsIkVZIiwiMjI0Il1dXQ=="
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFZzlWUVRNd00zeFVTelo4VkVzM01UWWFDd2pJcmdVUUFob0RWVk5FT0J4d3lLNEYiLFtbIk1DSSIsIjIwMjQtMDQtMjAiLCJPUkQiLG51bGwsIlVBIiwiMzAzIl0sWyJPUkQiLCIyMDI0LTA0LTIwIiwiSVNUIixudWxsLCJUSyIsIjYiXSxbIklTVCIsIjIwMjQtMDQtMjEiLCJERUwiLG51bGwsIlRLIiwiNzE2Il1dXQ=="
         },
         {
             "flights": [
@@ -238,19 +1087,128 @@
                     "departure_airport": {
                         "name": "Kansas City International Airport",
                         "id": "MCI",
-                        "time": "2024-05-01 14:05"
+                        "time": "2024-04-20 16:16"
+                    },
+                    "arrival_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-20 18:05"
+                    },
+                    "duration": 109,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 1376",
+                    "ticket_also_sold_by": [
+                        "Qatar Airways"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 85 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-20 18:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-04-21 17:20"
+                    },
+                    "duration": 865,
+                    "airplane": "Airbus A350",
+                    "airline": "Qatar Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
+                    "travel_class": "Economy",
+                    "flight_number": "QR 730",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 810 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Hamad International Airport",
+                        "id": "DOH",
+                        "time": "2024-04-21 20:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Indira Gandhi International Airport",
+                        "id": "DEL",
+                        "time": "2024-04-22 02:10"
+                    },
+                    "duration": 205,
+                    "airplane": "Airbus A320",
+                    "airline": "IndiGo",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+                    "travel_class": "Economy",
+                    "flight_number": "6E 1346",
+                    "ticket_also_sold_by": [
+                        "Qatar Airways"
+                    ],
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 159 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 50,
+                    "name": "Dallas Fort Worth International Airport",
+                    "id": "DFW"
+                },
+                {
+                    "duration": 175,
+                    "name": "Hamad International Airport",
+                    "id": "DOH"
+                }
+            ],
+            "total_duration": 1404,
+            "carbon_emissions": {
+                "this_flight": 1055000,
+                "typical_for_this_route": 1119000,
+                "difference_percent": -6
+            },
+            "price": 927,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaE5CUVRFek56WjhVVkkzTXpCOE5rVXhNelEyR2dzSW5OUUZFQUlhQTFWVFJEZ2NjSnpVQlE9PSIsW1siTUNJIiwiMjAyNC0wNC0yMCIsIkRGVyIsbnVsbCwiQUEiLCIxMzc2Il0sWyJERlciLCIyMDI0LTA0LTIwIiwiRE9IIixudWxsLCJRUiIsIjczMCJdLFsiRE9IIiwiMjAyNC0wNC0yMSIsIkRFTCIsbnVsbCwiNkUiLCIxMzQ2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Kansas City International Airport",
+                        "id": "MCI",
+                        "time": "2024-04-20 17:50"
                     },
                     "arrival_airport": {
                         "name": "Detroit Metropolitan Wayne County Airport",
                         "id": "DTW",
-                        "time": "2024-05-01 17:00"
+                        "time": "2024-04-20 20:47"
                     },
-                    "duration": 115,
+                    "duration": 117,
                     "airplane": "Canadair RJ 900",
                     "airline": "Delta",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
                     "travel_class": "Economy",
-                    "flight_number": "DL 3756",
+                    "flight_number": "DL 4911",
                     "ticket_also_sold_by": [
                         "KLM"
                     ],
@@ -258,26 +1216,26 @@
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
-                        "Carbon emissions estimate: 137 kg"
+                        "Carbon emissions estimate: 144 kg"
                     ]
                 },
                 {
                     "departure_airport": {
                         "name": "Detroit Metropolitan Wayne County Airport",
                         "id": "DTW",
-                        "time": "2024-05-01 18:15"
+                        "time": "2024-04-20 22:30"
                     },
                     "arrival_airport": {
-                        "name": "Paris Charles de Gaulle Airport",
-                        "id": "CDG",
-                        "time": "2024-05-02 08:15"
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-04-21 12:20"
                     },
-                    "duration": 480,
+                    "duration": 470,
                     "airplane": "Airbus A330",
                     "airline": "Delta",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
                     "travel_class": "Economy",
-                    "flight_number": "DL 98",
+                    "flight_number": "DL 136",
                     "ticket_also_sold_by": [
                         "KLM"
                     ],
@@ -287,30 +1245,29 @@
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 440 kg"
+                        "Carbon emissions estimate: 478 kg"
                     ],
                     "overnight": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Paris Charles de Gaulle Airport",
-                        "id": "CDG",
-                        "time": "2024-05-02 10:25"
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-04-21 14:10"
                     },
                     "arrival_airport": {
                         "name": "Indira Gandhi International Airport",
                         "id": "DEL",
-                        "time": "2024-05-02 22:35"
+                        "time": "2024-04-22 01:55"
                     },
-                    "duration": 520,
-                    "airplane": "Airbus A350",
-                    "airline": "Air France",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "duration": 495,
+                    "airplane": "Boeing 787-10",
+                    "airline": "KLM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
                     "travel_class": "Economy",
-                    "flight_number": "AF 226",
+                    "flight_number": "KL 871",
                     "ticket_also_sold_by": [
-                        "Delta",
-                        "KLM"
+                        "Delta"
                     ],
                     "legroom": "31 in",
                     "extensions": [
@@ -318,221 +1275,32 @@
                         "Wi-Fi for a fee",
                         "In-seat USB outlet",
                         "On-demand video",
-                        "Carbon emissions estimate: 389 kg"
+                        "Carbon emissions estimate: 391 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 75,
+                    "duration": 103,
                     "name": "Detroit Metropolitan Wayne County Airport",
                     "id": "DTW"
                 },
                 {
-                    "duration": 130,
-                    "name": "Paris Charles de Gaulle Airport",
-                    "id": "CDG"
-                }
-            ],
-            "total_duration": 1320,
-            "carbon_emissions": {
-                "this_flight": 967000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": -14
-            },
-            "price": 804,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEZFVERNM05UWjhSRXc1T0h4QlJqSXlOaG9MQ1B6ekJCQUNHZ05WVTBRNEhIRDg4d1E9IixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiRFRXIixudWxsLCJETCIsIjM3NTYiXSxbIkRUVyIsIjIwMjQtMDUtMDEiLCJDREciLG51bGwsIkRMIiwiOTgiXSxbIkNERyIsIjIwMjQtMDUtMDIiLCJERUwiLG51bGwsIkFGIiwiMjI2Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-05-01 12:45"
-                    },
-                    "arrival_airport": {
-                        "name": "Newark Liberty International Airport",
-                        "id": "EWR",
-                        "time": "2024-05-01 16:40"
-                    },
-                    "duration": 175,
-                    "airplane": "Embraer 175",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 3705",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 188 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Newark Liberty International Airport",
-                        "id": "EWR",
-                        "time": "2024-05-01 21:05"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-05-02 21:30"
-                    },
-                    "duration": 895,
-                    "airplane": "Boeing 787",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 82",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 747 kg"
-                    ],
-                    "overnight": true
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 265,
-                    "name": "Newark Liberty International Airport",
-                    "id": "EWR"
-                }
-            ],
-            "total_duration": 1335,
-            "carbon_emissions": {
-                "this_flight": 936000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": -16
-            },
-            "price": 848,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFZ3RWUVRNM01EVjhWVUU0TWhvTENLeVdCUkFDR2dOVlUwUTRISENzbGdVPSIsW1siTUNJIiwiMjAyNC0wNS0wMSIsIkVXUiIsbnVsbCwiVUEiLCIzNzA1Il0sWyJFV1IiLCIyMDI0LTA1LTAxIiwiREVMIixudWxsLCJVQSIsIjgyIl1dXQ=="
-        }
-    ],
-    "other_flights": [
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-05-01 17:46"
-                    },
-                    "arrival_airport": {
-                        "name": "Minneapolis\u2013Saint Paul International Airport",
-                        "id": "MSP",
-                        "time": "2024-05-01 19:15"
-                    },
-                    "duration": 89,
-                    "airplane": "Airbus A320",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 1266",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Free Wi-Fi",
-                        "In-seat power & USB outlets",
-                        "Live TV",
-                        "Carbon emissions estimate: 83 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Minneapolis\u2013Saint Paul International Airport",
-                        "id": "MSP",
-                        "time": "2024-05-01 20:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 11:20"
-                    },
-                    "duration": 500,
-                    "airplane": "Airbus A330",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 162",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 476 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 14:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-05-03 01:55"
-                    },
-                    "duration": 495,
-                    "airplane": "Boeing 787-10",
-                    "airline": "KLM",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "KL 871",
-                    "ticket_also_sold_by": [
-                        "Delta"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 387 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 45,
-                    "name": "Minneapolis\u2013Saint Paul International Airport",
-                    "id": "MSP"
-                },
-                {
-                    "duration": 170,
+                    "duration": 110,
                     "name": "Amsterdam Airport Schiphol",
                     "id": "AMS"
                 }
             ],
-            "total_duration": 1299,
+            "total_duration": 1295,
             "carbon_emissions": {
-                "this_flight": 948000,
+                "this_flight": 1015000,
                 "typical_for_this_route": 1119000,
-                "difference_percent": -15
+                "difference_percent": -9
             },
-            "price": 810,
+            "price": 1026,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEpFVERFeU5qWjhSRXd4TmpKOFMwdzROekVhQ3dqbytBUVFBaG9EVlZORU9CeHc2UGdFIixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiTVNQIixudWxsLCJETCIsIjEyNjYiXSxbIk1TUCIsIjIwMjQtMDUtMDEiLCJBTVMiLG51bGwsIkRMIiwiMTYyIl0sWyJBTVMiLCIyMDI0LTA1LTAyIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpFVERRNU1URjhSRXd4TXpaOFMwdzROekVhQ3dqSW9RWVFBaG9EVlZORU9CeHd5S0VHIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiRFRXIixudWxsLCJETCIsIjQ5MTEiXSxbIkRUVyIsIjIwMjQtMDQtMjAiLCJBTVMiLG51bGwsIkRMIiwiMTM2Il0sWyJBTVMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
         },
         {
             "flights": [
@@ -540,296 +1308,63 @@
                     "departure_airport": {
                         "name": "Kansas City International Airport",
                         "id": "MCI",
-                        "time": "2024-05-01 17:46"
+                        "time": "2024-04-20 12:30"
                     },
                     "arrival_airport": {
-                        "name": "Minneapolis\u2013Saint Paul International Airport",
-                        "id": "MSP",
-                        "time": "2024-05-01 19:15"
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-20 16:00"
                     },
-                    "duration": 89,
-                    "airplane": "Airbus A320",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 1266",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Free Wi-Fi",
-                        "In-seat power & USB outlets",
-                        "Live TV",
-                        "Carbon emissions estimate: 83 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Minneapolis\u2013Saint Paul International Airport",
-                        "id": "MSP",
-                        "time": "2024-05-01 21:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 12:35"
-                    },
-                    "duration": 505,
-                    "airplane": "Airbus A330",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 164",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 476 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 14:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-05-03 01:55"
-                    },
-                    "duration": 495,
-                    "airplane": "Boeing 787-10",
-                    "airline": "KLM",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "KL 871",
-                    "ticket_also_sold_by": [
-                        "Delta"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 387 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 115,
-                    "name": "Minneapolis\u2013Saint Paul International Airport",
-                    "id": "MSP"
-                },
-                {
-                    "duration": 95,
-                    "name": "Amsterdam Airport Schiphol",
-                    "id": "AMS"
-                }
-            ],
-            "total_duration": 1299,
-            "carbon_emissions": {
-                "this_flight": 948000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": -15
-            },
-            "price": 810,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEpFVERFeU5qWjhSRXd4TmpSOFMwdzROekVhQ3dqbytBUVFBaG9EVlZORU9CeHc2UGdFIixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiTVNQIixudWxsLCJETCIsIjEyNjYiXSxbIk1TUCIsIjIwMjQtMDUtMDEiLCJBTVMiLG51bGwsIkRMIiwiMTY0Il0sWyJBTVMiLCIyMDI0LTA1LTAyIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-05-01 13:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Boston Logan International Airport",
-                        "id": "BOS",
-                        "time": "2024-05-01 17:03"
-                    },
-                    "duration": 183,
+                    "duration": 150,
                     "airplane": "Embraer 175",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 5591",
-                    "ticket_also_sold_by": [
-                        "Virgin Atlantic"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "Carbon emissions estimate: 219 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Boston Logan International Airport",
-                        "id": "BOS",
-                        "time": "2024-05-01 19:20"
-                    },
-                    "arrival_airport": {
-                        "name": "Heathrow Airport",
-                        "id": "LHR",
-                        "time": "2024-05-02 07:05"
-                    },
-                    "duration": 405,
-                    "airplane": "Airbus A330",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 58",
-                    "ticket_also_sold_by": [
-                        "Virgin Atlantic"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 509 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Heathrow Airport",
-                        "id": "LHR",
-                        "time": "2024-05-02 10:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-05-02 23:55"
-                    },
-                    "duration": 535,
-                    "airplane": "Airbus A350",
-                    "airline": "Virgin Atlantic",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VS.png",
-                    "travel_class": "Economy",
-                    "flight_number": "VS 302",
-                    "ticket_also_sold_by": [
-                        "Delta"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 460 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 137,
-                    "name": "Boston Logan International Airport",
-                    "id": "BOS"
-                },
-                {
-                    "duration": 205,
-                    "name": "Heathrow Airport",
-                    "id": "LHR"
-                }
-            ],
-            "total_duration": 1465,
-            "carbon_emissions": {
-                "this_flight": 1189000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": 6
-            },
-            "price": 815,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEZFVERVMU9URjhSRXcxT0h4V1V6TXdNaG9MQ0piOEJCQUNHZ05WVTBRNEhIQ1cvQVE9IixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiQk9TIixudWxsLCJETCIsIjU1OTEiXSxbIkJPUyIsIjIwMjQtMDUtMDEiLCJMSFIiLG51bGwsIkRMIiwiNTgiXSxbIkxIUiIsIjIwMjQtMDUtMDIiLCJERUwiLG51bGwsIlZTIiwiMzAyIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-05-01 09:16"
-                    },
-                    "arrival_airport": {
-                        "name": "Denver International Airport",
-                        "id": "DEN",
-                        "time": "2024-05-01 10:13"
-                    },
-                    "duration": 117,
-                    "airplane": "Boeing 737",
                     "airline": "United",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "UA 2230",
-                    "ticket_also_sold_by": [
-                        "Air Canada"
-                    ],
-                    "legroom": "30 in",
+                    "flight_number": "UA 6115",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Average legroom (30 in)",
+                        "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat power outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 92 kg"
+                        "Carbon emissions estimate: 184 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Denver International Airport",
-                        "id": "DEN",
-                        "time": "2024-05-01 11:15"
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-20 17:16"
                     },
                     "arrival_airport": {
                         "name": "Toronto Pearson International Airport",
                         "id": "YYZ",
-                        "time": "2024-05-01 16:28"
+                        "time": "2024-04-20 19:01"
                     },
-                    "duration": 193,
-                    "airplane": "Airbus A220-300 Passenger",
-                    "airline": "Air Canada",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "duration": 105,
+                    "airplane": "Embraer 175",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "AC 1040",
-                    "ticket_also_sold_by": [
-                        "United"
-                    ],
-                    "legroom": "30 in",
+                    "flight_number": "UA 3453",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Average legroom (30 in)",
+                        "Average legroom (31 in)",
                         "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 174 kg"
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 89 kg"
                     ]
                 },
                 {
                     "departure_airport": {
                         "name": "Toronto Pearson International Airport",
                         "id": "YYZ",
-                        "time": "2024-05-01 19:45"
+                        "time": "2024-04-20 20:10"
                     },
                     "arrival_airport": {
                         "name": "Indira Gandhi International Airport",
                         "id": "DEL",
-                        "time": "2024-05-02 20:25"
+                        "time": "2024-04-21 20:50"
                     },
                     "duration": 910,
                     "airplane": "Boeing 777",
@@ -854,26 +1389,26 @@
             ],
             "layovers": [
                 {
-                    "duration": 62,
-                    "name": "Denver International Airport",
-                    "id": "DEN"
+                    "duration": 76,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
                 },
                 {
-                    "duration": 197,
+                    "duration": 69,
                     "name": "Toronto Pearson International Airport",
                     "id": "YYZ"
                 }
             ],
-            "total_duration": 1479,
+            "total_duration": 1310,
             "carbon_emissions": {
-                "this_flight": 1150000,
+                "this_flight": 1156000,
                 "typical_for_this_route": 1119000,
                 "difference_percent": 3
             },
-            "price": 854,
+            "price": 1197,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEpWUVRJeU16QjhRVU14TURRd2ZFRkRORElhQ3dqc21nVVFBaG9EVlZORU9CeHc3Sm9GIixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiREVOIixudWxsLCJVQSIsIjIyMzAiXSxbIkRFTiIsIjIwMjQtMDUtMDEiLCJZWVoiLG51bGwsIkFDIiwiMTA0MCJdLFsiWVlaIiwiMjAyNC0wNS0wMSIsIkRFTCIsbnVsbCwiQUMiLCI0MiJdXV0="
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRZeE1UVjhWVUV6TkRVemZFRkRORElhQ3dqb3BnY1FBaG9EVlZORU9CeHc2S1lIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiSUFEIixudWxsLCJVQSIsIjYxMTUiXSxbIklBRCIsIjIwMjQtMDQtMjAiLCJZWVoiLG51bGwsIlVBIiwiMzQ1MyJdLFsiWVlaIiwiMjAyNC0wNC0yMCIsIkRFTCIsbnVsbCwiQUMiLCI0MiJdXV0="
         },
         {
             "flights": [
@@ -881,293 +1416,180 @@
                     "departure_airport": {
                         "name": "Kansas City International Airport",
                         "id": "MCI",
-                        "time": "2024-05-01 18:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Detroit Metropolitan Wayne County Airport",
-                        "id": "DTW",
-                        "time": "2024-05-01 20:50"
-                    },
-                    "duration": 110,
-                    "airplane": "Boeing 717",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 1455",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "Carbon emissions estimate: 128 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Detroit Metropolitan Wayne County Airport",
-                        "id": "DTW",
-                        "time": "2024-05-01 22:20"
-                    },
-                    "arrival_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 12:20"
-                    },
-                    "duration": 480,
-                    "airplane": "Airbus A330",
-                    "airline": "Delta",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "DL 136",
-                    "ticket_also_sold_by": [
-                        "KLM"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 451 kg"
-                    ],
-                    "overnight": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "Amsterdam Airport Schiphol",
-                        "id": "AMS",
-                        "time": "2024-05-02 14:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Indira Gandhi International Airport",
-                        "id": "DEL",
-                        "time": "2024-05-03 01:55"
-                    },
-                    "duration": 495,
-                    "airplane": "Boeing 787-10",
-                    "airline": "KLM",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
-                    "travel_class": "Economy",
-                    "flight_number": "KL 871",
-                    "ticket_also_sold_by": [
-                        "Delta"
-                    ],
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 387 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 90,
-                    "name": "Detroit Metropolitan Wayne County Airport",
-                    "id": "DTW"
-                },
-                {
-                    "duration": 110,
-                    "name": "Amsterdam Airport Schiphol",
-                    "id": "AMS"
-                }
-            ],
-            "total_duration": 1285,
-            "carbon_emissions": {
-                "this_flight": 968000,
-                "typical_for_this_route": 1119000,
-                "difference_percent": -13
-            },
-            "price": 910,
-            "type": "One way",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEpFVERFME5UVjhSRXd4TXpaOFMwdzROekVhQ3dqNHhnVVFBaG9EVlZORU9CeHcrTVlGIixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiRFRXIixudWxsLCJETCIsIjE0NTUiXSxbIkRUVyIsIjIwMjQtMDUtMDEiLCJBTVMiLG51bGwsIkRMIiwiMTM2Il0sWyJBTVMiLCIyMDI0LTA1LTAyIiwiREVMIixudWxsLCJLTCIsIjg3MSJdXV0="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Kansas City International Airport",
-                        "id": "MCI",
-                        "time": "2024-05-01 15:28"
+                        "time": "2024-04-20 15:28"
                     },
                     "arrival_airport": {
                         "name": "Chicago O'Hare International Airport",
                         "id": "ORD",
-                        "time": "2024-05-01 17:04"
+                        "time": "2024-04-20 17:08"
                     },
-                    "duration": 96,
-                    "airplane": "Boeing 737",
+                    "duration": 100,
+                    "airplane": "Embraer 175",
                     "airline": "United",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "UA 2374",
-                    "legroom": "30 in",
+                    "flight_number": "UA 3636",
+                    "legroom": "31 in",
                     "extensions": [
-                        "Average legroom (30 in)",
+                        "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 80 kg"
+                        "Carbon emissions estimate: 92 kg"
                     ]
                 },
                 {
                     "departure_airport": {
                         "name": "Chicago O'Hare International Airport",
                         "id": "ORD",
-                        "time": "2024-05-01 19:15"
+                        "time": "2024-04-20 18:00"
                     },
                     "arrival_airport": {
-                        "name": "Zurich Airport",
-                        "id": "ZRH",
-                        "time": "2024-05-02 10:50"
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-04-21 09:40"
                     },
-                    "duration": 515,
-                    "airplane": "Airbus A330",
-                    "airline": "SWISS",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+                    "duration": 520,
+                    "airplane": "Boeing 787-10",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "LX 9",
+                    "flight_number": "UA 953",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
-                        "In-seat USB outlet",
+                        "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 479 kg"
+                        "Carbon emissions estimate: 474 kg"
                     ],
                     "overnight": true
                 },
                 {
                     "departure_airport": {
-                        "name": "Zurich Airport",
-                        "id": "ZRH",
-                        "time": "2024-05-02 12:20"
+                        "name": "Munich International Airport",
+                        "id": "MUC",
+                        "time": "2024-04-21 12:20"
                     },
                     "arrival_airport": {
                         "name": "Indira Gandhi International Airport",
                         "id": "DEL",
-                        "time": "2024-05-02 23:40"
+                        "time": "2024-04-21 23:30"
                     },
-                    "duration": 470,
-                    "airplane": "Airbus A330",
-                    "airline": "SWISS",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+                    "duration": 460,
+                    "airplane": "Airbus A380",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
                     "travel_class": "Economy",
-                    "flight_number": "LX 146",
+                    "flight_number": "LH 762",
                     "legroom": "31 in",
                     "extensions": [
                         "Average legroom (31 in)",
                         "Wi-Fi for a fee",
                         "In-seat USB outlet",
                         "On-demand video",
-                        "Carbon emissions estimate: 440 kg"
+                        "Carbon emissions estimate: 524 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 131,
+                    "duration": 52,
                     "name": "Chicago O'Hare International Airport",
                     "id": "ORD"
                 },
                 {
-                    "duration": 90,
-                    "name": "Zurich Airport",
-                    "id": "ZRH"
+                    "duration": 160,
+                    "name": "Munich International Airport",
+                    "id": "MUC"
                 }
             ],
-            "total_duration": 1302,
+            "total_duration": 1292,
             "carbon_emissions": {
-                "this_flight": 1001000,
+                "this_flight": 1091000,
                 "typical_for_this_route": 1119000,
-                "difference_percent": -11
+                "difference_percent": -3
             },
-            "price": 6760,
+            "price": 1211,
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "booking_token": "WyJDalJJZFZkQmNXeHhOWFpDYzFsQlJYSTRkWGRDUnkwdExTMHRMUzB0TFhCbWNtY3hNVUZCUVVGQlIxbGlaR3c0UjNSamJtOUJFaEJWUVRJek56UjhURmc1ZkV4WU1UUTJHZ3NJNUtBcEVBSWFBMVZUUkRnY2NPU2dLUT09IixbWyJNQ0kiLCIyMDI0LTA1LTAxIiwiT1JEIixudWxsLCJVQSIsIjIzNzQiXSxbIk9SRCIsIjIwMjQtMDUtMDEiLCJaUkgiLG51bGwsIkxYIiwiOSJdLFsiWlJIIiwiMjAyNC0wNS0wMiIsIkRFTCIsbnVsbCwiTFgiLCIxNDYiXV1d"
+            "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIwMHhXV2RDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlhWE13UWpoM1dVRkJFaEpWUVRNMk16WjhWVUU1TlROOFRFZzNOaklhQ3dpQ3NnY1FBaG9EVlZORU9CeHdncklIIixbWyJNQ0kiLCIyMDI0LTA0LTIwIiwiT1JEIixudWxsLCJVQSIsIjM2MzYiXSxbIk9SRCIsIjIwMjQtMDQtMjAiLCJNVUMiLG51bGwsIlVBIiwiOTUzIl0sWyJNVUMiLCIyMDI0LTA0LTIxIiwiREVMIixudWxsLCJMSCIsIjc2MiJdXV0="
         }
     ],
     "price_insights": {
-        "lowest_price": 547,
-        "price_level": "low",
+        "lowest_price": 582,
+        "price_level": "typical",
         "typical_price_range": [
-            690,
-            1250
+            580,
+            670
         ],
         "price_history": [
             [
                 1707804000,
-                703
+                662
             ],
             [
                 1707890400,
-                703
+                662
             ],
             [
                 1707976800,
-                703
+                662
             ],
             [
                 1708063200,
-                703
+                662
             ],
             [
                 1708149600,
-                703
+                662
             ],
             [
                 1708236000,
-                703
+                662
             ],
             [
                 1708322400,
-                703
+                662
             ],
             [
                 1708408800,
-                703
+                662
             ],
             [
                 1708495200,
-                703
+                662
             ],
             [
                 1708581600,
-                692
+                662
             ],
             [
                 1708668000,
-                692
+                662
             ],
             [
                 1708754400,
-                692
+                662
             ],
             [
                 1708840800,
-                692
+                662
             ],
             [
                 1708927200,
-                692
+                662
             ],
             [
                 1709013600,
-                692
+                662
             ],
             [
                 1709100000,
-                692
+                662
             ],
             [
                 1709186400,
-                692
+                662
             ],
             [
                 1709272800,
@@ -1195,159 +1617,159 @@
             ],
             [
                 1709791200,
-                692
+                582
             ],
             [
                 1709877600,
-                691
+                582
             ],
             [
                 1709964000,
-                691
+                582
             ],
             [
                 1710050400,
-                691
+                582
             ],
             [
                 1710133200,
-                691
+                582
             ],
             [
                 1710219600,
-                691
+                582
             ],
             [
                 1710306000,
-                691
+                582
             ],
             [
                 1710392400,
-                691
+                582
             ],
             [
                 1710478800,
-                691
+                582
             ],
             [
                 1710565200,
-                691
+                682
             ],
             [
                 1710651600,
-                691
+                682
             ],
             [
                 1710738000,
-                691
+                582
             ],
             [
                 1710824400,
-                691
+                582
             ],
             [
                 1710910800,
-                691
+                582
             ],
             [
                 1710997200,
-                691
+                582
             ],
             [
                 1711083600,
-                691
+                582
             ],
             [
                 1711170000,
-                691
+                582
             ],
             [
                 1711256400,
-                691
+                582
             ],
             [
                 1711342800,
-                691
+                582
             ],
             [
                 1711429200,
-                634
+                582
             ],
             [
                 1711515600,
-                634
+                582
             ],
             [
                 1711602000,
-                634
+                582
             ],
             [
                 1711688400,
-                542
+                582
             ],
             [
                 1711774800,
-                542
+                582
             ],
             [
                 1711861200,
-                634
+                582
             ],
             [
                 1711947600,
-                634
+                582
             ],
             [
                 1712034000,
-                547
+                662
             ],
             [
                 1712120400,
-                547
+                662
             ],
             [
                 1712206800,
-                542
+                582
             ],
             [
                 1712293200,
-                547
+                582
             ],
             [
                 1712379600,
-                542
+                582
             ],
             [
                 1712466000,
-                547
+                582
             ],
             [
                 1712552400,
-                547
+                582
             ],
             [
                 1712638800,
-                547
+                582
             ],
             [
                 1712725200,
-                547
+                582
             ],
             [
                 1712811600,
-                547
+                582
             ],
             [
                 1712898000,
-                547
+                582
             ],
             [
                 1712984400,
-                547
+                582
             ],
             [
                 1713070800,
-                547
+                582
             ]
         ]
     }
