@@ -1,4 +1,5 @@
 from serpapi import GoogleSearch
+import json
 
 params = {
   "api_key": "72111e0bcf0cbe8826ecd4aeb75f5e60c640cf15864ae3dfdd9867dc5bc55d5c",
@@ -7,12 +8,15 @@ params = {
   "gl": "us",
   "departure_id": "CDG",
   "arrival_id": "AUS",
-  "outbound_date": "2024-04-14",
+  "outbound_date": "2024-04-15",
   "currency": "USD",
+  "adults": "1",
   "type": "2"
 }
 
 search = GoogleSearch(params)
 results = search.get_dict()
 
-print(results)
+# Write results to output.json file
+with open('output.json', 'w') as f:
+    json.dump(results, f)
