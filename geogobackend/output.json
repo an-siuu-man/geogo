@@ -1,5 +1,6 @@
 {
     "search_metadata": {
+<<<<<<< HEAD
         "id": "661bba09fa8675cfa516283e",
         "status": "Success",
         "json_endpoint": "https://serpapi.com/searches/27c04010f6441046/661bba09fa8675cfa516283e.json",
@@ -9,14 +10,30 @@
         "raw_html_file": "https://serpapi.com/searches/27c04010f6441046/661bba09fa8675cfa516283e.html",
         "prettify_html_file": "https://serpapi.com/searches/27c04010f6441046/661bba09fa8675cfa516283e.prettify",
         "total_time_taken": 1.55
+=======
+        "id": "661bb4907d171a2eb5d2a39c",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/5012e32f9c206fc4/661bb4907d171a2eb5d2a39c.json",
+        "created_at": "2024-04-14 10:48:48 UTC",
+        "processed_at": "2024-04-14 10:48:48 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+BOS+from+YYC+on+2024-04-16+one-way",
+        "raw_html_file": "https://serpapi.com/searches/5012e32f9c206fc4/661bb4907d171a2eb5d2a39c.html",
+        "prettify_html_file": "https://serpapi.com/searches/5012e32f9c206fc4/661bb4907d171a2eb5d2a39c.prettify",
+        "total_time_taken": 1.4
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
     },
     "search_parameters": {
         "engine": "google_flights",
         "hl": "en",
         "gl": "us",
         "type": "2",
+<<<<<<< HEAD
         "departure_id": "ACC",
         "arrival_id": "ADL",
+=======
+        "departure_id": "YYC",
+        "arrival_id": "BOS",
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
         "outbound_date": "2024-04-16",
         "adults": 1,
         "currency": "USD"
@@ -26,6 +43,7 @@
             "flights": [
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Kotoka International Airport - Accra",
                         "id": "ACC",
                         "time": "2024-04-16 11:20"
@@ -101,11 +119,62 @@
                         "In-seat power & USB outlets",
                         "On-demand video",
                         "Carbon emissions estimate: 90 kg"
+=======
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 07:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Minneapolis\u2013Saint Paul International Airport",
+                        "id": "MSP",
+                        "time": "2024-04-16 11:37"
+                    },
+                    "duration": 162,
+                    "airplane": "Airbus A320",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 1221",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Live TV",
+                        "Carbon emissions estimate: 168 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Minneapolis\u2013Saint Paul International Airport",
+                        "id": "MSP",
+                        "time": "2024-04-16 13:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 17:06"
+                    },
+                    "duration": 173,
+                    "airplane": "Airbus A321",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 2208",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Live TV",
+                        "Carbon emissions estimate: 159 kg"
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                     ]
                 }
             ],
             "layovers": [
                 {
+<<<<<<< HEAD
                     "duration": 200,
                     "name": "Hamad International Airport",
                     "id": "DOH",
@@ -126,11 +195,29 @@
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
             "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIybFdXRkZDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlkV2RyUzB0WmIydEJFaEpSVWpFME1qUjhVVkk1T0RoOFVWSTVPRGdhQ3dqemhnb1FBaG9EVlZORU9CeHc4NFlLIixbWyJBQ0MiLCIyMDI0LTA0LTE2IiwiRE9IIixudWxsLCJRUiIsIjE0MjQiXSxbIkRPSCIsIjIwMjQtMDQtMTciLCJNRUwiLG51bGwsIlFSIiwiOTg4Il0sWyJNRUwiLCIyMDI0LTA0LTE4IiwiQURMIixudWxsLCJRUiIsIjk4OCJdXV0="
+=======
+                    "duration": 96,
+                    "name": "Minneapolis\u2013Saint Paul International Airport",
+                    "id": "MSP"
+                }
+            ],
+            "total_duration": 431,
+            "carbon_emissions": {
+                "this_flight": 328000,
+                "typical_for_this_route": 330000,
+                "difference_percent": -1
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZzFFVERFeU1qRjhSRXd5TWpBNEdnc0k0ckVCRUFJYUExVlRSRGdjY09LeEFRPT0iLFtbIllZQyIsIjIwMjQtMDQtMTYiLCJNU1AiLG51bGwsIkRMIiwiMTIyMSJdLFsiTVNQIiwiMjAyNC0wNC0xNiIsIkJPUyIsbnVsbCwiREwiLCIyMjA4Il1dXQ=="
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
         },
         {
             "flights": [
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Kotoka International Airport - Accra",
                         "id": "ACC",
                         "time": "2024-04-16 11:20"
@@ -181,10 +268,63 @@
                         "Carbon emissions estimate: 751 kg"
                     ],
                     "overnight": true
+=======
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 12:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-16 17:10"
+                    },
+                    "duration": 220,
+                    "airplane": "Airbus A319",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2517",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 247 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-16 19:12"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 23:52"
+                    },
+                    "duration": 220,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2567",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 191 kg"
+                    ]
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                 }
             ],
             "layovers": [
                 {
+<<<<<<< HEAD
                     "duration": 1235,
                     "name": "Hamad International Airport",
                     "id": "DOH",
@@ -199,6 +339,97 @@
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QR.png",
             "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIybFdXRkZDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlkV2RyUzB0WmIydEJFZ3hSVWpFME1qUjhVVkk1TVRRYUN3aTNsZ3NRQWhvRFZWTkVPQnh3dDVZTCIsW1siQUNDIiwiMjAyNC0wNC0xNiIsIkRPSCIsbnVsbCwiUVIiLCIxNDI0Il0sWyJET0giLCIyMDI0LTA0LTE3IiwiQURMIixudWxsLCJRUiIsIjkxNCJdXV0="
+=======
+                    "duration": 122,
+                    "name": "Dallas Fort Worth International Airport",
+                    "id": "DFW"
+                }
+            ],
+            "total_duration": 562,
+            "carbon_emissions": {
+                "this_flight": 440000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 33
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZzFCUVRJMU1UZDhRVUV5TlRZM0dnc0k0ckVCRUFJYUExVlRSRGdjY09LeEFRPT0iLFtbIllZQyIsIjIwMjQtMDQtMTYiLCJERlciLG51bGwsIkFBIiwiMjUxNyJdLFsiREZXIiwiMjAyNC0wNC0xNiIsIkJPUyIsbnVsbCwiQUEiLCIyNTY3Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 07:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 13:20"
+                    },
+                    "duration": 230,
+                    "airplane": "Airbus A321",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 132",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 239 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 15:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 17:10"
+                    },
+                    "duration": 100,
+                    "airplane": "Embraer 175",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 8698",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 119 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 130,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 460,
+            "carbon_emissions": {
+                "this_flight": 359000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 9
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3hCUXpFek1ueEJRemcyT1RnYUN3anhzUUVRQWhvRFZWTkVPQnh3OGJFQiIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllZWiIsbnVsbCwiQUMiLCIxMzIiXSxbIllZWiIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIkFDIiwiODY5OCJdXV0="
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
         }
     ],
     "other_flights": [
@@ -206,6 +437,7 @@
             "flights": [
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Kotoka International Airport - Accra",
                         "id": "ACC",
                         "time": "2024-04-16 17:20"
@@ -359,12 +591,60 @@
                         "In-seat power & USB outlets",
                         "On-demand video",
                         "Carbon emissions estimate: 778 kg"
+=======
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 20:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Edmonton International Airport",
+                        "id": "YEG",
+                        "time": "2024-04-16 20:53"
+                    },
+                    "duration": 53,
+                    "airplane": "De Havilland-Bombardier Dash-8",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 8140",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 33 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Edmonton International Airport",
+                        "id": "YEG",
+                        "time": "2024-04-17 00:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                        "id": "YUL",
+                        "time": "2024-04-17 06:32"
+                    },
+                    "duration": 247,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 332",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 222 kg"
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                     ],
                     "overnight": true,
                     "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Sydney Airport",
                         "id": "SYD",
                         "time": "2024-04-18 15:55"
@@ -460,6 +740,25 @@
                     "flight_number": "QR 10",
                     "ticket_also_sold_by": [
                         "British Airways"
+=======
+                        "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                        "id": "YUL",
+                        "time": "2024-04-17 08:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-17 09:43"
+                    },
+                    "duration": 88,
+                    "airplane": "Embraer 175",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 8604",
+                    "ticket_also_sold_by": [
+                        "United"
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                     ],
                     "legroom": "31 in",
                     "extensions": [
@@ -467,6 +766,7 @@
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
+<<<<<<< HEAD
                         "Carbon emissions estimate: 339 kg"
                     ]
                 },
@@ -499,10 +799,15 @@
                         "Carbon emissions estimate: 751 kg"
                     ],
                     "overnight": true
+=======
+                        "Carbon emissions estimate: 86 kg"
+                    ]
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                 }
             ],
             "layovers": [
                 {
+<<<<<<< HEAD
                     "duration": 275,
                     "name": "Heathrow Airport",
                     "id": "LHR"
@@ -521,11 +826,34 @@
             "type": "One way",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
             "booking_token": "WyJDalJJT0U5UE1FcGFiWGxuU0hkQlIybFdXRkZDUnkwdExTMHRMUzB0TFMxMmRHZDJOMEZCUVVGQlIxbGlkV2RyUzB0WmIydEJFZzlDUVRjNGZGRlNNVEI4VVZJNU1UUWFDd2pKcnhJUUFob0RWVk5FT0J4d3lhOFMiLFtbIkFDQyIsIjIwMjQtMDQtMTYiLCJMSFIiLG51bGwsIkJBIiwiNzgiXSxbIkxIUiIsIjIwMjQtMDQtMTciLCJET0giLG51bGwsIlFSIiwiMTAiXSxbIkRPSCIsIjIwMjQtMDQtMTciLCJBREwiLG51bGwsIlFSIiwiOTE0Il1dXQ=="
+=======
+                    "duration": 212,
+                    "name": "Edmonton International Airport",
+                    "id": "YEG"
+                },
+                {
+                    "duration": 103,
+                    "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                    "id": "YUL"
+                }
+            ],
+            "total_duration": 703,
+            "carbon_emissions": {
+                "this_flight": 343000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 4
+            },
+            "price": 222,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFaE5CUXpneE5EQjhRVU16TXpKOFFVTTROakEwR2dzSXM2MEJFQUlhQTFWVFJEZ2NjTE90QVE9PSIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllFRyIsbnVsbCwiQUMiLCI4MTQwIl0sWyJZRUciLCIyMDI0LTA0LTE3IiwiWVVMIixudWxsLCJBQyIsIjMzMiJdLFsiWVVMIiwiMjAyNC0wNC0xNyIsIkJPUyIsbnVsbCwiQUMiLCI4NjA0Il1dXQ=="
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
         },
         {
             "flights": [
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Kotoka International Airport - Accra",
                         "id": "ACC",
                         "time": "2024-04-16 22:20"
@@ -651,12 +979,33 @@
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
                     "travel_class": "Economy",
                     "flight_number": "EK 788",
+=======
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 08:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-16 15:08"
+                    },
+                    "duration": 278,
+                    "airplane": "Airbus A320",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 584",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                     "legroom": "32 in",
                     "extensions": [
                         "Above average legroom (32 in)",
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
+<<<<<<< HEAD
                         "Carbon emissions estimate: 523 kg"
                     ],
                     "overnight": true
@@ -685,12 +1034,161 @@
                         "In-seat power & USB outlets",
                         "On-demand video",
                         "Carbon emissions estimate: 1038 kg"
+=======
+                        "Carbon emissions estimate: 347 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-16 16:59"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 18:13"
+                    },
+                    "duration": 74,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 2612",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 68 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 111,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 463,
+            "carbon_emissions": {
+                "this_flight": 415000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 26
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3hCUXpVNE5IeFZRVEkyTVRJYUN3amlzUUVRQWhvRFZWTkVPQnh3NHJFQiIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIkVXUiIsbnVsbCwiQUMiLCI1ODQiXSxbIkVXUiIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIlVBIiwiMjYxMiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 14:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Salt Lake City International Airport",
+                        "id": "SLC",
+                        "time": "2024-04-16 16:20"
+                    },
+                    "duration": 130,
+                    "airplane": "Embraer 175",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 4160",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 139 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Salt Lake City International Airport",
+                        "id": "SLC",
+                        "time": "2024-04-16 17:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 23:59"
+                    },
+                    "duration": 274,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Delta",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "DL 899",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Live TV",
+                        "Carbon emissions estimate: 222 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 65,
+                    "name": "Salt Lake City International Airport",
+                    "id": "SLC"
+                }
+            ],
+            "total_duration": 469,
+            "carbon_emissions": {
+                "this_flight": 362000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 10
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3hFVERReE5qQjhSRXc0T1RrYUN3amlzUUVRQWhvRFZWTkVPQnh3NHJFQiIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIlNMQyIsbnVsbCwiREwiLCI0MTYwIl0sWyJTTEMiLCIyMDI0LTA0LTE2IiwiQk9TIixudWxsLCJETCIsIjg5OSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 01:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 06:49"
+                    },
+                    "duration": 229,
+                    "airplane": "Airbus A330",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 156",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 206 kg"
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
                     ],
                     "overnight": true,
                     "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
+<<<<<<< HEAD
                         "name": "Sydney Airport",
                         "id": "SYD",
                         "time": "2024-04-18 08:40"
@@ -709,18 +1207,267 @@
                     "ticket_also_sold_by": [
                         "Emirates"
                     ],
+=======
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 08:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 10:33"
+                    },
+                    "duration": 103,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 766",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
-                        "Free Wi-Fi",
+                        "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 113 kg"
+                        "On-demand video",
+                        "Carbon emissions estimate: 87 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
+                    "duration": 121,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 453,
+            "carbon_emissions": {
+                "this_flight": 294000,
+                "typical_for_this_route": 330000,
+                "difference_percent": -11
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3RCUXpFMU5ueEJRemMyTmhvTENQR3hBUkFDR2dOVlUwUTRISER4c1FFPSIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllZWiIsbnVsbCwiQUMiLCIxNTYiXSxbIllZWiIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIkFDIiwiNzY2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 06:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 11:50"
+                    },
+                    "duration": 230,
+                    "airplane": "Airbus A321",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 130",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 239 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-04-16 14:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 16:08"
+                    },
+                    "duration": 103,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 768",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 87 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 155,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 488,
+            "carbon_emissions": {
+                "this_flight": 327000,
+                "typical_for_this_route": 330000,
+                "difference_percent": -1
+            },
+            "price": 228,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3RCUXpFek1IeEJRemMyT0JvTENQR3hBUkFDR2dOVlUwUTRISER4c1FFPSIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllZWiIsbnVsbCwiQUMiLCIxMzAiXSxbIllZWiIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIkFDIiwiNzY4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 08:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Ottawa International Airport",
+                        "id": "YOW",
+                        "time": "2024-04-16 14:47"
+                    },
+                    "duration": 237,
+                    "airplane": "Embraer 195 E2",
+                    "airline": "Porter Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PD.png",
+                    "travel_class": "Economy",
+                    "flight_number": "PD 270",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Ottawa International Airport",
+                        "id": "YOW",
+                        "time": "2024-04-16 16:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 18:05"
+                    },
+                    "duration": 90,
+                    "airplane": "De Havilland-Bombardier Dash-8",
+                    "airline": "Porter Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PD.png",
+                    "travel_class": "Economy",
+                    "flight_number": "PD 2345",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 62 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 108,
+                    "name": "Ottawa International Airport",
+                    "id": "YOW"
+                }
+            ],
+            "total_duration": 435,
+            "carbon_emissions": {
+                "this_flight": 303000,
+                "typical_for_this_route": 330000,
+                "difference_percent": -8
+            },
+            "price": 303,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/PD.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3hRUkRJM01IeFFSREl6TkRVYUN3akM3QUVRQWhvRFZWTkVPQnh3d3V3QiIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllPVyIsbnVsbCwiUEQiLCIyNzAiXSxbIllPVyIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIlBEIiwiMjM0NSJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 00:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                        "id": "YUL",
+                        "time": "2024-04-16 06:30"
+                    },
+                    "duration": 245,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 328",
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+<<<<<<< HEAD
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 113 kg"
+=======
+                        "On-demand video",
+                        "Carbon emissions estimate: 203 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                        "id": "YUL",
+                        "time": "2024-04-16 08:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 09:43"
+                    },
+                    "duration": 88,
+                    "airplane": "Embraer 175",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 8604",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 86 kg"
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+<<<<<<< HEAD
                     "duration": 245,
                     "name": "Dubai International Airport",
                     "id": "DXB"
@@ -828,6 +1575,351 @@
             [
                 1713052800,
                 1648
+=======
+                    "duration": 105,
+                    "name": "Montr\u00e9al-Pierre Elliott Trudeau International Airport",
+                    "id": "YUL"
+                }
+            ],
+            "total_duration": 438,
+            "carbon_emissions": {
+                "this_flight": 291000,
+                "typical_for_this_route": 330000,
+                "difference_percent": -12
+            },
+            "price": 318,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZ3hCUXpNeU9IeEJRemcyTURRYUN3aTIrQUVRQWhvRFZWTkVPQnh3dHZnQiIsW1siWVlDIiwiMjAyNC0wNC0xNiIsIllVTCIsbnVsbCwiQUMiLCIzMjgiXSxbIllVTCIsIjIwMjQtMDQtMTYiLCJCT1MiLG51bGwsIkFDIiwiODYwNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Calgary International Airport",
+                        "id": "YYC",
+                        "time": "2024-04-16 12:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-16 17:10"
+                    },
+                    "duration": 210,
+                    "airplane": "Airbus A319",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1655",
+                    "ticket_also_sold_by": [
+                        "Air Canada"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 228 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-16 18:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Boston Logan International Airport",
+                        "id": "BOS",
+                        "time": "2024-04-16 21:46"
+                    },
+                    "duration": 146,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1568",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 128 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 70,
+                    "name": "Chicago O'Hare International Airport",
+                    "id": "ORD"
+                }
+            ],
+            "total_duration": 426,
+            "carbon_emissions": {
+                "this_flight": 357000,
+                "typical_for_this_route": 330000,
+                "difference_percent": 8
+            },
+            "price": 324,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "booking_token": "WyJDalJJUVdOU1RsbHFkamxxYTI5QlFWQkpibEZDUnkwdExTMHRMUzB0TFc5clltSjZOVUZCUVVGQlIxbGlkRXBGUnpOTk1ESkJFZzFWUVRFMk5UVjhWVUV4TlRZNEdnc0k1ZndCRUFJYUExVlRSRGdjY09YOEFRPT0iLFtbIllZQyIsIjIwMjQtMDQtMTYiLCJPUkQiLG51bGwsIlVBIiwiMTY1NSJdLFsiT1JEIiwiMjAyNC0wNC0xNiIsIkJPUyIsbnVsbCwiVUEiLCIxNTY4Il1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 222,
+        "price_level": "typical",
+        "typical_price_range": [
+            155,
+            245
+        ],
+        "price_history": [
+            [
+                1707894000,
+                158
+            ],
+            [
+                1707980400,
+                158
+            ],
+            [
+                1708066800,
+                159
+            ],
+            [
+                1708153200,
+                159
+            ],
+            [
+                1708239600,
+                159
+            ],
+            [
+                1708326000,
+                159
+            ],
+            [
+                1708412400,
+                159
+            ],
+            [
+                1708498800,
+                158
+            ],
+            [
+                1708585200,
+                159
+            ],
+            [
+                1708671600,
+                159
+            ],
+            [
+                1708758000,
+                159
+            ],
+            [
+                1708844400,
+                159
+            ],
+            [
+                1708930800,
+                159
+            ],
+            [
+                1709017200,
+                159
+            ],
+            [
+                1709103600,
+                158
+            ],
+            [
+                1709190000,
+                158
+            ],
+            [
+                1709276400,
+                158
+            ],
+            [
+                1709362800,
+                158
+            ],
+            [
+                1709449200,
+                158
+            ],
+            [
+                1709535600,
+                158
+            ],
+            [
+                1709622000,
+                158
+            ],
+            [
+                1709708400,
+                164
+            ],
+            [
+                1709794800,
+                167
+            ],
+            [
+                1709881200,
+                167
+            ],
+            [
+                1709967600,
+                166
+            ],
+            [
+                1710054000,
+                166
+            ],
+            [
+                1710136800,
+                167
+            ],
+            [
+                1710223200,
+                167
+            ],
+            [
+                1710309600,
+                167
+            ],
+            [
+                1710396000,
+                167
+            ],
+            [
+                1710482400,
+                166
+            ],
+            [
+                1710568800,
+                167
+            ],
+            [
+                1710655200,
+                166
+            ],
+            [
+                1710741600,
+                166
+            ],
+            [
+                1710828000,
+                166
+            ],
+            [
+                1710914400,
+                166
+            ],
+            [
+                1711000800,
+                167
+            ],
+            [
+                1711087200,
+                166
+            ],
+            [
+                1711173600,
+                165
+            ],
+            [
+                1711260000,
+                165
+            ],
+            [
+                1711346400,
+                162
+            ],
+            [
+                1711432800,
+                171
+            ],
+            [
+                1711519200,
+                175
+            ],
+            [
+                1711605600,
+                175
+            ],
+            [
+                1711692000,
+                176
+            ],
+            [
+                1711778400,
+                176
+            ],
+            [
+                1711864800,
+                176
+            ],
+            [
+                1711951200,
+                176
+            ],
+            [
+                1712037600,
+                170
+            ],
+            [
+                1712124000,
+                202
+            ],
+            [
+                1712210400,
+                203
+            ],
+            [
+                1712296800,
+                202
+            ],
+            [
+                1712383200,
+                202
+            ],
+            [
+                1712469600,
+                202
+            ],
+            [
+                1712556000,
+                202
+            ],
+            [
+                1712642400,
+                202
+            ],
+            [
+                1712728800,
+                222
+            ],
+            [
+                1712815200,
+                224
+            ],
+            [
+                1712901600,
+                223
+            ],
+            [
+                1712988000,
+                222
+            ],
+            [
+                1713074400,
+                222
+>>>>>>> 9a43a91f6bc534f188eb07518f7312604675764d
             ]
         ]
     }

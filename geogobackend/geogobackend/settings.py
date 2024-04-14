@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mr$5zphm04623=l(6p$sq9d!=ax=7iqg5@x$b3*av3uzl6v=i+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.91.250.194', 'localhost', '127.0.0.1', '0.0.0.0','www.geogo.tech','geogo.tech']
 
 
 # Application definition

@@ -105,26 +105,23 @@ def results(request):
         # no error case
 
         flightDetails = getFlightDetails(originAirport, destinationAirport, formatted_date)
-
-        formattedFlights = formatFlights(flightDetails)
-        layoverAirports = []
-        for i in formattedFlights:
-            for j in i:
-                if j == i[0]:
-                    layoverAirports.append(j[2])
-                elif j == i[-1]:
-                    layoverAirports.append(j[1])
-                else:
-                    layoverAirports.append(j[1])
-                    layoverAirports.append(j[2])
-        
-        visaReq = generateVisaResponse(layoverAirports,destinationAirport, getVisa)
+        embeddedCodes = embed_codes()
+        try:
+            required = embeddedCodes[destination]
+        except:
+            return render(request, 'geogo/results.html', {
+                'locations': locations,
+                'origin': origin,
+                'destination': destination,
+                'getVisa': visa,
+                'flightDetails': flightDetails
+            })
         return render(request, 'geogo/results.html', {
             'locations': locations, 
             'origin':origin,
             'destination':destination,
             'getVisa': visa,
-            'flightDetails': formattedFlights,
-            'visaReq':visaReq
+            'flightDetails': flightDetails,
+            'code':required
         })
     

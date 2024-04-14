@@ -11,12 +11,11 @@
 </head>
 
 <body>
-    <h1>City of origin: {{origin}}</h1>
-    <h1>Destination City: {{destination}}</h1>
-    <h1>Visa Country: {{getVisa}}</h1>
+    <h1>Flight from: {{origin}} -> {{destination}}</h1>
+    <h1>Passport: {{getVisa}}</h1>
 
     <h1>Flight Details</h1>
-    <div id = 'flight_details'>
+    <div id='flight_details'>
         {% for i in flightDetails%}
 
         {{i}}
@@ -26,11 +25,11 @@
 
     <div id='tourist_locations'>
         <ol>
-        {% for spot in locations %}
-        <li>
-        {{spot}}<br>
-        </li>
-        {% endfor %}
+            {% for spot in locations %}
+            <li>
+                {{spot}}<br>
+            </li>
+            {% endfor %}
         </ol>
     </div>
 
@@ -40,17 +39,30 @@
     <div id = 'visaRequirements'>{{visaReq}}</div>
     <a href="{% url 'index' %}" id = 'home'>Home</a>
 </body>
-<script>
-    // Function to load the Budget Your Trip widget
-    function loadBudgetYourTripWidget() {
-        var script = document.createElement('script');
-        script.src = 'https://widget.budgetyourtrip.com/location-widget-js/2643743&hidebudgetstyles=1';
-        script.async = true;
-        document.getElementById('averageCost').appendChild(script);
-    }
 
+<div style="display: block;" id='embed'></div>
+
+<script>
+
+    var destination = "{{ destination }}";
+    console.log(destination);
+    var code = '{{code}}';
+    if (code != "") {
+
+        console.log(code);
+        // Function to load the Budget Your Trip widget
+        function loadBudgetYourTripWidget() {
+            var script = document.createElement('script');
+            script.src = code;
+
+            // console.log(document.getElementById('embed').innerHTML);
+            script.async = true;
+            document.getElementById('averageCost').appendChild(script);
+        }
+    }
     // Call the function to load the widget
-    loadBudgetYourTripWidget();
+    try { loadBudgetYourTripWidget(); }
+    catch { console.log("failed"); }
 </script>
 
 </html>
