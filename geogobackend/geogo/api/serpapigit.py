@@ -1,4 +1,5 @@
 from serpapi import GoogleSearch
+import json
 
 params = {
   "api_key": "72111e0bcf0cbe8826ecd4aeb75f5e60c640cf15864ae3dfdd9867dc5bc55d5c",
@@ -7,28 +8,26 @@ params = {
   "gl": "us",
   "departure_id": "CDG",
   "arrival_id": "AUS",
-  "outbound_date": "2024-04-14",
+  "outbound_date": "2024-04-15",
   "currency": "USD",
+  "adults": "1",
   "type": "2"
 }
 
 search = GoogleSearch(params)
 results = search.get_dict()
 
-# print(results['best_flights'][0]['flights'])
+# Write results to output.json file
+with open('output.json', 'w') as f:
+    json.dump(results, f)
 
-for i in results['best_flights']:
-  print(i['flights']['departure_airport']['name'],
-        '\n',
-        i['flights']['departure_airport']['id'],
-        '\n',
-        i['flights']['arrival_airport']['name'],
-        '\n',
-        i['flights']['arrival_airport']['id'],
-        '\n',
-        i['flights']['airline'],
-        '\n',
-        i['flights']['flight_number']
-        )
-  print(i['layovers'])
-  print(i['price'])
+# Read the contents of the output.json file
+with open('output.json', 'r') as file:
+    data = file.read()
+
+# Parse the contents as JSON
+parsed_data = json.loads(data)
+
+# Write the parsed data back to the output.json file
+with open('output.json', 'w') as file:
+    json.dump(parsed_data, file, indent=4)

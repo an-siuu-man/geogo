@@ -1,12 +1,38 @@
-[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 12:05'}, 'arrival_airport': {'name': 'Seattle–Tacoma International Airport', 'id': 'SEA', 'time': '2024-04-14 13:10'}, 'duration': 605, 'airplane': 'Boeing 787', 'airline': 'Air Tahiti Nui', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/TN.png', 'travel_class': 'Economy', 'flight_number': 'TN 57', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat USB outlet', 'On-demand video', 'Carbon emissions estimate: 571 kg']}, {'departure_airport': {'name': 'Seattle–Tacoma International Airport', 'id': 'SEA', 'time': '2024-04-14 22:46'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-15 04:45'}, 'duration': 239, 'airplane': 'Boeing 737MAX 9 Passenger', 'airline': 'Alaska', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AS.png', 'travel_class': 'Economy', 'flight_number': 'AS 594', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'Stream media to your device', 'Carbon emissions estimate: 202 kg'], 'overnight': True}]
-[{'duration': 576, 'name': 'Seattle–Tacoma International Airport', 'id': 'SEA'}]
-1094
-[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 11:00'}, 'arrival_airport': {'name': 'Shannon Airport', 'id': 'SNN', 'time': '2024-04-14 11:50'}, 'duration': 110, 'airplane': 'Airbus A321neo', 'airline': 'Aer Lingus', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/EI.png', 'travel_class': 'Economy', 'flight_number': 'EI 909', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 97 kg']}, {'departure_airport': {'name': 'Shannon Airport', 'id': 'SNN', 'time': '2024-04-14 13:20'}, 'arrival_airport': {'name': 'John F. Kennedy International Airport', 'id': 'JFK', 'time': '2024-04-14 15:29'}, 'duration': 429, 'airplane': 'Airbus A321neo', 'airline': 'Aer Lingus', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/EI.png', 'travel_class': 'Economy', 'flight_number': 'EI 111', 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 410 kg']}, {'departure_airport': {'name': 'John F. Kennedy International Airport', 'id': 'JFK', 'time': '2024-04-14 17:29'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 20:53'}, 'duration': 264, 'airplane': 'Boeing 737MAX 8 Passenger', 'airline': 'American', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AA.png', 'travel_class': 'Economy', 'flight_number': 'AA 2772', 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'Stream media to your device', 'Carbon emissions estimate: 169 kg']}]
-[{'duration': 90, 'name': 'Shannon Airport', 'id': 'SNN'}, {'duration': 120, 'name': 'John F. Kennedy International Airport', 'id': 'JFK'}]
-1138
-[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 09:45'}, 'arrival_airport': {'name': 'Newark Liberty International Airport', 'id': 'EWR', 'time': '2024-04-14 11:50'}, 'duration': 485, 'airplane': 'Boeing 777', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 56', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 550 kg'], 'often_delayed_by_over_30_min': True}, {'departure_airport': {'name': 'Newark Liberty International Airport', 'id': 'EWR', 'time': '2024-04-14 15:19'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 18:22'}, 'duration': 243, 'airplane': 'Airbus A319', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 1401', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'In-seat power outlet', 'Stream media to your device', 'Carbon emissions estimate: 236 kg']}]
-[{'duration': 209, 'name': 'Newark Liberty International Airport', 'id': 'EWR'}]
-1567
-[{'departure_airport': {'name': 'Paris Charles de Gaulle Airport', 'id': 'CDG', 'time': '2024-04-14 12:25'}, 'arrival_airport': {'name': 'Dulles International Airport', 'id': 'IAD', 'time': '2024-04-14 14:45'}, 'duration': 500, 'airplane': 'Boeing 777', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 914', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '31 in', 'extensions': ['Average legroom (31 in)', 'Wi-Fi for a fee', 'In-seat power & USB outlets', 'On-demand video', 'Carbon emissions estimate: 583 kg']}, {'departure_airport': {'name': 'Dulles International Airport', 'id': 'IAD', 'time': '2024-04-14 17:50'}, 'arrival_airport': {'name': 'Austin-Bergstrom International Airport', 'id': 'AUS', 'time': '2024-04-14 20:26'}, 'duration': 216, 'airplane': 'Boeing 737', 'airline': 'United', 'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png', 'travel_class': 'Economy', 'flight_number': 'UA 1858', 'ticket_also_sold_by': ['Lufthansa'], 'legroom': '30 in', 'extensions': ['Average legroom (30 in)', 'Wi-Fi for a fee', 'Stream media to your device', 'Carbon emissions estimate: 182 kg']}]
-[{'duration': 185, 'name': 'Dulles International Airport', 'id': 'IAD'}]
-1567
+import json
+
+with open('output.json') as f:
+    data = json.load(f)
+
+
+    
+    # Accessing best_flights
+    best_flights = data.get("best_flights", [])
+    flightDetails = []
+
+    # Iterating over each best flight
+    for idx, flight in enumerate(best_flights, start=1):
+        print(f"Flight {idx}:")
+        print("Price:", flight.get("price"))
+
+        # Accessing flights details
+        for i, flight_details in enumerate(flight.get("flights", []), start=1):
+            print(f"\tLeg {i}:")
+            print("\tDeparture Airport:", flight_details.get("departure_airport", {}).get("name"))
+            print("\tArrival Airport:", flight_details.get("arrival_airport", {}).get("name"))
+            print("\tAirline:", flight_details.get("airline"))
+            print("\tFlight Number:", flight_details.get("flight_number"))
+
+        # Accessing layovers
+        print("\tLayovers:")
+        for layover in flight.get("layovers", []):
+            print("\tName:", layover.get("name"), layover.get("id"))
+
+        # Accessing carbon emissions
+        # carbon_emissions = flight.get("carbon_emissions", {})
+        # print("\tCarbon Emissions:")
+        # print("\tThis Flight:", carbon_emissions.get("this_flight"))
+        # print("\tTypical For This Route:", carbon_emissions.get("typical_for_this_route"))
+        # print("\tDifference Percent:", carbon_emissions.get("difference_percent"))
+
+        # print("\tBooking Token:", flight.get("booking_token"))
+        # print()

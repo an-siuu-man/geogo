@@ -1,0 +1,1214 @@
+{
+    "search_metadata": {
+        "id": "661b3d2dc56d93272a3aa117",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/da36f24b0c78cc66/661b3d2dc56d93272a3aa117.json",
+        "created_at": "2024-04-14 02:19:25 UTC",
+        "processed_at": "2024-04-14 02:19:25 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+AUS+from+CDG+on+2024-04-15+one-way",
+        "raw_html_file": "https://serpapi.com/searches/da36f24b0c78cc66/661b3d2dc56d93272a3aa117.html",
+        "prettify_html_file": "https://serpapi.com/searches/da36f24b0c78cc66/661b3d2dc56d93272a3aa117.prettify",
+        "total_time_taken": 0.91
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "type": "2",
+        "departure_id": "CDG",
+        "arrival_id": "AUS",
+        "outbound_date": "2024-04-15",
+        "adults": 1,
+        "currency": "USD"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 12:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Los Angeles International Airport",
+                        "id": "LAX",
+                        "time": "2024-04-15 14:15"
+                    },
+                    "duration": 670,
+                    "airplane": "Boeing 787",
+                    "airline": "Air Tahiti Nui",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TN.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TN 7",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 573 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Los Angeles International Airport",
+                        "id": "LAX",
+                        "time": "2024-04-15 18:36"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 23:37"
+                    },
+                    "duration": 181,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2017",
+                    "ticket_also_sold_by": [
+                        "Air Tahiti Nui"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 172 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 261,
+                    "name": "Los Angeles International Airport",
+                    "id": "LAX"
+                }
+            ],
+            "total_duration": 1112,
+            "carbon_emissions": {
+                "this_flight": 746000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 8
+            },
+            "price": 665,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3BVVGpkOFFVRXlNREUzR2dzSXRZY0VFQUlhQTFWVFJEZ2NjTFdIQkE9PSIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIkxBWCIsbnVsbCwiVE4iLCI3Il0sWyJMQVgiLCIyMDI0LTA0LTE1IiwiQVVTIixudWxsLCJBQSIsIjIwMTciXV1d"
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 07:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-15 08:40"
+                    },
+                    "duration": 75,
+                    "airplane": "Airbus A321",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1051",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 68 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-15 10:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 13:50"
+                    },
+                    "duration": 645,
+                    "airplane": "Boeing 787",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 468",
+                    "ticket_also_sold_by": [
+                        "United"
+                    ],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 757 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 85,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 805,
+            "carbon_emissions": {
+                "this_flight": 826000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 20
+            },
+            "price": 1555,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3hNU0RFd05URjhURWcwTmpnYUN3aVh2Z2tRQWhvRFZWTkVPQnh3bDc0SiIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIkZSQSIsbnVsbCwiTEgiLCIxMDUxIl0sWyJGUkEiLCIyMDI0LTA0LTE1IiwiQVVTIixudWxsLCJMSCIsIjQ2OCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 09:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-15 11:50"
+                    },
+                    "duration": 485,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 56",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 550 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-15 15:13"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 18:16"
+                    },
+                    "duration": 243,
+                    "airplane": "Airbus A319",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1401",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 236 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 203,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 931,
+            "carbon_emissions": {
+                "this_flight": 787000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 14
+            },
+            "price": 1567,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3RWUVRVMmZGVkJNVFF3TVJvTENPekhDUkFDR2dOVlUwUTRISERzeHdrPSIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIkVXUiIsbnVsbCwiVUEiLCI1NiJdLFsiRVdSIiwiMjAyNC0wNC0xNSIsIkFVUyIsbnVsbCwiVUEiLCIxNDAxIl1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Dublin Airport",
+                        "id": "DUB",
+                        "time": "2024-04-15 14:10"
+                    },
+                    "duration": 110,
+                    "airplane": "Airbus A320",
+                    "airline": "Aer Lingus",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EI 525",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 93 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dublin Airport",
+                        "id": "DUB",
+                        "time": "2024-04-15 16:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-15 19:05"
+                    },
+                    "duration": 505,
+                    "airplane": "Airbus A330",
+                    "airline": "Aer Lingus",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EI 125",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 462 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-15 20:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 23:41"
+                    },
+                    "duration": 176,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 935",
+                    "ticket_also_sold_by": [
+                        "Aer Lingus"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 145 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 150,
+                    "name": "Dublin Airport",
+                    "id": "DUB"
+                },
+                {
+                    "duration": 100,
+                    "name": "Chicago O'Hare International Airport",
+                    "id": "ORD"
+                }
+            ],
+            "total_duration": 1041,
+            "carbon_emissions": {
+                "this_flight": 702000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 2
+            },
+            "price": 1422,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFaEZGU1RVeU5YeEZTVEV5Tlh4QlFUa3pOUm9MQ0x6V0NCQUNHZ05WVTBRNEhIQzgxZ2c9IixbWyJDREciLCIyMDI0LTA0LTE1IiwiRFVCIixudWxsLCJFSSIsIjUyNSJdLFsiRFVCIiwiMjAyNC0wNC0xNSIsIk9SRCIsbnVsbCwiRUkiLCIxMjUiXSxbIk9SRCIsIjIwMjQtMDQtMTUiLCJBVVMiLG51bGwsIkFBIiwiOTM1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 14:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "time": "2024-04-15 15:45"
+                    },
+                    "duration": 215,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 545",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 177 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Keflav\u00edk International Airport",
+                        "id": "KEF",
+                        "time": "2024-04-15 17:00"
+                    },
+                    "arrival_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-15 19:10"
+                    },
+                    "duration": 370,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Icelandair",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/FI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "FI 615",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 323 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "John F. Kennedy International Airport",
+                        "id": "JFK",
+                        "time": "2024-04-16 06:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-16 09:52"
+                    },
+                    "duration": 247,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "JetBlue",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+                    "travel_class": "Economy",
+                    "flight_number": "B6 295",
+                    "ticket_also_sold_by": [
+                        "Icelandair"
+                    ],
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Free Wi-Fi",
+                        "In-seat power & USB outlets",
+                        "Live TV",
+                        "Carbon emissions estimate: 200 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 75,
+                    "name": "Keflav\u00edk International Airport",
+                    "id": "KEF"
+                },
+                {
+                    "duration": 695,
+                    "name": "John F. Kennedy International Airport",
+                    "id": "JFK",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1602,
+            "carbon_emissions": {
+                "this_flight": 702000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 2
+            },
+            "price": 1481,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFaEZHU1RVME5YeEdTVFl4Tlh4Q05qSTVOUm9MQ0lDRkNSQUNHZ05WVTBRNEhIQ0FoUWs9IixbWyJDREciLCIyMDI0LTA0LTE1IiwiS0VGIixudWxsLCJGSSIsIjU0NSJdLFsiS0VGIiwiMjAyNC0wNC0xNSIsIkpGSyIsbnVsbCwiRkkiLCI2MTUiXSxbIkpGSyIsIjIwMjQtMDQtMTYiLCJBVVMiLG51bGwsIkI2IiwiMjk1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 10:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Dublin Airport",
+                        "id": "DUB",
+                        "time": "2024-04-15 11:05"
+                    },
+                    "duration": 115,
+                    "airplane": "Airbus A320",
+                    "airline": "Aer Lingus",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EI 521",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 93 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dublin Airport",
+                        "id": "DUB",
+                        "time": "2024-04-15 12:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 15:40"
+                    },
+                    "duration": 470,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Aer Lingus",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EI.png",
+                    "travel_class": "Economy",
+                    "flight_number": "EI 117",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 437 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 17:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 20:26"
+                    },
+                    "duration": 216,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1858",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 182 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 105,
+                    "name": "Dublin Airport",
+                    "id": "DUB"
+                },
+                {
+                    "duration": 130,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
+                }
+            ],
+            "total_duration": 1036,
+            "carbon_emissions": {
+                "this_flight": 713000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 3
+            },
+            "price": 1526,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFaEpGU1RVeU1YeEZTVEV4TjN4VlFURTROVGdhQ3dpVnFBa1FBaG9EVlZORU9CeHdsYWdKIixbWyJDREciLCIyMDI0LTA0LTE1IiwiRFVCIixudWxsLCJFSSIsIjUyMSJdLFsiRFVCIiwiMjAyNC0wNC0xNSIsIklBRCIsbnVsbCwiRUkiLCIxMTciXSxbIklBRCIsIjIwMjQtMDQtMTUiLCJBVVMiLG51bGwsIlVBIiwiMTg1OCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 09:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Zurich Airport",
+                        "id": "ZRH",
+                        "time": "2024-04-15 11:05"
+                    },
+                    "duration": 80,
+                    "airplane": "Airbus A321 (Sharklets)",
+                    "airline": "SWISS",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LX 633",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Carbon emissions estimate: 66 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Zurich Airport",
+                        "id": "ZRH",
+                        "time": "2024-04-15 12:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 16:15"
+                    },
+                    "duration": 560,
+                    "airplane": "Airbus A330",
+                    "airline": "SWISS",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LX 72",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "On-demand video",
+                        "Carbon emissions estimate: 503 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 17:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 20:26"
+                    },
+                    "duration": 216,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1858",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 182 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 110,
+                    "name": "Zurich Airport",
+                    "id": "ZRH"
+                },
+                {
+                    "duration": 95,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
+                }
+            ],
+            "total_duration": 1061,
+            "carbon_emissions": {
+                "this_flight": 752000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 9
+            },
+            "price": 1557,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFaEZNV0RZek0zeE1XRGN5ZkZWQk1UZzFPQm9MQ09XL0NSQUNHZ05WVTBRNEhIRGx2d2s9IixbWyJDREciLCIyMDI0LTA0LTE1IiwiWlJIIixudWxsLCJMWCIsIjYzMyJdLFsiWlJIIiwiMjAyNC0wNC0xNSIsIklBRCIsbnVsbCwiTFgiLCI3MiJdLFsiSUFEIiwiMjAyNC0wNC0xNSIsIkFVUyIsbnVsbCwiVUEiLCIxODU4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 12:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 14:45"
+                    },
+                    "duration": 500,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 914",
+                    "ticket_also_sold_by": [
+                        "Lufthansa",
+                        "Brussels Airlines"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 583 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-15 17:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 20:26"
+                    },
+                    "duration": 216,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1858",
+                    "ticket_also_sold_by": [
+                        "Lufthansa",
+                        "Brussels Airlines"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 182 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 185,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
+                }
+            ],
+            "total_duration": 901,
+            "carbon_emissions": {
+                "this_flight": 766000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 11
+            },
+            "price": 1567,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3hWUVRreE5IeFZRVEU0TlRnYUN3anN4d2tRQWhvRFZWTkVPQnh3N01jSiIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIklBRCIsbnVsbCwiVUEiLCI5MTQiXSxbIklBRCIsIjIwMjQtMDQtMTUiLCJBVVMiLG51bGwsIlVBIiwiMTg1OCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 13:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-15 15:35"
+                    },
+                    "duration": 505,
+                    "airplane": "Boeing 767",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 55",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 510 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Newark Liberty International Airport",
+                        "id": "EWR",
+                        "time": "2024-04-15 20:27"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 23:36"
+                    },
+                    "duration": 249,
+                    "airplane": "Airbus A319",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1565",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 236 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 292,
+                    "name": "Newark Liberty International Airport",
+                    "id": "EWR"
+                }
+            ],
+            "total_duration": 1046,
+            "carbon_emissions": {
+                "this_flight": 748000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 9
+            },
+            "price": 1567,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3RWUVRVMWZGVkJNVFUyTlJvTENPekhDUkFDR2dOVlUwUTRISERzeHdrPSIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIkVXUiIsbnVsbCwiVUEiLCI1NSJdLFsiRVdSIiwiMjAyNC0wNC0xNSIsIkFVUyIsbnVsbCwiVUEiLCIxNTY1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-15 11:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-15 14:55"
+                    },
+                    "duration": 630,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 49",
+                    "ticket_also_sold_by": [
+                        "British Airways"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 695 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dallas Fort Worth International Airport",
+                        "id": "DFW",
+                        "time": "2024-04-15 16:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Austin-Bergstrom International Airport",
+                        "id": "AUS",
+                        "time": "2024-04-15 17:40"
+                    },
+                    "duration": 65,
+                    "airplane": "Boeing 737",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 843",
+                    "ticket_also_sold_by": [
+                        "British Airways"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 56 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 100,
+                    "name": "Dallas Fort Worth International Airport",
+                    "id": "DFW"
+                }
+            ],
+            "total_duration": 795,
+            "carbon_emissions": {
+                "this_flight": 753000,
+                "typical_for_this_route": 689000,
+                "difference_percent": 9
+            },
+            "price": 2695,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Full refund for cancellations",
+                "Free change, possible fare difference"
+            ],
+            "booking_token": "WyJDalJJT0ZOUGFsRllNMUIwTVVGQlJEQjNhWGRDUnkwdExTMHRMUzB0Y0dwaVozWXlNa0ZCUVVGQlIxbGlVRk13VDBkWlNYVkJFZ3BCUVRRNWZFRkJPRFF6R2dzSXRya1FFQUlhQTFWVFJEZ2NjTGE1RUE9PSIsW1siQ0RHIiwiMjAyNC0wNC0xNSIsIkRGVyIsbnVsbCwiQUEiLCI0OSJdLFsiREZXIiwiMjAyNC0wNC0xNSIsIkFVUyIsbnVsbCwiQUEiLCI4NDMiXV1d"
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 665,
+        "price_level": "typical",
+        "typical_price_range": [
+            650,
+            1050
+        ],
+        "price_history": [
+            [
+                1707865200,
+                670
+            ],
+            [
+                1707951600,
+                666
+            ],
+            [
+                1708038000,
+                668
+            ],
+            [
+                1708124400,
+                671
+            ],
+            [
+                1708210800,
+                671
+            ],
+            [
+                1708297200,
+                671
+            ],
+            [
+                1708383600,
+                671
+            ],
+            [
+                1708470000,
+                670
+            ],
+            [
+                1708556400,
+                673
+            ],
+            [
+                1708642800,
+                673
+            ],
+            [
+                1708729200,
+                673
+            ],
+            [
+                1708815600,
+                674
+            ],
+            [
+                1708902000,
+                674
+            ],
+            [
+                1708988400,
+                673
+            ],
+            [
+                1709074800,
+                630
+            ],
+            [
+                1709161200,
+                629
+            ],
+            [
+                1709247600,
+                629
+            ],
+            [
+                1709334000,
+                595
+            ],
+            [
+                1709420400,
+                597
+            ],
+            [
+                1709506800,
+                597
+            ],
+            [
+                1709593200,
+                597
+            ],
+            [
+                1709679600,
+                598
+            ],
+            [
+                1709766000,
+                652
+            ],
+            [
+                1709852400,
+                654
+            ],
+            [
+                1709938800,
+                657
+            ],
+            [
+                1710025200,
+                657
+            ],
+            [
+                1710111600,
+                657
+            ],
+            [
+                1710198000,
+                657
+            ],
+            [
+                1710284400,
+                634
+            ],
+            [
+                1710370800,
+                678
+            ],
+            [
+                1710457200,
+                683
+            ],
+            [
+                1710543600,
+                679
+            ],
+            [
+                1710630000,
+                680
+            ],
+            [
+                1710716400,
+                676
+            ],
+            [
+                1710802800,
+                675
+            ],
+            [
+                1710889200,
+                678
+            ],
+            [
+                1710975600,
+                652
+            ],
+            [
+                1711062000,
+                657
+            ],
+            [
+                1711148400,
+                652
+            ],
+            [
+                1711234800,
+                652
+            ],
+            [
+                1711321200,
+                649
+            ],
+            [
+                1711407600,
+                651
+            ],
+            [
+                1711494000,
+                650
+            ],
+            [
+                1711580400,
+                660
+            ],
+            [
+                1711666800,
+                659
+            ],
+            [
+                1711753200,
+                659
+            ],
+            [
+                1711839600,
+                659
+            ],
+            [
+                1711922400,
+                659
+            ],
+            [
+                1712008800,
+                670
+            ],
+            [
+                1712095200,
+                671
+            ],
+            [
+                1712181600,
+                675
+            ],
+            [
+                1712268000,
+                675
+            ],
+            [
+                1712354400,
+                676
+            ],
+            [
+                1712440800,
+                676
+            ],
+            [
+                1712527200,
+                675
+            ],
+            [
+                1712613600,
+                677
+            ],
+            [
+                1712700000,
+                677
+            ],
+            [
+                1712786400,
+                669
+            ],
+            [
+                1712872800,
+                668
+            ],
+            [
+                1712959200,
+                665
+            ],
+            [
+                1713045600,
+                665
+            ]
+        ]
+    }
+}
