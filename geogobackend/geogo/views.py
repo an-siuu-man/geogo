@@ -56,30 +56,12 @@ def results(request):
                 'invalid_airport':invalid_airport,
                 'invalid_visa': invalid_visa
                 })
+        response = generateResponse(f'top 10 tourist locations in {destination} in a list with one line descriptions').split('\n')
 
-
-
-        # response = generateResponse(f'top 10 tourist locations in {origin} in a list with one line descriptions').split('\n')
-
-        # locations = []
-        # for i in response:
-        #     if i != '':
-        #         locations.append(i)
-        # Get the selected option from the dropdown menu
-        # For demonstration purposes, I'm just returning the selected option as part of the response
-
-        locations = [
-    "Eiffel Tower: Iconic wrought-iron lattice tower offering sweeping views of Paris.",
-    "Louvre Museum: World's largest art museum and historic monument in Paris.",
-    "Notre-Dame Cathedral: Famed Gothic cathedral known for its flying buttresses & gargoyles.",
-    "Montmartre: Hill featuring the Basilica of the Sacré-Cœur & artists' square.",
-    "Champs-Élysées: Famous avenue lined with shops, theaters, and cafes.",
-    "Musée d'Orsay: Museum housed in a Beaux-Arts railway station, known for its Impressionist masterpieces.",
-    "Palace of Versailles: Opulent 17th-century palace, the former home of French royalty, surrounded by gardens and fountains.",
-    "Seine River Cruise: Scenic boat tours offering views of Paris landmarks such as the Eiffel Tower and Notre-Dame.",
-    "Sainte-Chapelle: Gothic chapel known for its stunning stained glass windows.",
-    "Musée Rodin: Museum showcasing the works of the French sculptor Auguste Rodin, set in a mansion with gardens."
-]
+        locations = []
+        for i in response:
+            if i != '':
+                locations.append(i)
         
         # Error Case 2
         if origin == 'Unknown' or destination == 'Unknown':
@@ -106,7 +88,11 @@ def results(request):
         # no error case
 
         flightDetails = getFlightDetails(originAirport, destinationAirport, formatted_date)
+
+        finalFlights = formatFlights(flightDetails)
+
         embeddedCodes = embed_codes()
+        # visaReq = generateVisaResponse(layoverFlights, destinationAirport, getVisa)
         try:
             required = embeddedCodes[destination]
         except:
@@ -115,14 +101,14 @@ def results(request):
                 'origin': origin,
                 'destination': destination,
                 'getVisa': visa,
-                'flightDetails': flightDetails
+                'flightDetails': finalFlights
             })
         return render(request, 'geogo/results.html', {
             'locations': locations, 
             'origin':origin,
             'destination':destination,
             'getVisa': visa,
-            'flightDetails': flightDetails,
+            'flightDetails': finalFlights,
             'code':required
         })
     

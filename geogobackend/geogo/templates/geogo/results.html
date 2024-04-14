@@ -17,20 +17,24 @@
     <h1>Flight Details</h1>
     <div id='flight_details'>
         {% for i in flightDetails%}
-
-        {{i}}
-
+        Flight choice {{forloop.counter}}:
+        {% for j in i%}
+        {%for k in j%}
+        {{k}}
+        {% endfor %}
+        {% endfor %}
+        <br>
         {% endfor %}
     </div>
 
     <div id='tourist_locations'>
-        <ol>
+        <ul>
             {% for spot in locations %}
             <li>
                 {{spot}}<br>
             </li>
             {% endfor %}
-        </ol>
+        </ul>
     </div>
 
     <div id="averageCost">
