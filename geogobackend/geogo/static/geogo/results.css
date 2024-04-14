@@ -9,7 +9,7 @@ a.budgetyourtrip-more-info-link {
 }
 
 .button,
-button, a {
+button, #home {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     border: 3px black solid;
@@ -20,7 +20,7 @@ button, a {
 }
 
 .button:hover,
-button:hover, a:hover {
+button:hover, #home:hover {
     font-weight: 600;
     box-shadow: none;
     background-color: antiquewhite;
