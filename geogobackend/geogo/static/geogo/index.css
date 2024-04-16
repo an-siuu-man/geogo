@@ -77,8 +77,10 @@ button:hover {
 
 #loading {
     display: none;
-    margin-left: auto;
-    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
     /* background:white; */
     z-index: 9999;
     height: 60px;

@@ -7,6 +7,9 @@ from .api.serpapigit import *
 from .api.geminiAPI import generateVisaResponse
 from .api.embedCodes import embed_codes
 # Create your views here.
+
+
+codes = city_codes()
 def index(request):
     return render(request, 'geogo/index.html')
 
@@ -30,7 +33,6 @@ def results(request):
             formatted_date = somedate_obj.strftime('%Y-%m-%d')
         else:
             formatted_date = '2024-04-16'
-        codes = city_codes()
         origin = 'Unknown'
         destination = 'Unknown'
         visa = 'Unknown'
