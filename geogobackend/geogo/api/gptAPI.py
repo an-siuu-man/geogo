@@ -9,7 +9,7 @@ def generateResponse(prompt):
     for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
         if "openai" in line:
             keykey = (line.split(",")[1].strip())
-            # print(keykey)
+            # print(keykey) works
     # Request headers
     headers = {
         'Content-Type': 'application/json',
