@@ -3,7 +3,7 @@ import json
 
 def getFlightDetails (departure_id, arrival_id, date):
   params = {
-    "api_key": "72111e0bcf0cbe8826ecd4aeb75f5e60c640cf15864ae3dfdd9867dc5bc55d5c",
+    "api_key": "8eeacf205b31c7f05395d408e6488b6354d747d8ab30ff611882c7a1e9e1fac8",
     "engine": "google_flights",
     "hl": "en",
     "gl": "us",

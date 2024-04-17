@@ -2,12 +2,13 @@ import google.generativeai as genai
 import os
 
 
+keykey=""
 
-# for line in open("../../../apiKeys.txt", "r"):
-#     if "gemini" in line:
-#         keykey = (line.split(",")[1].strip())
+for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
+    if "gemini" in line:
+        keykey = (line.split(",")[1].strip())
 
-genai.configure(api_key='AIzaSyCWJsIrTACMkWtb_MSXA-6hzgD2ip9hqzw')
+genai.configure(api_key=keykey)
 
 model = genai.GenerativeModel('gemini-pro')
 

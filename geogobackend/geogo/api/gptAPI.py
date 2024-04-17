@@ -5,11 +5,15 @@ def generateResponse(prompt):
 
     # OpenAI API endpoint
     api_endpoint = 'https://api.openai.com/v1/chat/completions'
-
+    keykey=""
+    for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
+        if "openai" in line:
+            keykey = (line.split(",")[1].strip())
+            # print(keykey)
     # Request headers
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f"Bearer {os.environ.get('OPENAI_API_KEY')}"
+        'Authorization': f"Bearer {keykey}"
     }
 
     # Request payload
