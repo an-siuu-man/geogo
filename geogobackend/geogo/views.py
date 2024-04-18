@@ -32,7 +32,19 @@ def results(request):
             # Format the datetime object to 'YYYY-MM-DD' format
             formatted_date = somedate_obj.strftime('%Y-%m-%d')
         else:
-            formatted_date = '2024-04-16'
+            thisday = datetime.today()
+            day_t = thisday.day
+            month_t = ""
+            if int(thisday.month) < 10:
+                month_t = str("0" + str(thisday.month))
+            else:
+                month_t = thisday.month
+            year_t = thisday.year
+            day_t = day_t + 1
+            if day_t < 10:
+                day_t = str("0" + str(thisday.day))
+            dash_t = "-"
+            formatted_date = str(str(year_t) + dash_t + str(month_t) + dash_t + str(day_t))
         origin = 'Unknown'
         destination = 'Unknown'
         visa = 'Unknown'
