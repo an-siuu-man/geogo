@@ -32,6 +32,7 @@ def results(request):
             # Format the datetime object to 'YYYY-MM-DD' format
             formatted_date = somedate_obj.strftime('%Y-%m-%d')
         else:
+            # if no date is chosen, choose tomorrow
             thisday = datetime.today()
             day_t = thisday.day
             month_t = ""
@@ -40,6 +41,7 @@ def results(request):
             else:
                 month_t = thisday.month
             year_t = thisday.year
+            # choosing tomorrow...
             day_t = day_t + 1
             if day_t < 10:
                 day_t = str("0" + str(thisday.day))
