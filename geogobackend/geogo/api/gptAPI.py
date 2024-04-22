@@ -6,10 +6,15 @@ def generateResponse(prompt):
     # OpenAI API endpoint
     api_endpoint = 'https://api.openai.com/v1/chat/completions'
     keykey=""
-    for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
-        if "openai" in line:
-            keykey = (line.split(",")[1].strip())
-            # print(keykey) works
+    # for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
+    #     if "openai" in line:
+    #         keykey = (line.split(",")[1].strip())
+
+    file = open('geogo/api/apiKeys.txt', 'r')           #remove
+    for line in file:                                   #these
+        if 'openai' in line:                            #4
+            keykey = line.split(',')[1].strip()         #lines
+            
     # Request headers
     headers = {
         'Content-Type': 'application/json',
