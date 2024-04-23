@@ -33,7 +33,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 > pip install ... <br>
 
 #### Create an "apiKeys.txt" file
-1. Create you apiKeys.txt file within the geogo/geogobackend/geogo/api folder
+1. Create you apiKeys.txt file within the `geogo/geogobackend/geogo/api` folder
 2. Generate API keys for
    - Gemini
    - OpenAI
@@ -44,5 +44,9 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
    openai,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    gemini,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    ```
+
+#### Finally launch the server
+1. Within the terminal navigate to `geogo/geogobackend`
+2. Type `python3 manage.py runserver 8.8.8.8:8000`
 
 
