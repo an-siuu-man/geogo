@@ -30,7 +30,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 > pip install pip install google-search-results <br>
 > pip install openai <br>
 > pip install -q -U google-generativeai <br>
-> pip install ... <br>
+> pip install **ANSUMANFILLIN** <br>
 
 #### Create an "apiKeys.txt" file
 1. Create you apiKeys.txt file within the `geogo/geogobackend/geogo/api` folder
@@ -47,6 +47,6 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 
 #### Finally launch the server
 1. Within the terminal navigate to `geogo/geogobackend`
-2. Type `python3 manage.py runserver 8.8.8.8:8000`
+2. Type `python3 manage.py runserver 127.0.0.1.:8000`
 
 
