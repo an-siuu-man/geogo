@@ -47,6 +47,6 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 
 #### Finally launch the server
 1. Within the terminal navigate to `geogo/geogobackend`
-2. Type `python3 manage.py runserver 127.0.0.1.:8000`
+2. Type `python3 manage.py runserver 127.0.0.1:8000`
 
 
