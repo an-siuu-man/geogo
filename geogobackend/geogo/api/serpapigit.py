@@ -2,8 +2,13 @@ from serpapi import GoogleSearch
 import json
 
 def getFlightDetails (departure_id, arrival_id, date):
+  keykey = ""
+  for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
+  # for line in open("./apiKeys.txt", "r"):
+    if "serpapi" in line:
+      keykey = (line.split(",")[1].strip())
   params = {
-    "api_key": "8eeacf205b31c7f05395d408e6488b6354d747d8ab30ff611882c7a1e9e1fac8",
+    "api_key": keykey,
     "engine": "google_flights",
     "hl": "en",
     "gl": "us",
