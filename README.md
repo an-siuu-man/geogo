@@ -27,5 +27,9 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 ## If you want to run this on your own...
 
 ### Install all dependencies first
-> pip install scapy
+> pip install pip install google-search-results
+> pip install openai
+> pip install -q -U google-generativeai
+> pip install ...
+
 
