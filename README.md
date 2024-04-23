@@ -32,4 +32,11 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 > pip install -q -U google-generativeai <br>
 > pip install ... <br>
 
+#### Create an "apiKeys.txt" file
+1. Create you apiKeys.txt file within the geogo/geogobackend/geogo/api folder
+2. Generate API keys for
+   - Gemini
+   - OpenAI
+   - SerpAPI
+
 
