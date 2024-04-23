@@ -33,6 +33,7 @@ def results(request):
             formatted_date = somedate_obj.strftime('%Y-%m-%d')
         else:
             # if no date is chosen, choose tomorrow
+            # IN THEORY, this condition should never occur due to logic update in index.js
             thisday = datetime.today()
             day_t = thisday.day
             month_t = ""
