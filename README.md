@@ -27,9 +27,9 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 ## If you want to run this on your own...
 
 #### Install all dependencies first
-> pip install pip install google-search-results
-> pip install openai
-> pip install -q -U google-generativeai
-> pip install ...
+> pip install pip install google-search-results <br>
+> pip install openai <br>
+> pip install -q -U google-generativeai <br>
+> pip install ... <br>
 
 
