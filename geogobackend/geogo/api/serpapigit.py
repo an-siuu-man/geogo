@@ -5,8 +5,8 @@ def getFlightDetails (departure_id, arrival_id, date):
   keykey = ""
   for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
   # for line in open("./apiKeys.txt", "r"):
-    if "serpapi" in line:
-      keykey = (line.split(",")[1].strip())
+      if "serpapi" in line:
+          keykey = (line.split(",")[1].strip())
   params = {
     "api_key": keykey,
     "engine": "google_flights",

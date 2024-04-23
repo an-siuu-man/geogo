@@ -1,3 +1,1568 @@
 {
-    "error": "`outbound_date` cannot be in the past."
+    "search_metadata": {
+        "id": "66276363ad7fa9e757d8f6e4",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/74ef2c81353a9738/66276363ad7fa9e757d8f6e4.json",
+        "created_at": "2024-04-23 07:29:39 UTC",
+        "processed_at": "2024-04-23 07:29:39 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&q=Flights+to+LHR+from+BSB+on+2024-04-24+one-way",
+        "raw_html_file": "https://serpapi.com/searches/74ef2c81353a9738/66276363ad7fa9e757d8f6e4.html",
+        "prettify_html_file": "https://serpapi.com/searches/74ef2c81353a9738/66276363ad7fa9e757d8f6e4.prettify",
+        "total_time_taken": 1.25
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "type": "2",
+        "departure_id": "BSB",
+        "arrival_id": "LHR",
+        "outbound_date": "2024-04-24",
+        "adults": 1,
+        "currency": "USD"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 17:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 06:20"
+                    },
+                    "duration": 550,
+                    "airplane": "Airbus A330-900neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 58",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 472 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 10:20"
+                    },
+                    "duration": 160,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 1356",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 144 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 80,
+                    "name": "Humberto Delgado Airport",
+                    "id": "LIS"
+                }
+            ],
+            "total_duration": 790,
+            "carbon_emissions": {
+                "this_flight": 617000,
+                "typical_for_this_route": 766000,
+                "difference_percent": -19
+            },
+            "price": 1071,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFZ3RVVURVNGZGUlFNVE0xTmhvTENQM0RCaEFDR2dOVlUwUTRISEQ5d3dZPSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkxJUyIsbnVsbCwiVFAiLCI1OCJdLFsiTElTIiwiMjAyNC0wNC0yNSIsIkxIUiIsbnVsbCwiVFAiLCIxMzU2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 08:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Belo Horizonte Tancredo Neves",
+                        "id": "CNF",
+                        "time": "2024-04-24 10:10"
+                    },
+                    "duration": 80,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Gol",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+                    "travel_class": "Economy",
+                    "flight_number": "G3 1700",
+                    "ticket_also_sold_by": [
+                        "Tap Air Portugal"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 64 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Belo Horizonte Tancredo Neves",
+                        "id": "CNF",
+                        "time": "2024-04-24 17:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 06:20"
+                    },
+                    "duration": 555,
+                    "airplane": "Airbus A330-900neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 104",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 481 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 07:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 10:20"
+                    },
+                    "duration": 160,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 1356",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 144 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 415,
+                    "name": "Belo Horizonte Tancredo Neves",
+                    "id": "CNF"
+                },
+                {
+                    "duration": 80,
+                    "name": "Humberto Delgado Airport",
+                    "id": "LIS"
+                }
+            ],
+            "total_duration": 1290,
+            "carbon_emissions": {
+                "this_flight": 691000,
+                "typical_for_this_route": 766000,
+                "difference_percent": -10
+            },
+            "price": 1307,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaE5ITXpFM01EQjhWRkF4TURSOFZGQXhNelUyR2dzSWh2MEhFQUlhQTFWVFJEZ2NjSWI5Qnc9PSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkNORiIsbnVsbCwiRzMiLCIxNzAwIl0sWyJDTkYiLCIyMDI0LTA0LTI0IiwiTElTIixudWxsLCJUUCIsIjEwNCJdLFsiTElTIiwiMjAyNC0wNC0yNSIsIkxIUiIsbnVsbCwiVFAiLCIxMzU2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 11:20"
+                    },
+                    "arrival_airport": {
+                        "name": "RIOgale\u00e3o - Tom Jobim International Airport",
+                        "id": "GIG",
+                        "time": "2024-04-24 13:05"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A319",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 3784",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 113 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "RIOgale\u00e3o - Tom Jobim International Airport",
+                        "id": "GIG",
+                        "time": "2024-04-24 16:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-25 09:20"
+                    },
+                    "duration": 715,
+                    "airplane": "Airbus A340",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 501",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 958 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-25 12:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 12:40"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 906",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 65 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 200,
+                    "name": "RIOgale\u00e3o - Tom Jobim International Airport",
+                    "id": "GIG"
+                },
+                {
+                    "duration": 160,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 1280,
+            "carbon_emissions": {
+                "this_flight": 1138000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 49
+            },
+            "price": 1408,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaEpNUVRNM09EUjhURWcxTURGOFRFZzVNRFlhQ3dqT3l3Z1FBaG9EVlZORU9CeHd6c3NJIixbWyJCU0IiLCIyMDI0LTA0LTI0IiwiR0lHIixudWxsLCJMQSIsIjM3ODQiXSxbIkdJRyIsIjIwMjQtMDQtMjQiLCJGUkEiLG51bGwsIkxIIiwiNTAxIl0sWyJGUkEiLCIyMDI0LTA0LTI1IiwiTEhSIixudWxsLCJMSCIsIjkwNiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 20:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 22:30"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A320",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 3258",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 95 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 23:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 15:05"
+                    },
+                    "duration": 675,
+                    "airplane": "Boeing 777",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 8084",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 791 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 80,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                }
+            ],
+            "total_duration": 860,
+            "carbon_emissions": {
+                "this_flight": 887000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 16
+            },
+            "price": 1885,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFZzFNUVRNeU5UaDhURUU0TURnMEdnc0l1OEFMRUFJYUExVlRSRGdjY0x2QUN3PT0iLFtbIkJTQiIsIjIwMjQtMDQtMjQiLCJHUlUiLG51bGwsIkxBIiwiMzI1OCJdLFsiR1JVIiwiMjAyNC0wNC0yNCIsIkxIUiIsbnVsbCwiTEEiLCI4MDg0Il1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 02:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-04-24 06:22"
+                    },
+                    "duration": 362,
+                    "airplane": "Boeing 737",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CM 204",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 370 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-04-24 09:19"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-24 15:10"
+                    },
+                    "duration": 291,
+                    "airplane": "Boeing 737MAX 9 Passenger",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CM 443",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 268 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-04-24 18:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 06:45"
+                    },
+                    "duration": 435,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 918",
+                    "ticket_also_sold_by": [
+                        "COPA"
+                    ],
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 546 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 177,
+                    "name": "Tocumen International Airport Panama",
+                    "id": "PTY"
+                },
+                {
+                    "duration": 200,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
+                }
+            ],
+            "total_duration": 1465,
+            "carbon_emissions": {
+                "this_flight": 1186000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 55
+            },
+            "price": 1617,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaEZEVFRJd05IeERUVFEwTTN4VlFUa3hPQm9MQ0pydkNSQUNHZ05WVTBRNEhIQ2E3d2s9IixbWyJCU0IiLCIyMDI0LTA0LTI0IiwiUFRZIixudWxsLCJDTSIsIjIwNCJdLFsiUFRZIiwiMjAyNC0wNC0yNCIsIklBRCIsbnVsbCwiQ00iLCI0NDMiXSxbIklBRCIsIjIwMjQtMDQtMjQiLCJMSFIiLG51bGwsIlVBIiwiOTE4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 11:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 13:20"
+                    },
+                    "duration": 105,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Gol",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+                    "travel_class": "Economy",
+                    "flight_number": "G3 1401",
+                    "ticket_also_sold_by": [
+                        "Air France"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 80 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 18:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-25 11:05"
+                    },
+                    "duration": 670,
+                    "airplane": "Boeing 777",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 459",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 815 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-25 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 13:45"
+                    },
+                    "duration": 85,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 1780",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 49 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 335,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                },
+                {
+                    "duration": 135,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 1330,
+            "carbon_emissions": {
+                "this_flight": 946000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 23
+            },
+            "price": 1627,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaE5ITXpFME1ERjhRVVkwTlRsOFFVWXhOemd3R2dzSXN2WUpFQUlhQTFWVFJEZ2NjTEwyQ1E9PSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkdSVSIsbnVsbCwiRzMiLCIxNDAxIl0sWyJHUlUiLCIyMDI0LTA0LTI0IiwiQ0RHIixudWxsLCJBRiIsIjQ1OSJdLFsiQ0RHIiwiMjAyNC0wNC0yNSIsIkxIUiIsbnVsbCwiQUYiLCIxNzgwIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 11:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 13:20"
+                    },
+                    "duration": 105,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Gol",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+                    "travel_class": "Economy",
+                    "flight_number": "G3 1401",
+                    "ticket_also_sold_by": [
+                        "Air France"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 80 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 14:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-25 06:45"
+                    },
+                    "duration": 665,
+                    "airplane": "Boeing 777",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 439",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 694 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-04-25 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 13:45"
+                    },
+                    "duration": 85,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 1780",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 49 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 80,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                },
+                {
+                    "duration": 395,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 1330,
+            "carbon_emissions": {
+                "this_flight": 825000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 8
+            },
+            "price": 1627,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaE5ITXpFME1ERjhRVVkwTXpsOFFVWXhOemd3R2dzSXN2WUpFQUlhQTFWVFJEZ2NjTEwyQ1E9PSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkdSVSIsbnVsbCwiRzMiLCIxNDAxIl0sWyJHUlUiLCIyMDI0LTA0LTI0IiwiQ0RHIixudWxsLCJBRiIsIjQzOSJdLFsiQ0RHIiwiMjAyNC0wNC0yNSIsIkxIUiIsbnVsbCwiQUYiLCIxNzgwIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 18:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 20:20"
+                    },
+                    "duration": 115,
+                    "airplane": "Boeing 737",
+                    "airline": "Gol",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+                    "travel_class": "Economy",
+                    "flight_number": "G3 1485",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 98 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 21:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-04-25 14:20"
+                    },
+                    "duration": 695,
+                    "airplane": "Boeing 777",
+                    "airline": "KLM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "KL 792",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1228 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Amsterdam Airport Schiphol",
+                        "id": "AMS",
+                        "time": "2024-04-25 17:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 17:35"
+                    },
+                    "duration": 80,
+                    "airplane": "Embraer 195 E2",
+                    "airline": "KLM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "KL 1013",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 51 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 85,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                },
+                {
+                    "duration": 175,
+                    "name": "Amsterdam Airport Schiphol",
+                    "id": "AMS"
+                }
+            ],
+            "total_duration": 1150,
+            "carbon_emissions": {
+                "this_flight": 1379000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 80
+            },
+            "price": 1753,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaE5ITXpFME9EVjhTMHczT1RKOFMwd3hNREV6R2dzSXhOa0tFQUlhQTFWVFJEZ2NjTVRaQ2c9PSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkdSVSIsbnVsbCwiRzMiLCIxNDg1Il0sWyJHUlUiLCIyMDI0LTA0LTI0IiwiQU1TIixudWxsLCJLTCIsIjc5MiJdLFsiQU1TIiwiMjAyNC0wNC0yNSIsIkxIUiIsbnVsbCwiS0wiLCIxMDEzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 20:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de Bel\u00e9m",
+                        "id": "BEL",
+                        "time": "2024-04-24 22:55"
+                    },
+                    "duration": 155,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "Gol",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/G3.png",
+                    "travel_class": "Economy",
+                    "flight_number": "G3 1754",
+                    "ticket_also_sold_by": [
+                        "Tap Air Portugal"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 124 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de Bel\u00e9m",
+                        "id": "BEL",
+                        "time": "2024-04-25 02:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 13:45"
+                    },
+                    "duration": 460,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 46",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 477 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Humberto Delgado Airport",
+                        "id": "LIS",
+                        "time": "2024-04-25 15:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 17:45"
+                    },
+                    "duration": 160,
+                    "airplane": "Airbus A321neo",
+                    "airline": "Tap Air Portugal",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/TP.png",
+                    "travel_class": "Economy",
+                    "flight_number": "TP 1350",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Carbon emissions estimate: 119 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 190,
+                    "name": "Aeroporto Internacional de Bel\u00e9m",
+                    "id": "BEL",
+                    "overnight": true
+                },
+                {
+                    "duration": 80,
+                    "name": "Humberto Delgado Airport",
+                    "id": "LIS"
+                }
+            ],
+            "total_duration": 1045,
+            "carbon_emissions": {
+                "this_flight": 722000,
+                "typical_for_this_route": 766000,
+                "difference_percent": -6
+            },
+            "price": 1772,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaEpITXpFM05UUjhWRkEwTm54VVVERXpOVEFhQ3dpZzZBb1FBaG9EVlZORU9CeHdvT2dLIixbWyJCU0IiLCIyMDI0LTA0LTI0IiwiQkVMIixudWxsLCJHMyIsIjE3NTQiXSxbIkJFTCIsIjIwMjQtMDQtMjUiLCJMSVMiLG51bGwsIlRQIiwiNDYiXSxbIkxJUyIsIjIwMjQtMDQtMjUiLCJMSFIiLG51bGwsIlRQIiwiMTM1MCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 02:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-04-24 06:22"
+                    },
+                    "duration": 362,
+                    "airplane": "Boeing 737",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CM 204",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 370 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-04-24 07:39"
+                    },
+                    "arrival_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-24 13:21"
+                    },
+                    "duration": 342,
+                    "airplane": "Boeing 737",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CM 228",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 386 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Chicago O'Hare International Airport",
+                        "id": "ORD",
+                        "time": "2024-04-24 15:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 05:55"
+                    },
+                    "duration": 490,
+                    "airplane": "Boeing 767",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 929",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 538 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 77,
+                    "name": "Tocumen International Airport Panama",
+                    "id": "PTY"
+                },
+                {
+                    "duration": 144,
+                    "name": "Chicago O'Hare International Airport",
+                    "id": "ORD"
+                }
+            ],
+            "total_duration": 1415,
+            "carbon_emissions": {
+                "this_flight": 1296000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 69
+            },
+            "price": 1827,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaEZEVFRJd05IeERUVEl5T0h4VlFUa3lPUm9MQ1BHU0N4QUNHZ05WVTBRNEhIRHhrZ3M9IixbWyJCU0IiLCIyMDI0LTA0LTI0IiwiUFRZIixudWxsLCJDTSIsIjIwNCJdLFsiUFRZIiwiMjAyNC0wNC0yNCIsIk9SRCIsbnVsbCwiQ00iLCIyMjgiXSxbIk9SRCIsIjIwMjQtMDQtMjQiLCJMSFIiLG51bGwsIlVBIiwiOTI5Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 10:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 12:05"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A321",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 3262",
+                    "ticket_also_sold_by": [
+                        "Iberia"
+                    ],
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 100 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 14:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-04-25 05:40"
+                    },
+                    "duration": 625,
+                    "airplane": "Airbus A330",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "IB 6824",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 950 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-04-25 07:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 08:25"
+                    },
+                    "duration": 145,
+                    "airplane": "Airbus A320",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IB 3170",
+                    "ticket_also_sold_by": [
+                        "British Airways"
+                    ],
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 114 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 130,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                },
+                {
+                    "duration": 80,
+                    "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                    "id": "MAD"
+                }
+            ],
+            "total_duration": 1080,
+            "carbon_emissions": {
+                "this_flight": 1165000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 52
+            },
+            "price": 1840,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaFJNUVRNeU5qSjhTVUkyT0RJMGZFbENNekUzTUJvTENPT2NDeEFDR2dOVlUwUTRISERqbkFzPSIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkdSVSIsbnVsbCwiTEEiLCIzMjYyIl0sWyJHUlUiLCIyMDI0LTA0LTI0IiwiTUFEIixudWxsLCJJQiIsIjY4MjQiXSxbIk1BRCIsIjIwMjQtMDQtMjUiLCJMSFIiLG51bGwsIklCIiwiMzE3MCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 12:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 14:20"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A321",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 3264",
+                    "ticket_also_sold_by": [
+                        "British Airways"
+                    ],
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 100 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 16:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 07:20"
+                    },
+                    "duration": 680,
+                    "airplane": "Airbus A350",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 246",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 545 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 100,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                }
+            ],
+            "total_duration": 885,
+            "carbon_emissions": {
+                "this_flight": 646000,
+                "typical_for_this_route": 766000,
+                "difference_percent": -16
+            },
+            "price": 2148,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFZ3hNUVRNeU5qUjhRa0V5TkRZYUN3anRqUTBRQWhvRFZWTkVPQnh3N1kwTiIsW1siQlNCIiwiMjAyNC0wNC0yNCIsIkdSVSIsbnVsbCwiTEEiLCIzMjY0Il0sWyJHUlUiLCIyMDI0LTA0LTI0IiwiTEhSIixudWxsLCJCQSIsIjI0NiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Brasilia President Juscelino Kubitschek International Airport",
+                        "id": "BSB",
+                        "time": "2024-04-24 14:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 16:40"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A320",
+                    "airline": "LATAM",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LA 3528",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 95 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                        "id": "GRU",
+                        "time": "2024-04-24 18:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-25 10:50"
+                    },
+                    "duration": 695,
+                    "airplane": "Boeing 747",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 507",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 779 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-04-25 12:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-04-25 12:40"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 906",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 65 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 95,
+                    "name": "Aeroporto Internacional de S\u00e3o Paulo-Guarulhos",
+                    "id": "GRU"
+                },
+                {
+                    "duration": 70,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 1065,
+            "carbon_emissions": {
+                "this_flight": 940000,
+                "typical_for_this_route": 766000,
+                "difference_percent": 23
+            },
+            "price": 2529,
+            "type": "One way",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "booking_token": "WyJDalJJUkVWV2NsZ3pVREJUYlZsQlExSmpMVUZDUnkwdExTMHRMUzB0TFc5cmFHY3hOVUZCUVVGQlIxbHVXVEpSUTBsMVlsZEJFaEpNUVRNMU1qaDhURWcxTURkOFRFZzVNRFlhQ3dpNXR3OFFBaG9EVlZORU9CeHd1YmNQIixbWyJCU0IiLCIyMDI0LTA0LTI0IiwiR1JVIixudWxsLCJMQSIsIjM1MjgiXSxbIkdSVSIsIjIwMjQtMDQtMjQiLCJGUkEiLG51bGwsIkxIIiwiNTA3Il0sWyJGUkEiLCIyMDI0LTA0LTI1IiwiTEhSIixudWxsLCJMSCIsIjkwNiJdXV0="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 1071,
+        "price_level": "high",
+        "typical_price_range": [
+            540,
+            800
+        ],
+        "price_history": [
+            [
+                1708657200,
+                568
+            ],
+            [
+                1708743600,
+                564
+            ],
+            [
+                1708830000,
+                569
+            ],
+            [
+                1708916400,
+                569
+            ],
+            [
+                1709002800,
+                571
+            ],
+            [
+                1709089200,
+                574
+            ],
+            [
+                1709175600,
+                569
+            ],
+            [
+                1709262000,
+                569
+            ],
+            [
+                1709348400,
+                574
+            ],
+            [
+                1709434800,
+                571
+            ],
+            [
+                1709521200,
+                571
+            ],
+            [
+                1709607600,
+                571
+            ],
+            [
+                1709694000,
+                570
+            ],
+            [
+                1709780400,
+                570
+            ],
+            [
+                1709866800,
+                571
+            ],
+            [
+                1709953200,
+                566
+            ],
+            [
+                1710039600,
+                570
+            ],
+            [
+                1710126000,
+                570
+            ],
+            [
+                1710212400,
+                570
+            ],
+            [
+                1710298800,
+                572
+            ],
+            [
+                1710385200,
+                572
+            ],
+            [
+                1710471600,
+                569
+            ],
+            [
+                1710558000,
+                569
+            ],
+            [
+                1710644400,
+                570
+            ],
+            [
+                1710730800,
+                570
+            ],
+            [
+                1710817200,
+                567
+            ],
+            [
+                1710903600,
+                568
+            ],
+            [
+                1710990000,
+                576
+            ],
+            [
+                1711076400,
+                572
+            ],
+            [
+                1711162800,
+                568
+            ],
+            [
+                1711249200,
+                569
+            ],
+            [
+                1711335600,
+                569
+            ],
+            [
+                1711422000,
+                572
+            ],
+            [
+                1711508400,
+                572
+            ],
+            [
+                1711594800,
+                570
+            ],
+            [
+                1711681200,
+                567
+            ],
+            [
+                1711767600,
+                568
+            ],
+            [
+                1711854000,
+                568
+            ],
+            [
+                1711940400,
+                568
+            ],
+            [
+                1712026800,
+                616
+            ],
+            [
+                1712113200,
+                568
+            ],
+            [
+                1712199600,
+                624
+            ],
+            [
+                1712286000,
+                619
+            ],
+            [
+                1712372400,
+                653
+            ],
+            [
+                1712458800,
+                621
+            ],
+            [
+                1712545200,
+                674
+            ],
+            [
+                1712631600,
+                674
+            ],
+            [
+                1712718000,
+                663
+            ],
+            [
+                1712804400,
+                675
+            ],
+            [
+                1712890800,
+                704
+            ],
+            [
+                1712977200,
+                651
+            ],
+            [
+                1713063600,
+                765
+            ],
+            [
+                1713150000,
+                741
+            ],
+            [
+                1713236400,
+                806
+            ],
+            [
+                1713322800,
+                790
+            ],
+            [
+                1713409200,
+                798
+            ],
+            [
+                1713495600,
+                797
+            ],
+            [
+                1713582000,
+                803
+            ],
+            [
+                1713668400,
+                799
+            ],
+            [
+                1713754800,
+                799
+            ],
+            [
+                1713841200,
+                1071
+            ]
+        ]
+    }
 }
