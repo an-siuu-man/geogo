@@ -45,6 +45,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
    openai,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    gemini,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    ```
+   - Replace the string of x's with the respective API Key
 
 #### Finally launch the server
 1. Within the terminal navigate to `geogo/geogobackend`
