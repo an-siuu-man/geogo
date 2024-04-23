@@ -38,5 +38,11 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
    - Gemini
    - OpenAI
    - SerpAPI
+3. Write your API keys in the format below within "apiKeys.txt"
+```
+serpapi,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+openai,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+gemini,      ,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
 
 
