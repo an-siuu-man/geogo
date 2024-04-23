@@ -49,4 +49,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 1. Within the terminal navigate to `geogo/geogobackend`
 2. Type `python3 manage.py runserver 127.0.0.1:8000`
 
+#### Navigate to your own version of Geogo!
+[127.0.0.1:8000/geogo](http://127.0.0.1:8000/geogo)
+
 
