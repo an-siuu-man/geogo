@@ -21,3 +21,6 @@ We learned new methods for parsing large data sets from APIs, data acquisition, 
 ## What's next for Geogo
 We hope to be able to extend our list of countries, enhance our API calls, and ADD SOMETHING HERE
 
+## Try it out for yourself!
+[geogo.tech](http://geogo.tech:8000/geogo)
+
