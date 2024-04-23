@@ -1,5 +1,5 @@
 # Geogo
----
+
 #### Inspiration
 After having to travel several times across the globe, it can be tough to navigate the documentation hassle that comes with crossing borders. Therefore, we decided to develop a website with over 100+ destinations that can quickly provide all the legal information you would need for you trip along with useful additional data as well as what to expect to spend on  your trip for an enhanced user experience. 
 
@@ -25,7 +25,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 [geogo.tech](http://geogo.tech:8000/geogo)
 
 ## If you want to run this on your own...
----
+
 #### Install all dependencies first
 > pip install pip install google-search-results <br>
 > pip install openai <br>
@@ -39,10 +39,10 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
    - OpenAI
    - SerpAPI
 3. Write your API keys in the format below within "apiKeys.txt"
-   ```
+   `
    serpapi,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    openai,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
    gemini,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-   ```
+   `
 
 
