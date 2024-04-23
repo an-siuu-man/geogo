@@ -30,6 +30,7 @@ We hope to be able to extend our list of countries, enhance our API calls, and A
 > pip install pip install google-search-results <br>
 > pip install openai <br>
 > pip install -q -U google-generativeai <br>
+> pip install Django <br>
 > pip install **ANSUMANFILLIN** <br>
 
 #### Create an "apiKeys.txt" file
