@@ -4,14 +4,15 @@ import os
 
 keykey=""
 
-# for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
-#     if "gemini" in line:
-#         keykey = (line.split(",")[1].strip())
-        
-file = open('geogo/api/apiKeys.txt', 'r')           #remove
-for line in file:                                   #these
-    if 'gemini' in line:                            #4
-        keykey = line.split(',')[1].strip()         #lines
+for line in open("/home/ubuntu/geogo/geogobackend/geogo/api/apiKeys.txt", "r"):
+# for line in open("./apiKeys.txt", "r"):
+    if "gemini" in line:
+        keykey = (line.split(",")[1].strip())
+
+# file = open('geogo/api/apiKeys.txt', 'r')           #remove
+# for line in file:                                   #these
+#     if 'gemini' in line:                            #4
+#         keykey = line.split(',')[1].strip()         #lines
 
 genai.configure(api_key=keykey)
 
