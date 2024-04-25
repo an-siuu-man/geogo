@@ -40,7 +40,7 @@ from making the app scalable. We need to look for better API endpoints which hav
 2. Generate API keys for
    - Gemini
    - OpenAI
-   - SerpAPI
+   - SerpAPI <br>
    Note that OpenAI's API charges you a small fee with each API call, so make sure you keep this in mind if you intend on iterating
    the API call a lot of times.
 3. Write your API keys in the format below within "apiKeys.txt"
