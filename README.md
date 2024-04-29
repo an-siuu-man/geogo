@@ -54,8 +54,5 @@ from making the app scalable. We need to look for better API endpoints which hav
 #### Finally launch the server
 1. Within the terminal navigate to `geogo/geogobackend`
 2. Type `python3 manage.py runserver`
-3. Then go to the following url: 127.0.0.1:8000/geogo to see the project!
-
-#### Navigate to your own version of Geogo!
-[127.0.0.1:8000/geogo](http://127.0.0.1:8000/geogo) (please note that this link will only work when your local Django server is already running)
-
+3. Then go to the following url: [127.0.0.1:8000/geogo](http://127.0.0.1:8000/geogo) to see the project!
+   - Please note that this link will only work when your local Django server is already running
