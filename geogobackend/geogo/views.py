@@ -8,7 +8,7 @@ from .api.geminiAPI import generateVisaResponse
 from .api.embedCodes import embed_codes
 # Create your views here.
 
-
+# adding a random comment for no reason
 codes = city_codes()
 def index(request):
     return render(request, 'geogo/index.html')
